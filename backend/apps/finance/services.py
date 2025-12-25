@@ -7,8 +7,7 @@ def calculate_evm(project):
     """
 
     total_ac = sum(
-        [record.amount for record in project.financial_records.all()],
-        Decimal("0.00")
+        [record.amount for record in project.financial_records.all()], Decimal("0.00")
     )
 
     ev = project.ev or Decimal("0.00")  # earned value

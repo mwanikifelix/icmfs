@@ -1,13 +1,7 @@
 from .models import Notification
 
 
-def send_notification(
-    *,
-    user,
-    title,
-    message,
-    notification_type="info"
-):
+def send_notification(*, user, title, message, notification_type="info"):
     """
     Central notification sender
     """

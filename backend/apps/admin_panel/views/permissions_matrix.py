@@ -3,6 +3,7 @@ from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated
 from apps.admin_panel.models import PermissionMatrix
 
+
 class PermissionMatrixView(APIView):
     permission_classes = [IsAuthenticated]
 

@@ -7,16 +7,14 @@ class DailyProgress(models.Model):
     id = models.BigAutoField(primary_key=True)
 
     project = models.ForeignKey(
-        Project,
-        on_delete=models.CASCADE,
-        related_name="daily_reports"
+        Project, on_delete=models.CASCADE, related_name="daily_reports"
     )
 
     reported_by = models.ForeignKey(
         settings.AUTH_USER_MODEL,
         on_delete=models.SET_NULL,
         null=True,
-        related_name="progress_reports"
+        related_name="progress_reports",
     )
 
     report_date = models.DateField()
@@ -24,21 +22,17 @@ class DailyProgress(models.Model):
     work_done_description = models.TextField()
 
     planned_percentage = models.DecimalField(
-        max_digits=5,
-        decimal_places=2,
-        help_text="Planned % completion for the day"
+        max_digits=5, decimal_places=2, help_text="Planned % completion for the day"
     )
 
     actual_percentage = models.DecimalField(
-        max_digits=5,
-        decimal_places=2,
-        help_text="Actual % completion achieved"
+        max_digits=5, decimal_places=2, help_text="Actual % completion achieved"
     )
 
     actual_cost = models.DecimalField(
         max_digits=15,
         decimal_places=2,
-        help_text="Actual cost incurred for the day (KES)"
+        help_text="Actual cost incurred for the day (KES)",
     )
 
     approved = models.BooleanField(default=False)
@@ -48,7 +42,7 @@ class DailyProgress(models.Model):
         on_delete=models.SET_NULL,
         null=True,
         blank=True,
-        related_name="approved_progress_reports"
+        related_name="approved_progress_reports",
     )
 
     approved_at = models.DateTimeField(null=True, blank=True)
@@ -91,14 +85,10 @@ class DailyProgress(models.Model):
 
 class EVMSnapshot(models.Model):
     project = models.ForeignKey(
-        "projects.Project",
-        on_delete=models.CASCADE,
-        related_name="evm_snapshots"
+        "projects.Project", on_delete=models.CASCADE, related_name="evm_snapshots"
     )
     progress = models.ForeignKey(
-        "progress.DailyProgress",
-        on_delete=models.CASCADE,
-        related_name="evm_snapshots"
+        "progress.DailyProgress", on_delete=models.CASCADE, related_name="evm_snapshots"
     )
 
     pv = models.DecimalField(max_digits=15, decimal_places=2)

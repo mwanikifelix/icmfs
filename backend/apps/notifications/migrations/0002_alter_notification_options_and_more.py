@@ -6,36 +6,40 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('notifications', '0001_initial'),
+        ("notifications", "0001_initial"),
     ]
 
     operations = [
         migrations.AlterModelOptions(
-            name='notification',
+            name="notification",
             options={},
         ),
         migrations.RenameField(
-            model_name='notification',
-            old_name='recipient',
-            new_name='user',
+            model_name="notification",
+            old_name="recipient",
+            new_name="user",
         ),
         migrations.RemoveField(
-            model_name='notification',
-            name='related_project',
+            model_name="notification",
+            name="related_project",
         ),
         migrations.AlterField(
-            model_name='notification',
-            name='id',
+            model_name="notification",
+            name="id",
             field=models.BigAutoField(primary_key=True, serialize=False),
         ),
         migrations.AlterField(
-            model_name='notification',
-            name='notification_type',
-            field=models.CharField(choices=[('info', 'Info'), ('warning', 'Warning'), ('alert', 'Alert')], default='info', max_length=20),
+            model_name="notification",
+            name="notification_type",
+            field=models.CharField(
+                choices=[("info", "Info"), ("warning", "Warning"), ("alert", "Alert")],
+                default="info",
+                max_length=20,
+            ),
         ),
         migrations.AlterField(
-            model_name='notification',
-            name='title',
+            model_name="notification",
+            name="title",
             field=models.CharField(max_length=200),
         ),
     ]

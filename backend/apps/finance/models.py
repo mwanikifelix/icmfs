@@ -14,9 +14,7 @@ class FinancialRecord(models.Model):
     uuid = models.UUIDField(default=uuid.uuid4, unique=True, editable=False)
 
     project = models.ForeignKey(
-        Project,
-        on_delete=models.CASCADE,
-        related_name="financial_records"
+        Project, on_delete=models.CASCADE, related_name="financial_records"
     )
 
     progress = models.ForeignKey(
@@ -24,16 +22,14 @@ class FinancialRecord(models.Model):
         on_delete=models.SET_NULL,
         null=True,
         blank=True,
-        related_name="financial_links"
+        related_name="financial_links",
     )
 
     description = models.CharField(max_length=255)
     amount = models.DecimalField(max_digits=14, decimal_places=2)
 
     recorded_by = models.ForeignKey(
-        settings.AUTH_USER_MODEL,
-        on_delete=models.SET_NULL,
-        null=True
+        settings.AUTH_USER_MODEL, on_delete=models.SET_NULL, null=True
     )
 
     recorded_date = models.DateField()
@@ -58,9 +54,7 @@ class Payment(models.Model):
     uuid = models.UUIDField(default=uuid.uuid4, unique=True, editable=False)
 
     project = models.ForeignKey(
-        Project,
-        on_delete=models.CASCADE,
-        related_name="payments"
+        Project, on_delete=models.CASCADE, related_name="payments"
     )
 
     amount = models.DecimalField(max_digits=14, decimal_places=2)
@@ -68,10 +62,7 @@ class Payment(models.Model):
     status = models.CharField(max_length=20, choices=PAYMENT_STATUS, default="pending")
 
     approved_by = models.ForeignKey(
-        settings.AUTH_USER_MODEL,
-        on_delete=models.SET_NULL,
-        null=True,
-        blank=True
+        settings.AUTH_USER_MODEL, on_delete=models.SET_NULL, null=True, blank=True
     )
 
     payment_date = models.DateField()

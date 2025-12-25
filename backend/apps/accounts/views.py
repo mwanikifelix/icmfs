@@ -12,11 +12,9 @@ from .models import User
 @api_view(["GET"])
 @permission_classes([AllowAny])
 def health(request):
-    return Response({
-        "service": "accounts",
-        "status": "ok",
-        "message": "Backend is reachable"
-    })
+    return Response(
+        {"service": "accounts", "status": "ok", "message": "Backend is reachable"}
+    )
 
 
 @api_view(["GET"])
@@ -30,4 +28,3 @@ class RegisterView(generics.CreateAPIView):
     queryset = User.objects.all()
     serializer_class = RegisterSerializer
     permission_classes = [permissions.AllowAny]
-

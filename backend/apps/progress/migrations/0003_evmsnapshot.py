@@ -7,28 +7,50 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('progress', '0002_alter_dailyprogress_options_and_more'),
-        ('projects', '0002_project_budget_project_created_by_and_more'),
+        ("progress", "0002_alter_dailyprogress_options_and_more"),
+        ("projects", "0002_project_budget_project_created_by_and_more"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='EVMSnapshot',
+            name="EVMSnapshot",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('pv', models.DecimalField(decimal_places=2, max_digits=15)),
-                ('ev', models.DecimalField(decimal_places=2, max_digits=15)),
-                ('ac', models.DecimalField(decimal_places=2, max_digits=15)),
-                ('cpi', models.DecimalField(decimal_places=2, max_digits=8)),
-                ('spi', models.DecimalField(decimal_places=2, max_digits=8)),
-                ('eac', models.DecimalField(decimal_places=2, max_digits=15)),
-                ('etc', models.DecimalField(decimal_places=2, max_digits=15)),
-                ('created_at', models.DateTimeField(auto_now_add=True)),
-                ('progress', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='evm_snapshots', to='progress.dailyprogress')),
-                ('project', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='evm_snapshots', to='projects.project')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("pv", models.DecimalField(decimal_places=2, max_digits=15)),
+                ("ev", models.DecimalField(decimal_places=2, max_digits=15)),
+                ("ac", models.DecimalField(decimal_places=2, max_digits=15)),
+                ("cpi", models.DecimalField(decimal_places=2, max_digits=8)),
+                ("spi", models.DecimalField(decimal_places=2, max_digits=8)),
+                ("eac", models.DecimalField(decimal_places=2, max_digits=15)),
+                ("etc", models.DecimalField(decimal_places=2, max_digits=15)),
+                ("created_at", models.DateTimeField(auto_now_add=True)),
+                (
+                    "progress",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        related_name="evm_snapshots",
+                        to="progress.dailyprogress",
+                    ),
+                ),
+                (
+                    "project",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        related_name="evm_snapshots",
+                        to="projects.project",
+                    ),
+                ),
             ],
             options={
-                'ordering': ['-created_at'],
+                "ordering": ["-created_at"],
             },
         ),
     ]

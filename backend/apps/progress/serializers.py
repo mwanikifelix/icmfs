@@ -53,7 +53,6 @@ class DailyProgressCreateSerializer(serializers.ModelSerializer):
         ]
 
 
-
 class EVMSnapshotSerializer(serializers.ModelSerializer):
     class Meta:
         model = EVMSnapshot

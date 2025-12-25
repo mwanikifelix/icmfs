@@ -15,9 +15,7 @@ class UserSerializer(serializers.ModelSerializer):
             "last_name",
             "password",
         ]
-        extra_kwargs = {
-            "password": {"write_only": True}
-        }
+        extra_kwargs = {"password": {"write_only": True}}
 
     def create(self, validated_data):
         password = validated_data.pop("password", None)
@@ -26,7 +24,6 @@ class UserSerializer(serializers.ModelSerializer):
             user.set_password(password)
         user.save()
         return user
-
 
 
 class RegisterSerializer(serializers.ModelSerializer):
@@ -46,12 +43,12 @@ class RegisterSerializer(serializers.ModelSerializer):
     def create(self, validated_data):
         user = User.objects.create_user(
             first_name=validated_data["first_name"],
-            last_name=validated_data ["last_name"],
+            last_name=validated_data["last_name"],
             username=validated_data["username"],
             email=validated_data["email"],
             phone=validated_data.get("phone"),
             password=validated_data["password"],
-            role="CLIENT",          # 🔐 default role
+            role="CLIENT",  # 🔐 default role
             is_active=True,
         )
         return user

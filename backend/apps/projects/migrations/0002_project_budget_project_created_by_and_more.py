@@ -8,24 +8,41 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('projects', '0001_initial'),
+        ("projects", "0001_initial"),
         migrations.swappable_dependency(settings.AUTH_USER_MODEL),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='project',
-            name='budget',
-            field=models.DecimalField(blank=True, decimal_places=2, help_text='Approved project budget (KES)', max_digits=15, null=True),
+            model_name="project",
+            name="budget",
+            field=models.DecimalField(
+                blank=True,
+                decimal_places=2,
+                help_text="Approved project budget (KES)",
+                max_digits=15,
+                null=True,
+            ),
         ),
         migrations.AddField(
-            model_name='project',
-            name='created_by',
-            field=models.ForeignKey(null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='created_projects', to=settings.AUTH_USER_MODEL),
+            model_name="project",
+            name="created_by",
+            field=models.ForeignKey(
+                null=True,
+                on_delete=django.db.models.deletion.SET_NULL,
+                related_name="created_projects",
+                to=settings.AUTH_USER_MODEL,
+            ),
         ),
         migrations.AlterField(
-            model_name='project',
-            name='sponsor',
-            field=models.ForeignKey(help_text='Client / Project Owner', limit_choices_to={'role': 'CLIENT'}, on_delete=django.db.models.deletion.PROTECT, related_name='owned_projects', to=settings.AUTH_USER_MODEL),
+            model_name="project",
+            name="sponsor",
+            field=models.ForeignKey(
+                help_text="Client / Project Owner",
+                limit_choices_to={"role": "CLIENT"},
+                on_delete=django.db.models.deletion.PROTECT,
+                related_name="owned_projects",
+                to=settings.AUTH_USER_MODEL,
+            ),
         ),
     ]

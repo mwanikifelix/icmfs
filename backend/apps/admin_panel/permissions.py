@@ -1,4 +1,4 @@
-""" # apps/admin_panel/permissions.py
+"""# apps/admin_panel/permissions.py
 from rest_framework.permissions import BasePermission
 
 
@@ -20,10 +20,9 @@ class IsSystemAdmin(BasePermission):
             request.user
             and request.user.is_authenticated
             and hasattr(request.user, "role")
-            and request.user.role        
+            and request.user.role
             and request.user.role.name == "System Admin"
-        ) """
-
+        )"""
 
 from rest_framework.permissions import BasePermission
 
@@ -36,4 +35,3 @@ class IsSystemAdmin(BasePermission):
             and getattr(request.user, "role", None)
             and request.user.role.name == "SystemAdmin"
         )
-

@@ -13,6 +13,7 @@ from apps.accounts.serializers import UserSerializer
 
 User = get_user_model()
 
+
 class AdminUserListView(APIView):
     permission_classes = [IsSystemAdmin]
 
@@ -21,17 +22,14 @@ class AdminUserListView(APIView):
         serializer = UserSerializer(users, many=True)
         return Response(serializer.data)
 
-
     def post(self, request):
         user = User.objects.create_user(
             username=request.data["username"],
             email=request.data.get("email"),
-            password=request.data["password"]
+            password=request.data["password"],
         )
         log_admin_action(request.user, f"Created user {user.username}")
         return Response({"status": "created"})
-
-
 
 
 class AdminUserCreateView(APIView):

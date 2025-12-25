@@ -1,4 +1,4 @@
-""" from django.urls import path
+"""from django.urls import path
 
 from apps.admin_panel.views.roles import AdminRoleListView
 from apps.admin_panel.views.dashboard import AdminDashboardView
@@ -23,14 +23,14 @@ urlpatterns = [
     path("roles/", AdminRoleListView.as_view()),
     path("permissions/", AdminPermissionView.as_view()),
     path("settings/", AdminSettingsView.as_view()),
-    
+
 
 
     path("users/", AdminUserListView.as_view(), name="admin-users"),
     path("users/create/", AdminUserCreateView.as_view(), name="admin-user-create"),
     path("users/<int:pk>/", AdminUserDetailView.as_view(), name="admin-user-detail"),
 ]
- """
+"""
 
 # apps/admin_panel/urls.py
 
@@ -49,10 +49,8 @@ urlpatterns = [
     path("users/", AdminUserListView.as_view(), name="admin-users"),
     path("settings/", AdminSettingsView.as_view(), name="admin-settings"),
     path("audit-logs/", AdminAuditLogListView.as_view(), name="admin-audit-logs"),
-
-    path("permissions-matrix/", PermissionMatrixView.as_view(), name="permission-matrix"),
-
-    
-    
+    path(
+        "permissions-matrix/", PermissionMatrixView.as_view(), name="permission-matrix"
+    ),
     path("roles/", AdminRoleListView.as_view(), name="admin-roles"),
 ]

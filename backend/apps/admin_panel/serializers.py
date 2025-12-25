@@ -6,6 +6,7 @@ from apps.admin_panel.models import AdminSetting, AdminAuditLog
 
 User = get_user_model()
 
+
 class AdminUserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
@@ -20,12 +21,11 @@ class AdminUserSerializer(serializers.ModelSerializer):
         ]
 
 
-
-
 class PermissionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Permission
         fields = "__all__"
+
 
 class AdminUserCreateSerializer(serializers.ModelSerializer):
     password = serializers.CharField(write_only=True)
@@ -47,13 +47,12 @@ class AdminUserCreateSerializer(serializers.ModelSerializer):
         user.set_password(password)
         user.save()
         return user
- 
+
+
 class SystemSettingSerializer(serializers.ModelSerializer):
     class Meta:
         model = SystemSetting
         fields = "__all__"
-
-
 
 
 class RoleSerializer(serializers.ModelSerializer):
@@ -68,7 +67,6 @@ class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         fields = ("id", "username", "email", "is_active", "role")
-
 
 
 class UserAdminSerializer(serializers.ModelSerializer):

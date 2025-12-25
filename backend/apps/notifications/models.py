@@ -18,18 +18,14 @@ class Notification(models.Model):
     uuid = models.UUIDField(default=uuid.uuid4, unique=True, editable=False)
 
     user = models.ForeignKey(
-        settings.AUTH_USER_MODEL,
-        on_delete=models.CASCADE,
-        related_name="notifications"
+        settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name="notifications"
     )
 
     title = models.CharField(max_length=200)
     message = models.TextField()
 
     notification_type = models.CharField(
-        max_length=20,
-        choices=NOTIFICATION_TYPE,
-        default="info"
+        max_length=20, choices=NOTIFICATION_TYPE, default="info"
     )
 
     is_read = models.BooleanField(default=False)

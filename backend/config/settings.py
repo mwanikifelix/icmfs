@@ -4,7 +4,7 @@ Django settings for config project.
 
 from pathlib import Path
 import os
-from datetime import timedelta # Import for future REST framework settings (JWT)
+from datetime import timedelta  # Import for future REST framework settings (JWT)
 
 # --------------------------------------------------
 # BASE DIRECTORY
@@ -20,7 +20,7 @@ SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", "unsafe-dev-secret-key")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv("DEBUG", "1") == "1"
 
-ALLOWED_HOSTS = ["*"] # Allows access from Docker containers and host
+ALLOWED_HOSTS = ["*"]  # Allows access from Docker containers and host
 
 # --------------------------------------------------
 # APPLICATION DEFINITION
@@ -32,10 +32,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-
-
     # Project apps (EXPLICIT PATHS
-    
     "apps.accounts",
     "apps.projects",
     "apps.progress",
@@ -43,20 +40,16 @@ INSTALLED_APPS = [
     "apps.qa",
     "apps.notifications",
     "apps.admin_panel.apps.AdminPanelConfig",
-
-
 ]
 
 INSTALLED_APPS += [
     "rest_framework",
     "drf_spectacular",
-
 ]
 
 from datetime import timedelta
 
 REST_FRAMEWORK = {
-
     "DEFAULT_VERSIONING_CLASS": "rest_framework.versioning.NamespaceVersioning",
     "DEFAULT_VERSION": "v1",
     "ALLOWED_VERSIONS": ["v1"],
@@ -73,8 +66,6 @@ SPECTACULAR_SETTINGS = {
     "DESCRIPTION": "Admin, Finance, QA, Projects, Notifications",
     "VERSION": "1.0.0",
 }
-
-
 
 
 SIMPLE_JWT = {
@@ -98,7 +89,6 @@ LOGGING = {
 }
 
 
-
 # --------------------------------------------------
 # USER AUTHENTICATION
 # --------------------------------------------------
@@ -106,12 +96,11 @@ LOGGING = {
 AUTH_USER_MODEL = "accounts.User"
 
 
-
 # --------------------------------------------------
 # MIDDLEWARE
 # --------------------------------------------------
 MIDDLEWARE = [
-    "corsheaders.middleware.CorsMiddleware", # Must be first for CORS
+    "corsheaders.middleware.CorsMiddleware",  # Must be first for CORS
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
@@ -124,14 +113,11 @@ MIDDLEWARE = [
 ROOT_URLCONF = "config.urls"
 
 
-
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (
         "rest_framework.authentication.SessionAuthentication",
     ),
-    "DEFAULT_PERMISSION_CLASSES": (
-        "rest_framework.permissions.IsAuthenticated",
-    ),
+    "DEFAULT_PERMISSION_CLASSES": ("rest_framework.permissions.IsAuthenticated",),
 }
 
 
@@ -183,7 +169,7 @@ CACHES = {
         "LOCATION": REDIS_URL,
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
-        }
+        },
     }
 }
 
@@ -240,8 +226,6 @@ if missing:
     raise RuntimeError(f"Missing required environment variables: {missing}")
 
 
-
-
 import os
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -253,14 +237,12 @@ LOG_DIR.mkdir(exist_ok=True)
 LOGGING = {
     "version": 1,
     "disable_existing_loggers": False,
-
     "formatters": {
         "verbose": {
             "format": "{levelname} {asctime} {module} {message}",
             "style": "{",
         },
     },
-
     "handlers": {
         "console": {
             "class": "logging.StreamHandler",
@@ -272,7 +254,6 @@ LOGGING = {
             "formatter": "verbose",
         },
     },
-
     "root": {
         "handlers": ["console", "file"],
         "level": "INFO",

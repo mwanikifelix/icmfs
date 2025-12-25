@@ -10,19 +10,23 @@ class AdminPanelIndexView(APIView):
     permission_classes = [IsSystemAdmin]
 
     def get(self, request):
-        return Response({
-            "users": User.objects.count(),
-            "projects": Project.objects.count(),
-            "status": "Admin panel operational"
-        })
+        return Response(
+            {
+                "users": User.objects.count(),
+                "projects": Project.objects.count(),
+                "status": "Admin panel operational",
+            }
+        )
 
 
 class AdminDashboardView(APIView):
     permission_classes = [IsSystemAdmin]
 
     def get(self, request):
-        return Response({
-            "status": "ok",
-            "message": "Admin Panel is running",
-            "system": system_info()
-        })
+        return Response(
+            {
+                "status": "ok",
+                "message": "Admin Panel is running",
+                "system": system_info(),
+            }
+        )

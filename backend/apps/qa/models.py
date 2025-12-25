@@ -21,9 +21,7 @@ class Inspection(models.Model):
     uuid = models.UUIDField(default=uuid.uuid4, unique=True, editable=False)
 
     project = models.ForeignKey(
-        Project,
-        on_delete=models.CASCADE,
-        related_name="inspections"
+        Project, on_delete=models.CASCADE, related_name="inspections"
     )
 
     progress = models.ForeignKey(
@@ -31,23 +29,19 @@ class Inspection(models.Model):
         on_delete=models.SET_NULL,
         null=True,
         blank=True,
-        related_name="qa_inspections"
+        related_name="qa_inspections",
     )
 
     title = models.CharField(max_length=200)
     remarks = models.TextField(blank=True)
 
-    status = models.CharField(
-        max_length=20,
-        choices=STATUS_CHOICES,
-        default="pending"
-    )
+    status = models.CharField(max_length=20, choices=STATUS_CHOICES, default="pending")
 
     inspected_by = models.ForeignKey(
         settings.AUTH_USER_MODEL,
         on_delete=models.SET_NULL,
         null=True,
-        related_name="qa_reviews"
+        related_name="qa_reviews",
     )
 
     inspected_at = models.DateTimeField(auto_now_add=True)

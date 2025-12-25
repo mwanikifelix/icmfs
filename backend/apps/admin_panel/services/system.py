@@ -1,5 +1,6 @@
 from apps.admin_panel.models import SystemSetting
 
+
 def get_setting(key, default=None):
     try:
         return SystemSetting.objects.get(key=key).value
@@ -19,8 +20,4 @@ def set_setting(key, value, description=""):
 
 
 def system_info():
-    return {
-        "system": "ICMFS",
-        "version": "1.0.0",
-        "maintenance": False
-    }
+    return {"system": "ICMFS", "version": "1.0.0", "maintenance": False}

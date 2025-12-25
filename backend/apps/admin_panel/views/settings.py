@@ -43,8 +43,6 @@ class AdminSettingDetailView(APIView):
         return Response(status=status.HTTP_204_NO_CONTENT)
 
 
-
-
 class AdminSettingsView(APIView):
     permission_classes = [IsAuthenticated, IsSystemAdmin]
 
@@ -62,7 +60,7 @@ class AdminSettingsView(APIView):
             user=request.user,
             action="UPDATE",
             resource="SystemSetting",
-            metadata={"key": instance.key}
+            metadata={"key": instance.key},
         )
 
         return Response(serializer.data)

@@ -4,7 +4,7 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from .serializers import EVMSnapshotSerializer
 from apps.progress.services.evm import EVMService
-from apps.progress.models import EVMSnapshot,DailyProgress
+from apps.progress.models import EVMSnapshot, DailyProgress
 from apps.notifications.services import send_notification
 
 from .serializers import DailyProgressSerializer
@@ -101,11 +101,11 @@ def approve(self, request, pk=None):
     return Response({"status": "Progress approved & EVM calculated"})
 
 
-
 class EVMSnapshotViewSet(viewsets.ReadOnlyModelViewSet):
     """
     Read-only EVM metrics per project
     """
+
     queryset = EVMSnapshot.objects.all().order_by("-created_at")
     serializer_class = EVMSnapshotSerializer
     permission_classes = [IsAuthenticated]

@@ -2,6 +2,7 @@ from rest_framework import serializers
 from .models import Project, ProjectSite, ProjectMember, ProjectWBS
 from apps.accounts.models import User
 
+
 class ProjectSiteSerializer(serializers.ModelSerializer):
     class Meta:
         model = ProjectSite
@@ -10,9 +11,8 @@ class ProjectSiteSerializer(serializers.ModelSerializer):
 
 class ProjectSerializer(serializers.ModelSerializer):
     sites = ProjectSiteSerializer(many=True, read_only=True)
-    sponsor_name = serializers.CharField(
-        source="sponsor.username", read_only=True)
-    
+    sponsor_name = serializers.CharField(source="sponsor.username", read_only=True)
+
     class Meta:
         model = Project
         fields = [
@@ -20,7 +20,7 @@ class ProjectSerializer(serializers.ModelSerializer):
             "name",
             "sponsor",
             "sponsor_name",
-            "status", 
+            "status",
             "budget",
             "start_date",
             "end_date",
@@ -29,7 +29,6 @@ class ProjectSerializer(serializers.ModelSerializer):
             "updated_at",
         ]
         read_only_fields = ["created_at", "updated_at"]
-
 
 
 class ProjectMemberSerializer(serializers.ModelSerializer):
@@ -42,6 +41,7 @@ class ProjectWBSSerializer(serializers.ModelSerializer):
     class Meta:
         model = ProjectWBS
         fields = "__all__"
+
 
 class ProjectCreateSerializer(serializers.ModelSerializer):
     class Meta:
@@ -57,7 +57,5 @@ class ProjectCreateSerializer(serializers.ModelSerializer):
 
     def validate_sponsor(self, value):
         if value.role != "CLIENT":
-            raise serializers.ValidationError(
-                "Sponsor must be a CLIENT account."
-            )
+            raise serializers.ValidationError("Sponsor must be a CLIENT account.")
         return value

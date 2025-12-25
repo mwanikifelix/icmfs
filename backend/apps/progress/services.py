@@ -16,5 +16,5 @@ def evaluate_evm_risk(project):
             user=project.owner,
             title="Project At Risk",
             message="EVM metrics indicate cost or schedule overrun",
-            notification_type="warning"
+            notification_type="warning",
         )

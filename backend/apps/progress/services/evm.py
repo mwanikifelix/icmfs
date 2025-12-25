@@ -18,10 +18,12 @@ class EVMService:
         """
         AC = Sum of approved finance records
         """
-        total = FinancialRecord.objects.filter(
-            project=self.project,
-            status="approved"
-        ).aggregate(sum=models.Sum("amount"))["sum"] or 0
+        total = (
+            FinancialRecord.objects.filter(
+                project=self.project, status="approved"
+            ).aggregate(sum=models.Sum("amount"))["sum"]
+            or 0
+        )
 
         return Decimal(total)
 

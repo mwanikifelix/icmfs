@@ -16,66 +16,168 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name='Project',
+            name="Project",
             fields=[
-                ('id', models.BigAutoField(primary_key=True, serialize=False)),
-                ('name', models.CharField(max_length=255)),
-                ('status', models.CharField(choices=[('planned', 'Planned'), ('active', 'Active'), ('on_hold', 'On Hold'), ('at_risk', 'At Risk'), ('completed', 'Completed'), ('closed', 'Closed')], default='planned', max_length=20)),
-                ('start_date', models.DateField()),
-                ('end_date', models.DateField(blank=True, null=True)),
-                ('description', models.TextField(blank=True)),
-                ('created_at', models.DateTimeField(auto_now_add=True)),
-                ('updated_at', models.DateTimeField(auto_now=True)),
-                ('sponsor', models.ForeignKey(limit_choices_to={'role': 'CLIENT'}, on_delete=django.db.models.deletion.PROTECT, related_name='owned_projects', to=settings.AUTH_USER_MODEL)),
+                ("id", models.BigAutoField(primary_key=True, serialize=False)),
+                ("name", models.CharField(max_length=255)),
+                (
+                    "status",
+                    models.CharField(
+                        choices=[
+                            ("planned", "Planned"),
+                            ("active", "Active"),
+                            ("on_hold", "On Hold"),
+                            ("at_risk", "At Risk"),
+                            ("completed", "Completed"),
+                            ("closed", "Closed"),
+                        ],
+                        default="planned",
+                        max_length=20,
+                    ),
+                ),
+                ("start_date", models.DateField()),
+                ("end_date", models.DateField(blank=True, null=True)),
+                ("description", models.TextField(blank=True)),
+                ("created_at", models.DateTimeField(auto_now_add=True)),
+                ("updated_at", models.DateTimeField(auto_now=True)),
+                (
+                    "sponsor",
+                    models.ForeignKey(
+                        limit_choices_to={"role": "CLIENT"},
+                        on_delete=django.db.models.deletion.PROTECT,
+                        related_name="owned_projects",
+                        to=settings.AUTH_USER_MODEL,
+                    ),
+                ),
             ],
             options={
-                'db_table': 'projects',
+                "db_table": "projects",
             },
         ),
         migrations.CreateModel(
-            name='ProjectSite',
+            name="ProjectSite",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('uuid', models.UUIDField(default=uuid.uuid4, editable=False, unique=True)),
-                ('site_name', models.CharField(max_length=255)),
-                ('county', models.CharField(max_length=100)),
-                ('town', models.CharField(blank=True, max_length=100)),
-                ('gps_latitude', models.DecimalField(blank=True, decimal_places=6, max_digits=9, null=True)),
-                ('gps_longitude', models.DecimalField(blank=True, decimal_places=6, max_digits=9, null=True)),
-                ('status', models.CharField(default='active', max_length=20)),
-                ('created_at', models.DateTimeField(auto_now_add=True)),
-                ('project', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='sites', to='projects.project')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                (
+                    "uuid",
+                    models.UUIDField(default=uuid.uuid4, editable=False, unique=True),
+                ),
+                ("site_name", models.CharField(max_length=255)),
+                ("county", models.CharField(max_length=100)),
+                ("town", models.CharField(blank=True, max_length=100)),
+                (
+                    "gps_latitude",
+                    models.DecimalField(
+                        blank=True, decimal_places=6, max_digits=9, null=True
+                    ),
+                ),
+                (
+                    "gps_longitude",
+                    models.DecimalField(
+                        blank=True, decimal_places=6, max_digits=9, null=True
+                    ),
+                ),
+                ("status", models.CharField(default="active", max_length=20)),
+                ("created_at", models.DateTimeField(auto_now_add=True)),
+                (
+                    "project",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        related_name="sites",
+                        to="projects.project",
+                    ),
+                ),
             ],
         ),
         migrations.CreateModel(
-            name='ProjectMember',
+            name="ProjectMember",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('role', models.CharField(choices=[('engineer', 'Engineer'), ('architect', 'Architect'), ('consultant', 'Consultant'), ('accountant', 'Accountant'), ('manager', 'Project Manager'), ('owner', 'Owner')], max_length=30)),
-                ('assigned_at', models.DateTimeField(auto_now_add=True)),
-                ('project', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='members', to='projects.project')),
-                ('user', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                (
+                    "role",
+                    models.CharField(
+                        choices=[
+                            ("engineer", "Engineer"),
+                            ("architect", "Architect"),
+                            ("consultant", "Consultant"),
+                            ("accountant", "Accountant"),
+                            ("manager", "Project Manager"),
+                            ("owner", "Owner"),
+                        ],
+                        max_length=30,
+                    ),
+                ),
+                ("assigned_at", models.DateTimeField(auto_now_add=True)),
+                (
+                    "project",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        related_name="members",
+                        to="projects.project",
+                    ),
+                ),
+                (
+                    "user",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        to=settings.AUTH_USER_MODEL,
+                    ),
+                ),
             ],
             options={
-                'unique_together': {('project', 'user')},
+                "unique_together": {("project", "user")},
             },
         ),
         migrations.CreateModel(
-            name='ProjectWBS',
+            name="ProjectWBS",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('uuid', models.UUIDField(default=uuid.uuid4, editable=False, unique=True)),
-                ('wbs_code', models.CharField(max_length=50)),
-                ('wbs_name', models.CharField(max_length=255)),
-                ('description', models.TextField(blank=True)),
-                ('planned_cost', models.DecimalField(decimal_places=2, max_digits=15)),
-                ('planned_start', models.DateField()),
-                ('planned_end', models.DateField()),
-                ('created_at', models.DateTimeField(auto_now_add=True)),
-                ('project', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='wbs_items', to='projects.project')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                (
+                    "uuid",
+                    models.UUIDField(default=uuid.uuid4, editable=False, unique=True),
+                ),
+                ("wbs_code", models.CharField(max_length=50)),
+                ("wbs_name", models.CharField(max_length=255)),
+                ("description", models.TextField(blank=True)),
+                ("planned_cost", models.DecimalField(decimal_places=2, max_digits=15)),
+                ("planned_start", models.DateField()),
+                ("planned_end", models.DateField()),
+                ("created_at", models.DateTimeField(auto_now_add=True)),
+                (
+                    "project",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        related_name="wbs_items",
+                        to="projects.project",
+                    ),
+                ),
             ],
             options={
-                'unique_together': {('project', 'wbs_code')},
+                "unique_together": {("project", "wbs_code")},
             },
         ),
     ]

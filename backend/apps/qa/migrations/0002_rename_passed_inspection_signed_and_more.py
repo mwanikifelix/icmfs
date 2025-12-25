@@ -9,61 +9,85 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('progress', '0002_alter_dailyprogress_options_and_more'),
-        ('projects', '0002_project_budget_project_created_by_and_more'),
-        ('qa', '0001_initial'),
+        ("progress", "0002_alter_dailyprogress_options_and_more"),
+        ("projects", "0002_project_budget_project_created_by_and_more"),
+        ("qa", "0001_initial"),
         migrations.swappable_dependency(settings.AUTH_USER_MODEL),
     ]
 
     operations = [
         migrations.RenameField(
-            model_name='inspection',
-            old_name='passed',
-            new_name='signed',
+            model_name="inspection",
+            old_name="passed",
+            new_name="signed",
         ),
         migrations.RemoveField(
-            model_name='inspection',
-            name='inspector',
+            model_name="inspection",
+            name="inspector",
         ),
         migrations.AddField(
-            model_name='inspection',
-            name='inspected_by',
-            field=models.ForeignKey(null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='qa_reviews', to=settings.AUTH_USER_MODEL),
+            model_name="inspection",
+            name="inspected_by",
+            field=models.ForeignKey(
+                null=True,
+                on_delete=django.db.models.deletion.SET_NULL,
+                related_name="qa_reviews",
+                to=settings.AUTH_USER_MODEL,
+            ),
         ),
         migrations.AddField(
-            model_name='inspection',
-            name='progress',
-            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='qa_inspections', to='progress.dailyprogress'),
+            model_name="inspection",
+            name="progress",
+            field=models.ForeignKey(
+                blank=True,
+                null=True,
+                on_delete=django.db.models.deletion.SET_NULL,
+                related_name="qa_inspections",
+                to="progress.dailyprogress",
+            ),
         ),
         migrations.AddField(
-            model_name='inspection',
-            name='status',
-            field=models.CharField(choices=[('pending', 'Pending'), ('approved', 'Approved'), ('rejected', 'Rejected'), ('rework', 'Rework Required')], default='pending', max_length=20),
+            model_name="inspection",
+            name="status",
+            field=models.CharField(
+                choices=[
+                    ("pending", "Pending"),
+                    ("approved", "Approved"),
+                    ("rejected", "Rejected"),
+                    ("rework", "Rework Required"),
+                ],
+                default="pending",
+                max_length=20,
+            ),
         ),
         migrations.AddField(
-            model_name='inspection',
-            name='title',
+            model_name="inspection",
+            name="title",
             field=models.CharField(default=0, max_length=200),
             preserve_default=False,
         ),
         migrations.AddField(
-            model_name='inspection',
-            name='uuid',
+            model_name="inspection",
+            name="uuid",
             field=models.UUIDField(default=uuid.uuid4, editable=False, unique=True),
         ),
         migrations.AlterField(
-            model_name='inspection',
-            name='id',
+            model_name="inspection",
+            name="id",
             field=models.BigAutoField(primary_key=True, serialize=False),
         ),
         migrations.AlterField(
-            model_name='inspection',
-            name='project',
-            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='inspections', to='projects.project'),
+            model_name="inspection",
+            name="project",
+            field=models.ForeignKey(
+                on_delete=django.db.models.deletion.CASCADE,
+                related_name="inspections",
+                to="projects.project",
+            ),
         ),
         migrations.AlterField(
-            model_name='inspection',
-            name='remarks',
+            model_name="inspection",
+            name="remarks",
             field=models.TextField(blank=True),
         ),
     ]

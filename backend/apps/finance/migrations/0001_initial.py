@@ -9,18 +9,42 @@ class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
-        ('projects', '0001_initial'),
+        ("projects", "0001_initial"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='FinancialRecord',
+            name="FinancialRecord",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('record_type', models.CharField(choices=[('planned', 'Planned Value'), ('actual', 'Actual Cost'), ('earned', 'Earned Value')], max_length=20)),
-                ('amount', models.DecimalField(decimal_places=2, max_digits=12)),
-                ('date', models.DateField()),
-                ('project', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='projects.project')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                (
+                    "record_type",
+                    models.CharField(
+                        choices=[
+                            ("planned", "Planned Value"),
+                            ("actual", "Actual Cost"),
+                            ("earned", "Earned Value"),
+                        ],
+                        max_length=20,
+                    ),
+                ),
+                ("amount", models.DecimalField(decimal_places=2, max_digits=12)),
+                ("date", models.DateField()),
+                (
+                    "project",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        to="projects.project",
+                    ),
+                ),
             ],
         ),
     ]
