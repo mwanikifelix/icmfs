@@ -52,6 +52,13 @@ jobs:
         env:
           DATABASE_URL: postgres://icmfs:icmfs@localhost:5432/icmfs
 
+    - name: Build and Run
+        env:
+          # This tells GitHub to act like a standard Linux user
+          UID: 1000
+          GID: 1000
+
+
       - name: Docker build
         run: |
           docker build -t icmfs-backend backend/

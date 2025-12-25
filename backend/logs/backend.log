@@ -33,3 +33,4 @@ WARNING 2025-12-25 14:14:06,972 log Bad Request: /api/accounts/register/
 WARNING 2025-12-25 14:14:07,078 log Not Found: /favicon.ico
 WARNING 2025-12-25 14:14:52,070 log Method Not Allowed: /api/accounts/login/
 WARNING 2025-12-25 14:14:52,195 log Not Found: /favicon.ico
+WARNING 2025-12-25 15:35:43,994 log Method Not Allowed: /api/accounts/login/
