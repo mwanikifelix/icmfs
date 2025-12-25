@@ -1,0 +1,9 @@
+Django>=5.0
+djangorestframework
+psycopg2-binary
+redis
+celery
+django-cors-headers
+django-redis
+djangorestframework-simplejwt
+drf-spectacular==0.27.2

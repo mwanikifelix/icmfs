@@ -1,0 +1,35 @@
+WARNING 2025-12-24 08:21:03,930 log Forbidden: /api/admin_panel/users/
+WARNING 2025-12-24 08:21:04,089 log Not Found: /favicon.ico
+WARNING 2025-12-24 08:21:49,791 log Forbidden: /api/admin_panel/roles/
+WARNING 2025-12-24 08:44:41,290 log Not Found: /admin/
+WARNING 2025-12-24 08:44:41,372 log Not Found: /favicon.ico
+WARNING 2025-12-24 09:08:09,436 log Forbidden: /api/admin_panel/users/
+WARNING 2025-12-24 09:08:09,577 log Not Found: /favicon.ico
+WARNING 2025-12-24 09:08:16,312 log Forbidden: /api/admin_panel/users/
+WARNING 2025-12-24 09:08:18,109 log Forbidden: /api/admin_panel/users/
+WARNING 2025-12-24 09:08:21,812 log Forbidden: /api/admin_panel/users/
+WARNING 2025-12-24 09:08:21,882 log Not Found: /favicon.ico
+WARNING 2025-12-24 09:09:03,917 log Method Not Allowed: /api/token/
+WARNING 2025-12-24 09:09:04,058 log Not Found: /favicon.ico
+WARNING 2025-12-24 09:09:50,370 log Forbidden: /api/admin_panel/users/
+WARNING 2025-12-24 10:38:28,506 log Forbidden: /api/admin_panel/roles/
+WARNING 2025-12-24 10:38:28,699 log Not Found: /favicon.ico
+WARNING 2025-12-24 10:38:41,694 log Forbidden: /api/admin_panel/settings/
+WARNING 2025-12-24 10:39:15,964 log Forbidden: /api/projects/projects/
+WARNING 2025-12-24 10:39:16,099 log Not Found: /favicon.ico
+WARNING 2025-12-24 10:39:32,847 log Not Found: /api/projects/completed/
+WARNING 2025-12-24 10:39:46,420 log Not Found: /api/projects/onhold/
+WARNING 2025-12-24 10:40:22,907 log Not Found: /api/projects/site/
+WARNING 2025-12-24 10:40:36,001 log Forbidden: /api/projects/projects/
+WARNING 2025-12-24 10:40:44,601 log Forbidden: /api/projects/projects/completed/
+WARNING 2025-12-24 10:40:58,912 log Forbidden: /api/projects/projects/peding/
+WARNING 2025-12-24 10:41:13,665 log Forbidden: /api/projects/projects/onhold/
+WARNING 2025-12-25 14:10:53,507 log Not Found: /favicon.ico
+WARNING 2025-12-25 14:11:20,634 log Forbidden: /api/admin_panel/dashboard/
+WARNING 2025-12-25 14:11:20,736 log Not Found: /favicon.ico
+WARNING 2025-12-25 14:13:36,305 log Method Not Allowed: /api/accounts/register/
+WARNING 2025-12-25 14:13:36,429 log Not Found: /favicon.ico
+WARNING 2025-12-25 14:14:06,972 log Bad Request: /api/accounts/register/
+WARNING 2025-12-25 14:14:07,078 log Not Found: /favicon.ico
+WARNING 2025-12-25 14:14:52,070 log Method Not Allowed: /api/accounts/login/
+WARNING 2025-12-25 14:14:52,195 log Not Found: /favicon.ico

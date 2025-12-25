@@ -1,0 +1,57 @@
+name: ICMFS Backend CI
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:15
+        env:
+          POSTGRES_DB: icmfs
+          POSTGRES_USER: icmfs
+          POSTGRES_PASSWORD: icmfs
+        ports:
+          - 5432:5432
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r backend/requirements.txt
+          pip install black isort flake8 pytest pytest-django
+
+      - name: Lint
+        run: |
+          black backend --check
+          isort backend --check-only
+          flake8 backend
+
+      - name: Migration safety check
+        run: |
+          python backend/manage.py makemigrations --check
+          python backend/manage.py migrate --check
+        env:
+          DATABASE_URL: postgres://icmfs:icmfs@localhost:5432/icmfs
+
+      - name: Run tests
+        run: |
+          pytest backend
+        env:
+          DATABASE_URL: postgres://icmfs:icmfs@localhost:5432/icmfs
+
+      - name: Docker build
+        run: |
+          docker build -t icmfs-backend backend/

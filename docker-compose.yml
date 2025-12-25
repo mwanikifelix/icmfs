@@ -1,0 +1,104 @@
+services:
+
+  backend:
+    container_name: icmfs_backend
+    build:
+      context: ./backend
+    command: >
+      sh -c "
+      python manage.py migrate &&
+      python manage.py runserver 0.0.0.0:3000
+      "
+    volumes:
+      - ./backend:/app
+    ports:
+      - "90:3000"
+    depends_on:
+      - postgresql
+      - redis
+    environment:
+      DEBUG: "1"
+      DJANGO_SECRET_KEY: dev-secret-key
+      DB_NAME: icmfs_db
+      DB_USER: root
+      DB_PASSWORD: root
+      DB_HOST: postgresql
+      DB_PORT: 5432
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+      REDIS_PASSWORD: root
+    networks:
+      shared:
+          ipv4_address: 172.21.0.2
+
+  frontend:
+    container_name: icmfs_frontend
+    build:
+      context: ./frontend
+    ports:
+      - "91:5173"
+    env_file:
+      - ./frontend/.env
+    volumes:
+      - ./frontend:/app
+    depends_on:
+      - backend
+    networks:
+       shared:
+           ipv4_address: 172.21.0.3
+
+  postgresql:
+    container_name: postgres
+    image: postgres:15
+    restart: always
+    environment:
+      POSTGRES_DB: icmfs_db
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+       shared:
+           ipv4_address: 172.21.0.4
+
+  redis:
+    container_name: redis
+    image: redis:7
+    restart: always
+    command: redis-server --requirepass root
+    ports:
+      - "6379:6379"
+    networks:
+       shared:
+           ipv4_address: 172.21.0.5
+
+  pgadmin:
+    container_name: pgadmin
+    image: dpage/pgadmin4
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: breezelabdynamics@example.com
+      PGADMIN_DEFAULT_PASSWORD: root
+    ports:
+      - "93:80"
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+    depends_on:
+      - postgresql
+    networks:
+       shared:
+           ipv4_address : 172.21.0.6
+
+volumes:
+  postgres_data:
+  pgadmin_data:
+
+networks:
+    shared:
+        name: mynetwork
+        driver: bridge
+        ipam:
+            config:
+                - subnet: 172.21.0.0/24
