@@ -1,6 +1,7 @@
 services:
 
   backend:
+    user: "${UID}:${GID}"
     container_name: icmfs_backend
     build:
       context: ./backend
