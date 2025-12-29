@@ -1,5 +1,9 @@
 import api from "./api";
 
-export const login = (data) => {
-  return api.post("/login/", data);
-};
+export function login(payload) {
+  return api.post("/token/", payload);
+}
+
+export function refreshToken(refresh) {
+  return api.post("/token/refresh/", { refresh });
+}

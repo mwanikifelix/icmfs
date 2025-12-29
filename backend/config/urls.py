@@ -18,7 +18,7 @@ urlpatterns = [
         "api/v1/",
         include(
             [
-                path("admin_panel/", include("apps.admin_panel.urls")),
+                path("admin/", admin.site.urls),
                 path("projects/", include("apps.projects.urls")),
                 path("finance/", include("apps.finance.urls")),
                 path("api/progress/", include("apps.progress.urls")),
@@ -28,7 +28,7 @@ urlpatterns = [
             ]
         ),
     ),
-    # path("admin/", admin.site.urls),
+    path("admin/", admin.site.urls),
     path("api/schema/", SpectacularAPIView.as_view(), name="schema"),
     path("api/docs/", SpectacularSwaggerView.as_view(url_name="schema")),
     path("api/token/", TokenObtainPairView.as_view(), name="token_obtain_pair"),
@@ -37,7 +37,12 @@ urlpatterns = [
     path("api/projects/", include("apps.projects.urls")),
     path("api/progress/", include("apps.progress.urls")),
     path("api/finance/", include("apps.finance.urls")),
-    path("api/admin_panel/", include("apps.admin_panel.urls")),
+    #path("api/admin_panel/", include("apps.admin_panel.urls")),
     path("api/qa/", include("apps.qa.urls")),
+    path("api/health/", lambda r: JsonResponse({"status": "ok"})),
+
+    path("api/dashboard/", include("apps.dashboard.urls")),
+
     path("api/notifications/", include("apps.notifications.urls")),
+
 ]

@@ -15,25 +15,25 @@ export default {
     };
   },
   methods: {
-    testBackend() {
-      fetch("/api/accounts/health/")
-        .then((response) => {
-          if (!response.ok) {
-            throw new Error("Backend not reachable");
+      async testBackend() {
+       try {
+          const response = await fetch("/api/accounts/health/");
+
+         if (!response.ok) {
+           throw new Error(`HTTP ${response.status}`);
           }
-          return response.json();
-        })
-        .then((data) => {
-          console.log(data);
-          this.backendStatus = "Backend reachable ✅";
-        })
-        .catch((error) => {
-          console.error(error);
+
+         const data = await response.json();
+         console.log("Backend response:", data);
+
+         this.backendStatus = `Backend reachable ✅ (${data.status})`;
+       } catch (error) {
+         console.error("Backend error:", error);
           this.backendStatus = "Backend not reachable ❌";
-        });
+       }
+      },
     },
-  },
-};
+  };
 </script>
 
 <style scoped>

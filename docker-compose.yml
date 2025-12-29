@@ -38,10 +38,17 @@ services:
       context: ./frontend
     ports:
       - "91:5173"
+
+    command: npm run dev -- --host
     env_file:
       - ./frontend/.env
     volumes:
       - ./frontend:/app
+      - /app/node_modules
+
+      # Helps Vite see file changes on Linux/Kali
+    environment:
+    - CHOKIDAR_USEPOLLING=true
     depends_on:
       - backend
     networks:

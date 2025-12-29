@@ -6,5 +6,6 @@ celery
 django-cors-headers
 django-redis
 djangorestframework-simplejwt
+python-dotenv>=1.0.0
 drf-spectacular==0.27.2
 black==25.1.0

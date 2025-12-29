@@ -94,4 +94,12 @@ class AdminAuditLogSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = AdminAuditLog
-        fields = "__all__"
+        fields = [
+            "id",
+            "user",
+            "action",
+            "resource",
+            "metadata",
+            "created_at",
+        ]
+

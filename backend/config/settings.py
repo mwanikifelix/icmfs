@@ -6,11 +6,13 @@ from pathlib import Path
 import os
 from datetime import timedelta  # Import for future REST framework settings (JWT)
 
+from dotenv import load_dotenv
 # --------------------------------------------------
 # BASE DIRECTORY
 # --------------------------------------------------
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+load_dotenv(BASE_DIR / ".env")
 # --------------------------------------------------
 # SECURITY
 # --------------------------------------------------
@@ -95,6 +97,9 @@ LOGGING = {
 # Must be set before running initial migrate.
 AUTH_USER_MODEL = "accounts.User"
 
+AUTHENTICATION_BACKENDS = [
+    "django.contrib.auth.backends.ModelBackend",
+]
 
 # --------------------------------------------------
 # MIDDLEWARE
@@ -209,6 +214,12 @@ STATIC_ROOT = BASE_DIR / "staticfiles"
 # DEFAULT PRIMARY KEY FIELD
 # --------------------------------------------------
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+
+
+ALLOWED_HOSTS = ["*"]
+USE_X_FORWARDED_HOST = True
+
 
 # --------------------------------------------------
 # CORS CONFIGURATION (Frontend Access)
