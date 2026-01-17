@@ -1,0 +1,2878 @@
+WARNING 2025-12-24 08:21:03,930 log Forbidden: /api/admin_panel/users/
+WARNING 2025-12-24 08:21:04,089 log Not Found: /favicon.ico
+WARNING 2025-12-24 08:21:49,791 log Forbidden: /api/admin_panel/roles/
+WARNING 2025-12-24 08:44:41,290 log Not Found: /admin/
+WARNING 2025-12-24 08:44:41,372 log Not Found: /favicon.ico
+WARNING 2025-12-24 09:08:09,436 log Forbidden: /api/admin_panel/users/
+WARNING 2025-12-24 09:08:09,577 log Not Found: /favicon.ico
+WARNING 2025-12-24 09:08:16,312 log Forbidden: /api/admin_panel/users/
+WARNING 2025-12-24 09:08:18,109 log Forbidden: /api/admin_panel/users/
+WARNING 2025-12-24 09:08:21,812 log Forbidden: /api/admin_panel/users/
+WARNING 2025-12-24 09:08:21,882 log Not Found: /favicon.ico
+WARNING 2025-12-24 09:09:03,917 log Method Not Allowed: /api/token/
+WARNING 2025-12-24 09:09:04,058 log Not Found: /favicon.ico
+WARNING 2025-12-24 09:09:50,370 log Forbidden: /api/admin_panel/users/
+WARNING 2025-12-24 10:38:28,506 log Forbidden: /api/admin_panel/roles/
+WARNING 2025-12-24 10:38:28,699 log Not Found: /favicon.ico
+WARNING 2025-12-24 10:38:41,694 log Forbidden: /api/admin_panel/settings/
+WARNING 2025-12-24 10:39:15,964 log Forbidden: /api/projects/projects/
+WARNING 2025-12-24 10:39:16,099 log Not Found: /favicon.ico
+WARNING 2025-12-24 10:39:32,847 log Not Found: /api/projects/completed/
+WARNING 2025-12-24 10:39:46,420 log Not Found: /api/projects/onhold/
+WARNING 2025-12-24 10:40:22,907 log Not Found: /api/projects/site/
+WARNING 2025-12-24 10:40:36,001 log Forbidden: /api/projects/projects/
+WARNING 2025-12-24 10:40:44,601 log Forbidden: /api/projects/projects/completed/
+WARNING 2025-12-24 10:40:58,912 log Forbidden: /api/projects/projects/peding/
+WARNING 2025-12-24 10:41:13,665 log Forbidden: /api/projects/projects/onhold/
+WARNING 2025-12-25 14:10:53,507 log Not Found: /favicon.ico
+WARNING 2025-12-25 14:11:20,634 log Forbidden: /api/admin_panel/dashboard/
+WARNING 2025-12-25 14:11:20,736 log Not Found: /favicon.ico
+WARNING 2025-12-25 14:13:36,305 log Method Not Allowed: /api/accounts/register/
+WARNING 2025-12-25 14:13:36,429 log Not Found: /favicon.ico
+WARNING 2025-12-25 14:14:06,972 log Bad Request: /api/accounts/register/
+WARNING 2025-12-25 14:14:07,078 log Not Found: /favicon.ico
+WARNING 2025-12-25 14:14:52,070 log Method Not Allowed: /api/accounts/login/
+WARNING 2025-12-25 14:14:52,195 log Not Found: /favicon.ico
+WARNING 2025-12-25 15:35:43,994 log Method Not Allowed: /api/accounts/login/
+WARNING 2025-12-25 16:00:35,639 log Not Found: /admin/
+WARNING 2025-12-25 16:00:35,686 log Not Found: /favicon.ico
+WARNING 2025-12-25 16:00:48,638 log Not Found: /api/admin/
+WARNING 2025-12-25 16:00:48,676 log Not Found: /favicon.ico
+WARNING 2025-12-25 16:00:58,768 log Not Found: /api/admin_panel/
+WARNING 2025-12-25 16:00:58,823 log Not Found: /favicon.ico
+WARNING 2025-12-25 16:01:55,874 log Forbidden: /api/admin_panel/users/
+WARNING 2025-12-25 16:04:25,045 log Not Found: /admin/
+WARNING 2025-12-25 16:04:25,127 log Not Found: /favicon.ico
+WARNING 2025-12-25 16:04:34,666 log Not Found: /api/admin/
+WARNING 2025-12-25 16:04:46,460 log Not Found: /api/admin_panel/
+WARNING 2025-12-25 16:04:46,510 log Not Found: /favicon.ico
+WARNING 2025-12-25 16:07:56,321 log Forbidden: /api/admin_panel/
+WARNING 2025-12-25 16:13:41,250 log Not Found: /admin/
+WARNING 2025-12-25 16:14:01,383 log Not Found: /admin_panel/
+WARNING 2025-12-25 16:14:24,731 log Not Found: /api/admin/
+WARNING 2025-12-25 16:14:37,329 log Not Found: /api/admin/admin_panel/
+WARNING 2025-12-25 16:15:45,224 log Not Found: /api/docs/swagger/
+WARNING 2025-12-25 16:15:45,272 log Not Found: /favicon.ico
+WARNING 2025-12-25 20:41:15,718 log Forbidden: /api/admin_panel/users/
+WARNING 2025-12-25 20:41:15,902 log Not Found: /favicon.ico
+WARNING 2025-12-25 20:41:20,899 log Forbidden: /api/admin_panel/users/
+WARNING 2025-12-25 20:41:23,732 log Forbidden: /api/admin_panel/users/
+WARNING 2025-12-25 20:41:24,686 log Forbidden: /api/admin_panel/users/
+WARNING 2025-12-25 20:41:26,799 log Forbidden: /api/admin_panel/
+WARNING 2025-12-25 20:41:31,639 log Forbidden: /api/admin_panel/
+WARNING 2025-12-25 20:41:51,744 log Forbidden: /api/admin_panel/dashboard/
+WARNING 2025-12-25 20:41:51,809 log Not Found: /favicon.ico
+WARNING 2025-12-25 20:42:06,340 log Forbidden: /api/admin_panel/users/
+WARNING 2025-12-25 20:42:06,427 log Not Found: /favicon.ico
+WARNING 2025-12-25 20:42:35,342 log Forbidden: /api/admin_panel/settings/
+WARNING 2025-12-25 20:42:35,413 log Not Found: /favicon.ico
+WARNING 2025-12-25 20:59:37,936 log Forbidden: /api/admin_panel/settings/
+WARNING 2025-12-25 20:59:39,527 log Forbidden: /api/admin_panel/settings/
+WARNING 2025-12-25 20:59:50,171 log Forbidden: /api/admin_panel/users/
+WARNING 2025-12-25 20:59:50,259 log Not Found: /favicon.ico
+WARNING 2025-12-25 21:39:03,182 log Bad Request: /api/accounts/login/
+WARNING 2025-12-25 21:41:59,357 log Bad Request: /api/accounts/login/
+WARNING 2025-12-25 22:24:23,747 log Forbidden: /api/admin_panel/
+WARNING 2025-12-25 22:24:31,179 log Forbidden: /api/admin_panel/users/
+WARNING 2025-12-25 22:42:17,959 log Unauthorized: /api/token/
+WARNING 2025-12-25 22:42:48,276 log Unauthorized: /api/token/
+WARNING 2025-12-25 23:10:20,787 log Forbidden: /api/admin_panel/users/
+WARNING 2025-12-25 23:11:39,235 log Not Found: /admin/login/
+WARNING 2025-12-25 23:12:00,014 log Not Found: /admin/
+WARNING 2025-12-25 23:12:00,068 log Not Found: /favicon.ico
+WARNING 2025-12-25 23:12:27,511 log Method Not Allowed: /api/accounts/register/
+WARNING 2025-12-25 23:12:27,618 log Not Found: /favicon.ico
+WARNING 2025-12-25 23:13:36,785 log Not Found: /favicon.ico
+WARNING 2025-12-25 23:29:04,431 log Not Found: /admin_panel/users/
+WARNING 2025-12-25 23:36:52,674 log Forbidden: /api/projects/projects/onhold/
+WARNING 2025-12-26 00:06:01,037 log Not Found: /admin_panel/users/
+WARNING 2025-12-26 00:06:13,101 log Not Found: /admin_panel/users/
+WARNING 2025-12-26 00:07:03,497 log Unauthorized: /api/token/
+WARNING 2025-12-26 00:08:03,561 log Not Found: /admin_panel/users/
+WARNING 2025-12-26 00:25:01,788 log Not Found: /admin_panel/users/
+WARNING 2025-12-26 00:25:42,717 log Not Found: /admin_panel/users/
+WARNING 2025-12-26 00:33:53,983 log Not Found: /admin_panel/users/
+WARNING 2025-12-26 00:34:01,953 log Not Found: /admin_panel/users/
+WARNING 2025-12-26 00:34:03,565 log Not Found: /admin_panel/users/
+WARNING 2025-12-26 00:34:35,350 log Not Found: /admin_panel/users/
+WARNING 2025-12-26 00:35:13,171 log Not Found: /admin_panel/users/
+WARNING 2025-12-26 00:36:13,383 log Not Found: /admin_panel/users/
+WARNING 2025-12-26 00:39:20,443 log Not Found: /admin_panel/users/
+WARNING 2025-12-26 00:39:22,705 log Not Found: /admin_panel/users/
+WARNING 2025-12-26 00:39:23,656 log Not Found: /admin_panel/users/
+WARNING 2025-12-26 00:39:26,042 log Not Found: /admin_panel/users/
+WARNING 2025-12-26 00:58:33,026 log Not Found: /admin_panel/users/
+WARNING 2025-12-26 00:58:36,159 log Not Found: /admin_panel/users/
+WARNING 2025-12-26 00:59:29,014 log Not Found: /admin_panel/users/
+WARNING 2025-12-26 00:59:36,057 log Not Found: /admin_panel/users/
+WARNING 2025-12-26 01:01:21,182 log Not Found: /dashboard/
+WARNING 2025-12-26 01:14:46,428 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 01:14:49,415 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 01:14:50,559 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 01:14:51,075 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 01:14:51,355 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 01:14:51,661 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 01:14:52,107 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 01:15:23,298 log Not Found: /api/api/token/
+WARNING 2025-12-26 01:15:38,098 log Not Found: /api/api/token/
+WARNING 2025-12-26 01:15:41,073 log Not Found: /api/api/token/
+WARNING 2025-12-26 01:15:42,274 log Not Found: /api/api/token/
+WARNING 2025-12-26 01:16:09,069 log Not Found: /api/api/token/
+WARNING 2025-12-26 01:16:14,369 log Not Found: /api/api/token/
+WARNING 2025-12-26 01:16:15,017 log Not Found: /api/api/token/
+WARNING 2025-12-26 01:16:15,196 log Not Found: /api/api/token/
+WARNING 2025-12-26 01:16:15,375 log Not Found: /api/api/token/
+WARNING 2025-12-26 01:16:41,909 log Not Found: /api/api/token/
+WARNING 2025-12-26 01:16:45,861 log Not Found: /api/api/token/
+WARNING 2025-12-26 01:16:46,335 log Not Found: /api/api/token/
+WARNING 2025-12-26 01:16:46,501 log Not Found: /api/api/token/
+WARNING 2025-12-26 01:16:46,643 log Not Found: /api/api/token/
+WARNING 2025-12-26 01:16:46,805 log Not Found: /api/api/token/
+WARNING 2025-12-26 01:16:46,960 log Not Found: /api/api/token/
+WARNING 2025-12-26 01:16:47,081 log Not Found: /api/api/token/
+WARNING 2025-12-26 01:16:47,236 log Not Found: /api/api/token/
+WARNING 2025-12-26 01:16:47,393 log Not Found: /api/api/token/
+WARNING 2025-12-26 01:17:04,972 log Not Found: /api/api/token/
+WARNING 2025-12-26 01:17:47,153 log Not Found: /favicon.ico
+WARNING 2025-12-26 01:18:00,530 log Method Not Allowed: /api/accounts/register/
+WARNING 2025-12-26 01:19:18,768 log Bad Request: /api/accounts/register/
+WARNING 2025-12-26 01:20:31,990 log Not Found: /api/api/token/
+WARNING 2025-12-26 01:20:47,745 log Not Found: /api/api/token/
+WARNING 2025-12-26 01:20:48,307 log Not Found: /api/api/token/
+WARNING 2025-12-26 01:20:48,654 log Not Found: /api/api/token/
+WARNING 2025-12-26 01:20:48,841 log Not Found: /api/api/token/
+WARNING 2025-12-26 01:21:07,482 log Not Found: /api/api/token/
+WARNING 2025-12-26 01:21:08,352 log Not Found: /api/api/token/
+WARNING 2025-12-26 01:21:08,597 log Not Found: /api/api/token/
+WARNING 2025-12-26 01:33:07,589 log Not Found: /api/api/token/
+WARNING 2025-12-26 01:56:27,339 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 02:07:39,536 log Unauthorized: /api/token/
+WARNING 2025-12-26 02:10:14,850 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 02:17:14,682 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 02:17:16,822 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 02:17:17,981 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 02:20:04,119 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 02:20:08,499 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 02:20:09,425 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 02:20:12,745 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 02:23:36,475 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 02:24:16,214 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 02:54:53,117 log Bad Request: /api/accounts/register/
+WARNING 2025-12-26 02:54:59,000 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 03:17:59,983 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 03:18:00,010 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 03:25:30,873 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 03:25:31,164 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 03:25:41,350 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 03:25:50,935 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 03:26:14,936 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 03:26:15,944 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 03:26:17,614 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 03:26:19,454 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 03:26:32,411 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 03:48:55,176 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 03:49:04,481 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 03:49:14,004 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 03:55:31,611 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 03:55:36,753 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 03:55:38,099 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 03:55:39,157 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 03:55:40,025 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 03:55:48,107 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 03:56:11,463 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 03:59:29,559 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 03:59:31,820 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 03:59:33,338 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 04:00:31,775 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 04:00:43,592 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 04:12:52,165 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 04:13:13,474 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 04:13:22,973 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 04:18:15,778 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 04:18:21,944 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 04:18:23,071 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 04:18:23,439 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 04:18:24,026 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 04:18:24,343 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 04:20:20,875 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 04:20:22,846 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 04:20:23,034 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 04:20:23,207 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 04:20:27,122 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 04:20:28,636 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 04:20:40,453 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 04:20:53,520 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 04:33:06,461 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 04:33:18,707 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 04:37:12,359 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 04:37:15,958 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 04:39:19,948 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 04:39:21,141 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 04:41:02,618 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 04:41:46,121 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 05:18:12,058 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 05:18:16,012 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 05:18:17,521 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 05:18:19,029 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 05:18:20,388 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 05:18:21,128 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 05:18:21,318 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 05:18:21,910 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 05:18:22,143 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 05:18:23,064 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 05:18:25,520 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 05:18:29,819 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 05:18:31,659 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 05:18:35,293 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 05:18:36,907 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 05:27:22,483 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 05:33:27,005 log Not Found: /api/api/accounts/profile/
+WARNING 2025-12-26 06:26:55,823 log Bad Request: /api/accounts/register/
+WARNING 2025-12-26 06:26:56,152 log Not Found: /favicon.ico
+WARNING 2025-12-26 06:35:37,140 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 06:35:40,730 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 06:36:39,232 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 06:38:28,511 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 06:44:55,464 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 06:49:17,686 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 06:49:18,925 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 06:57:10,802 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 06:57:11,956 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 06:57:37,482 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 06:57:48,912 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 06:57:51,639 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 06:57:58,108 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 07:14:08,764 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 07:25:50,540 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 07:26:18,300 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 07:26:20,496 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 07:31:18,562 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 07:33:58,404 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 07:34:01,260 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 07:34:12,710 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 07:34:24,476 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 07:34:33,400 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 07:34:46,033 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 07:35:35,394 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 07:36:24,664 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 07:37:11,163 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 07:52:11,653 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 07:52:18,845 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 07:55:22,883 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 07:55:28,729 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 07:55:31,813 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 07:55:34,037 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 07:55:49,149 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 07:56:11,148 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 07:56:30,237 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 07:57:03,218 log Not Found: /api/api/accounts/login/
+WARNING 2025-12-26 07:57:10,826 log Not Found: /api/api/accounts/login/
+WARNING 2025-12-26 07:57:37,624 log Not Found: /api/api/accounts/login/
+WARNING 2025-12-26 07:57:41,129 log Not Found: /api/api/accounts/login/
+WARNING 2025-12-26 07:57:42,457 log Not Found: /api/api/accounts/login/
+WARNING 2025-12-26 07:57:42,898 log Not Found: /api/api/accounts/login/
+WARNING 2025-12-26 07:57:43,096 log Not Found: /api/api/accounts/login/
+WARNING 2025-12-26 07:57:43,280 log Not Found: /api/api/accounts/login/
+WARNING 2025-12-26 07:57:43,486 log Not Found: /api/api/accounts/login/
+WARNING 2025-12-26 07:57:43,666 log Not Found: /api/api/accounts/login/
+WARNING 2025-12-26 07:57:43,952 log Not Found: /api/api/accounts/login/
+WARNING 2025-12-26 07:57:44,362 log Not Found: /api/api/accounts/login/
+WARNING 2025-12-26 07:57:44,748 log Not Found: /api/api/accounts/login/
+WARNING 2025-12-26 08:07:47,773 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 08:07:52,304 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 08:07:53,886 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 08:08:08,983 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 08:09:42,241 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 08:09:46,688 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 08:10:02,384 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 08:10:27,848 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 08:23:18,146 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 08:23:19,329 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 08:26:09,841 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 08:26:13,248 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 08:26:14,438 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 08:26:14,811 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 08:26:15,158 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 08:26:15,966 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 08:26:16,268 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 08:26:16,537 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 08:36:19,829 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 08:36:48,599 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 08:37:05,787 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 08:37:07,030 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 08:37:43,067 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 08:37:45,045 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 08:37:46,320 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 08:37:46,648 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 08:37:51,497 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 08:38:10,314 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 08:39:41,596 log Bad Request: /api/accounts/register/
+WARNING 2025-12-26 08:39:41,860 log Not Found: /favicon.ico
+WARNING 2025-12-26 08:41:22,060 log Method Not Allowed: /api/accounts/login/
+WARNING 2025-12-26 08:41:22,186 log Not Found: /favicon.ico
+WARNING 2025-12-26 08:42:20,266 log Not Found: /api/api/accounts/login/
+WARNING 2025-12-26 08:42:33,709 log Not Found: /api/api/accounts/login/
+WARNING 2025-12-26 08:42:34,348 log Not Found: /api/api/accounts/login/
+WARNING 2025-12-26 08:42:34,535 log Not Found: /api/api/accounts/login/
+WARNING 2025-12-26 08:42:34,881 log Not Found: /api/api/accounts/login/
+WARNING 2025-12-26 08:43:14,687 log Method Not Allowed: /api/accounts/register/
+WARNING 2025-12-26 08:43:47,487 log Not Found: /api/api/accounts/login/
+WARNING 2025-12-26 08:43:48,035 log Not Found: /api/api/accounts/login/
+WARNING 2025-12-26 08:43:48,277 log Not Found: /api/api/accounts/login/
+WARNING 2025-12-26 08:43:48,450 log Not Found: /api/api/accounts/login/
+WARNING 2025-12-26 08:45:02,248 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 08:45:09,657 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 08:51:25,313 log Forbidden: /api/accounts/me/
+WARNING 2025-12-26 09:01:41,019 log Not Found: /api/api/accounts/login/
+WARNING 2025-12-26 10:17:09,877 log Not Found: /favicon.ico
+WARNING 2025-12-26 11:07:55,525 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 11:08:17,955 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 11:12:28,726 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 11:12:52,522 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 11:14:43,378 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 11:14:54,944 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 11:14:59,622 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 11:15:33,112 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 11:16:54,280 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 11:18:10,903 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 17:05:35,237 log Not Found: /favicon.ico
+WARNING 2025-12-26 17:05:44,522 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 17:05:59,301 log Forbidden: /api/dashboard/
+WARNING 2025-12-26 17:42:08,095 log Not Found: /
+WARNING 2025-12-26 17:44:45,045 log Not Found: /api/accounts/
+WARNING 2025-12-26 17:45:02,125 log Not Found: /api/accounts/
+WARNING 2025-12-26 17:56:15,369 log Not Found: /
+WARNING 2025-12-26 17:56:15,435 log Not Found: /favicon.ico
+ERROR 2025-12-26 18:58:27,681 log Invalid HTTP_HOST header: 'icmfs_backend:3000'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'icmfs_backend:3000'. The domain name provided is not valid according to RFC 1034/1035.
+ERROR 2025-12-26 18:59:24,239 log Invalid HTTP_HOST header: 'icmfs_backend:3000'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'icmfs_backend:3000'. The domain name provided is not valid according to RFC 1034/1035.
+ERROR 2025-12-26 19:05:01,932 log Invalid HTTP_HOST header: 'icmfs_backend:3000'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'icmfs_backend:3000'. The domain name provided is not valid according to RFC 1034/1035.
+ERROR 2025-12-26 19:05:03,475 log Invalid HTTP_HOST header: 'icmfs_backend:3000'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'icmfs_backend:3000'. The domain name provided is not valid according to RFC 1034/1035.
+ERROR 2025-12-26 19:05:04,867 log Invalid HTTP_HOST header: 'icmfs_backend:3000'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'icmfs_backend:3000'. The domain name provided is not valid according to RFC 1034/1035.
+ERROR 2025-12-26 19:05:05,199 log Invalid HTTP_HOST header: 'icmfs_backend:3000'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'icmfs_backend:3000'. The domain name provided is not valid according to RFC 1034/1035.
+ERROR 2025-12-26 19:06:23,427 log Invalid HTTP_HOST header: 'icmfs_backend:3000'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'icmfs_backend:3000'. The domain name provided is not valid according to RFC 1034/1035.
+ERROR 2025-12-26 19:07:48,863 log Invalid HTTP_HOST header: 'icmfs_backend:3000'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'icmfs_backend:3000'. The domain name provided is not valid according to RFC 1034/1035.
+ERROR 2025-12-26 19:14:57,675 log Invalid HTTP_HOST header: 'icmfs_backend:3000'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'icmfs_backend:3000'. The domain name provided is not valid according to RFC 1034/1035.
+ERROR 2025-12-26 19:14:58,742 log Invalid HTTP_HOST header: 'icmfs_backend:3000'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'icmfs_backend:3000'. The domain name provided is not valid according to RFC 1034/1035.
+ERROR 2025-12-26 19:15:00,322 log Invalid HTTP_HOST header: 'icmfs_backend:3000'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'icmfs_backend:3000'. The domain name provided is not valid according to RFC 1034/1035.
+ERROR 2025-12-26 19:15:00,473 log Invalid HTTP_HOST header: 'icmfs_backend:3000'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'icmfs_backend:3000'. The domain name provided is not valid according to RFC 1034/1035.
+ERROR 2025-12-26 19:15:00,832 log Invalid HTTP_HOST header: 'icmfs_backend:3000'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'icmfs_backend:3000'. The domain name provided is not valid according to RFC 1034/1035.
+ERROR 2025-12-26 19:15:48,197 log Invalid HTTP_HOST header: 'icmfs_backend:3000'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'icmfs_backend:3000'. The domain name provided is not valid according to RFC 1034/1035.
+ERROR 2025-12-26 19:34:31,249 log Invalid HTTP_HOST header: 'icmfs_backend:3000'. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'icmfs_backend:3000'. The domain name provided is not valid according to RFC 1034/1035.
+WARNING 2025-12-26 19:59:18,000 log Not Found: /admin/
+WARNING 2025-12-26 19:59:18,057 log Not Found: /favicon.ico
+WARNING 2025-12-26 21:04:54,921 log Not Found: /favicon.ico
+WARNING 2025-12-26 21:05:05,868 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 09:18:18,637 log Method Not Allowed: /api/accounts/login/
+WARNING 2025-12-28 09:18:18,868 log Not Found: /favicon.ico
+WARNING 2025-12-28 09:48:42,265 log Method Not Allowed: /api/accounts/login/
+WARNING 2025-12-28 10:09:44,132 log Unauthorized: /api/accounts/login/
+WARNING 2025-12-28 10:13:54,547 log Unauthorized: /api/accounts/login/
+WARNING 2025-12-28 10:23:14,910 log Unauthorized: /api/accounts/login/
+WARNING 2025-12-28 10:23:33,843 log Unauthorized: /api/accounts/login/
+WARNING 2025-12-28 10:23:39,820 log Unauthorized: /api/accounts/login/
+WARNING 2025-12-28 10:35:08,953 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 11:03:28,301 log Unauthorized: /api/accounts/login/
+WARNING 2025-12-28 11:45:11,685 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 11:45:14,126 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 11:45:19,505 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 11:45:23,373 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 11:45:24,811 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 11:46:04,372 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 11:46:25,352 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 11:46:26,802 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 21:34:39,858 log Not Found: /admin/login/
+WARNING 2025-12-28 21:34:46,615 log Not Found: /admin/login/
+WARNING 2025-12-28 21:39:12,826 log Not Found: /admin/
+WARNING 2025-12-28 21:39:12,905 log Not Found: /favicon.ico
+WARNING 2025-12-28 21:45:54,527 log Not Found: /favicon.ico
+WARNING 2025-12-28 22:05:11,848 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 22:05:12,770 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 22:10:18,763 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 22:10:33,260 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 22:17:54,167 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 22:18:17,085 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 22:18:21,521 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 22:18:49,523 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 22:18:56,395 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 22:40:27,510 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 22:40:34,068 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 22:41:19,194 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 22:41:21,881 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 22:41:22,809 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 22:41:22,977 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 22:41:24,675 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 22:41:25,882 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 22:41:27,017 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 22:45:13,782 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 23:10:37,374 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 23:12:45,410 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 23:16:04,370 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 23:16:43,392 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 23:18:12,925 log Forbidden: /api/accounts/me/
+WARNING 2025-12-28 23:31:08,398 log Forbidden: /api/accounts/me/
+WARNING 2025-12-29 19:57:37,567 log Forbidden: /api/projects/
+WARNING 2025-12-29 19:57:50,802 log Forbidden: /api/projects/
+WARNING 2025-12-29 20:03:04,268 log Forbidden: /api/projects/
+WARNING 2025-12-29 20:03:10,458 log Forbidden: /api/projects/
+WARNING 2025-12-30 08:43:56,850 log Forbidden: /api/accounts/me/
+WARNING 2025-12-30 08:44:21,688 log Forbidden: /api/accounts/me/
+WARNING 2025-12-30 08:44:38,486 log Forbidden: /api/projects/
+WARNING 2025-12-30 08:44:55,952 log Forbidden: /api/projects/
+WARNING 2025-12-30 08:45:24,286 log Forbidden: /api/accounts/me/
+WARNING 2025-12-30 09:04:25,537 log Forbidden: /api/projects/
+WARNING 2025-12-30 09:16:59,515 log Forbidden: /api/projects/
+WARNING 2025-12-30 09:17:40,242 log Method Not Allowed: /api/accounts/register/
+WARNING 2025-12-30 09:17:51,898 log Method Not Allowed: /api/accounts/login/
+WARNING 2025-12-30 09:17:52,059 log Not Found: /favicon.ico
+WARNING 2025-12-30 09:18:27,017 log Forbidden: /api/projects/
+WARNING 2025-12-30 09:18:38,694 log Forbidden: /api/projects/
+WARNING 2025-12-30 09:57:57,798 log Forbidden: /api/projects/
+WARNING 2025-12-30 10:02:58,926 log Forbidden: /api/projects/
+WARNING 2025-12-30 10:02:59,946 log Forbidden: /api/projects/
+WARNING 2025-12-30 10:03:00,850 log Forbidden: /api/projects/
+WARNING 2025-12-30 10:03:01,145 log Forbidden: /api/projects/
+WARNING 2025-12-30 10:07:26,769 log Forbidden: /api/projects/
+WARNING 2025-12-30 10:07:30,238 log Forbidden: /api/projects/
+WARNING 2025-12-30 14:09:58,407 log Not Found: /favicon.ico
+WARNING 2025-12-30 14:30:59,106 log Forbidden: /api/projects/
+WARNING 2025-12-30 14:40:25,335 log Forbidden: /api/projects/
+WARNING 2025-12-30 14:42:02,746 log Forbidden: /api/projects/
+WARNING 2025-12-30 14:42:04,258 log Forbidden: /api/projects/
+WARNING 2025-12-30 14:42:05,554 log Forbidden: /api/projects/
+WARNING 2025-12-30 14:43:09,547 log Forbidden: /api/projects/
+WARNING 2025-12-30 14:43:50,604 log Forbidden: /api/projects/
+WARNING 2025-12-30 14:43:54,046 log Forbidden: /api/projects/
+WARNING 2025-12-30 14:44:07,357 log Forbidden: /api/projects/
+WARNING 2025-12-30 15:00:36,113 log Forbidden: /api/projects/
+WARNING 2025-12-30 15:04:05,989 log Forbidden: /api/projects/
+WARNING 2025-12-30 15:04:57,117 log Forbidden: /api/projects/
+WARNING 2025-12-30 15:06:05,120 log Forbidden: /api/projects/
+WARNING 2025-12-30 15:06:06,911 log Forbidden: /api/projects/
+WARNING 2025-12-30 15:06:07,880 log Forbidden: /api/projects/
+WARNING 2025-12-30 15:06:08,955 log Forbidden: /api/projects/
+WARNING 2025-12-30 15:06:10,074 log Forbidden: /api/projects/
+WARNING 2025-12-30 15:06:24,265 log Forbidden: /api/projects/
+WARNING 2025-12-30 15:07:55,005 log Forbidden: /api/projects/
+WARNING 2025-12-30 15:10:23,325 log Forbidden: /api/projects/
+WARNING 2025-12-30 15:11:01,468 log Forbidden: /api/projects/
+WARNING 2025-12-30 15:11:15,919 log Forbidden: /api/projects/
+WARNING 2025-12-30 15:33:26,453 log Forbidden: /api/projects/
+WARNING 2025-12-30 15:33:34,693 log Forbidden: /api/projects/
+WARNING 2025-12-30 15:34:11,880 log Forbidden: /api/projects/
+WARNING 2025-12-30 15:34:45,566 log Unauthorized: /api/accounts/login/
+WARNING 2025-12-30 15:35:20,348 log Unauthorized: /api/accounts/login/
+WARNING 2025-12-30 15:35:39,113 log Unauthorized: /api/accounts/login/
+WARNING 2025-12-30 17:34:09,791 log Forbidden: /api/projects/
+ERROR 2025-12-30 18:36:00,640 log Internal Server Error: /api/accounts/register/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/accounts/serializers.py", line 45, in create
+    first_name=validated_data["first_name"],
+               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+KeyError: 'first_name'
+ERROR 2025-12-30 18:36:02,971 log Internal Server Error: /api/accounts/register/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/accounts/serializers.py", line 45, in create
+    first_name=validated_data["first_name"],
+               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+KeyError: 'first_name'
+ERROR 2025-12-30 18:36:03,763 log Internal Server Error: /api/accounts/register/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/accounts/serializers.py", line 45, in create
+    first_name=validated_data["first_name"],
+               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+KeyError: 'first_name'
+WARNING 2025-12-30 19:49:25,238 log Not Found: /favicon.ico
+WARNING 2025-12-30 19:49:46,140 log Not Found: /favicon.ico
+WARNING 2025-12-30 19:55:15,771 log Not Found: /favicon.ico
+WARNING 2025-12-30 20:22:00,547 log Not Found: /api/accounts/password-reset/
+WARNING 2025-12-30 20:22:05,028 log Not Found: /api/accounts/password-reset/
+WARNING 2025-12-30 20:22:05,900 log Not Found: /api/accounts/password-reset/
+WARNING 2025-12-30 20:22:06,086 log Not Found: /api/accounts/password-reset/
+WARNING 2025-12-30 20:23:08,846 log Method Not Allowed: /api/accounts/login/
+WARNING 2025-12-30 20:23:09,016 log Not Found: /favicon.ico
+WARNING 2025-12-30 21:40:41,138 log Forbidden: /api/accounts/me/
+WARNING 2025-12-30 21:40:51,843 log Forbidden: /api/accounts/me/
+WARNING 2025-12-30 21:40:52,903 log Forbidden: /api/accounts/me/
+WARNING 2025-12-30 21:40:54,289 log Forbidden: /api/accounts/me/
+WARNING 2025-12-30 21:41:07,462 log Forbidden: /api/accounts/me/
+WARNING 2025-12-30 21:41:17,829 log Forbidden: /api/accounts/me/
+WARNING 2025-12-30 21:41:28,052 log Forbidden: /api/accounts/me/
+WARNING 2025-12-30 21:42:07,315 log Forbidden: /api/accounts/me/
+WARNING 2025-12-30 21:49:19,252 log Forbidden: /api/accounts/me/
+WARNING 2025-12-30 22:09:25,536 log Forbidden: /api/accounts/me/
+WARNING 2025-12-30 22:11:15,118 log Forbidden: /api/accounts/me/
+WARNING 2025-12-30 22:11:27,425 log Forbidden: /api/accounts/me/
+WARNING 2025-12-30 22:11:28,397 log Forbidden: /api/accounts/me/
+WARNING 2025-12-30 22:11:29,367 log Forbidden: /api/accounts/me/
+WARNING 2025-12-30 22:22:18,167 log Forbidden: /api/accounts/me/
+WARNING 2025-12-30 22:35:11,480 log Forbidden: /api/accounts/me/
+WARNING 2025-12-30 22:39:13,597 log Unauthorized: /api/accounts/login/
+WARNING 2025-12-30 22:39:38,588 log Unauthorized: /api/accounts/login/
+WARNING 2025-12-30 22:43:27,415 log Forbidden: /api/accounts/me/
+WARNING 2025-12-30 22:43:41,898 log Forbidden: /api/accounts/me/
+WARNING 2025-12-30 22:43:45,431 log Forbidden: /api/accounts/me/
+WARNING 2025-12-30 22:43:46,526 log Forbidden: /api/accounts/me/
+WARNING 2025-12-30 22:43:48,549 log Forbidden: /api/accounts/me/
+WARNING 2025-12-30 22:43:49,182 log Forbidden: /api/accounts/me/
+ERROR 2025-12-30 22:44:38,115 log Internal Server Error: /api/accounts/register/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/accounts/serializers.py", line 45, in create
+    first_name=validated_data["first_name"],
+               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+KeyError: 'first_name'
+WARNING 2025-12-30 22:44:51,063 log Forbidden: /api/accounts/me/
+WARNING 2026-01-02 06:44:31,996 log Forbidden: /api/accounts/me/
+WARNING 2026-01-02 06:44:32,133 log Not Found: /favicon.ico
+WARNING 2026-01-02 06:50:50,822 log Forbidden: /api/accounts/me/
+WARNING 2026-01-02 06:50:51,597 log Forbidden: /api/accounts/me/
+WARNING 2026-01-02 06:50:52,308 log Forbidden: /api/accounts/me/
+WARNING 2026-01-02 06:50:52,470 log Forbidden: /api/accounts/me/
+WARNING 2026-01-02 07:07:58,113 log Forbidden: /api/projects/
+WARNING 2026-01-02 07:08:34,834 log Not Found: /api/projects/projectlist/
+WARNING 2026-01-02 07:08:59,619 log Forbidden: /api/projects/
+WARNING 2026-01-02 07:09:09,753 log Forbidden: /api/projects/
+WARNING 2026-01-02 07:12:34,376 log Not Found: /api/projects/detail/
+WARNING 2026-01-02 07:12:42,172 log Not Found: /api/projects/detail/
+WARNING 2026-01-02 07:12:44,962 log Not Found: /api/projects/detail/
+WARNING 2026-01-02 07:13:31,171 log Not Found: /api/projects/edit/
+WARNING 2026-01-02 07:14:22,948 log Not Found: /api/projects/list/
+WARNING 2026-01-02 07:15:39,125 log Forbidden: /api/accounts/me/
+WARNING 2026-01-02 07:15:41,211 log Forbidden: /api/accounts/me/
+WARNING 2026-01-02 07:15:41,390 log Forbidden: /api/accounts/me/
+WARNING 2026-01-02 07:15:42,161 log Forbidden: /api/accounts/me/
+WARNING 2026-01-02 07:15:42,287 log Forbidden: /api/accounts/me/
+WARNING 2026-01-02 07:16:08,580 log Bad Request: /api/accounts/register/
+WARNING 2026-01-02 07:16:10,685 log Bad Request: /api/accounts/register/
+WARNING 2026-01-02 08:35:28,713 log Forbidden: /api/accounts/me/
+WARNING 2026-01-02 08:35:31,397 log Forbidden: /api/accounts/me/
+WARNING 2026-01-02 08:35:32,253 log Forbidden: /api/accounts/me/
+WARNING 2026-01-02 08:35:32,478 log Forbidden: /api/accounts/me/
+WARNING 2026-01-02 08:35:32,653 log Forbidden: /api/accounts/me/
+WARNING 2026-01-02 08:36:53,618 log Forbidden: /api/accounts/me/
+WARNING 2026-01-02 08:37:02,481 log Forbidden: /api/accounts/me/
+WARNING 2026-01-02 08:37:03,565 log Forbidden: /api/accounts/me/
+WARNING 2026-01-02 08:37:27,719 log Forbidden: /api/accounts/me/
+WARNING 2026-01-02 08:37:28,891 log Forbidden: /api/accounts/me/
+WARNING 2026-01-02 08:37:30,268 log Forbidden: /api/accounts/me/
+WARNING 2026-01-02 08:37:30,403 log Forbidden: /api/accounts/me/
+WARNING 2026-01-06 09:30:28,452 log Not Found: /dashboard
+WARNING 2026-01-06 09:30:28,519 log Not Found: /favicon.ico
+WARNING 2026-01-06 09:30:55,748 log Not Found: /api/accounts//health
+WARNING 2026-01-06 09:31:08,483 log Not Found: /api/accounts/
+WARNING 2026-01-06 09:31:33,865 log Method Not Allowed: /api/accounts/register/
+WARNING 2026-01-06 09:33:18,390 log Method Not Allowed: /api/accounts/login/
+WARNING 2026-01-06 09:35:29,323 log Not Found: /api/projects/project/
+WARNING 2026-01-06 09:35:52,005 log Not Found: /api/projects/list
+WARNING 2026-01-06 09:35:56,333 log Not Found: /api/projects/list/
+WARNING 2026-01-06 09:37:23,865 log Forbidden: /api/projects/members/
+WARNING 2026-01-06 09:37:37,123 log Forbidden: /api/projects/wbs/
+WARNING 2026-01-06 09:37:42,564 log Forbidden: /api/projects/wbs/
+WARNING 2026-01-06 09:37:49,816 log Forbidden: /api/projects/wbs/
+WARNING 2026-01-06 09:37:49,924 log Not Found: /favicon.ico
+WARNING 2026-01-06 09:38:03,421 log Forbidden: /api/projects/wbs/
+WARNING 2026-01-07 08:12:58,616 log Not Found: /favicon.ico
+WARNING 2026-01-07 08:13:22,927 log Method Not Allowed: /api/accounts/register/
+WARNING 2026-01-07 08:15:24,801 log Method Not Allowed: /api/accounts/login/
+WARNING 2026-01-07 08:17:17,818 log Not Found: /api/accounts/progress/
+WARNING 2026-01-07 08:17:36,042 log Forbidden: /api/progress/
+WARNING 2026-01-07 08:18:07,679 log Forbidden: /api/progress/wbs/
+WARNING 2026-01-07 08:18:20,169 log Forbidden: /api/progress/
+WARNING 2026-01-07 08:18:55,702 log Forbidden: /api/finance/
+WARNING 2026-01-07 08:19:09,844 log Forbidden: /api/qa/
+WARNING 2026-01-07 08:19:35,082 log Forbidden: /api/projects/
+WARNING 2026-01-07 08:19:44,609 log Not Found: /api/projects/project
+WARNING 2026-01-07 08:19:49,329 log Not Found: /api/projects/project/
+WARNING 2026-01-07 08:20:03,652 log Not Found: /api/projects/list/
+WARNING 2026-01-07 08:20:14,652 log Forbidden: /api/projects/wbs/
+WARNING 2026-01-09 23:54:19,437 log Not Found: /favicon.ico
+WARNING 2026-01-09 23:54:40,164 log Not Found: /api/admin/dashboard/
+WARNING 2026-01-09 23:55:34,110 log Unauthorized: /api/admin/users/
+WARNING 2026-01-09 23:56:39,076 log Unauthorized: /api/admin/roles/
+WARNING 2026-01-09 23:57:09,443 log Unauthorized: /api/admin/settings/
+WARNING 2026-01-09 23:57:46,780 log Unauthorized: /api/admin/audit-logs/
+WARNING 2026-01-10 00:07:51,973 log Unauthorized: /api/admin/
+WARNING 2026-01-10 00:13:01,435 log Unauthorized: /api/admin/permissions-matrix/
+WARNING 2026-01-10 00:13:35,655 log Unauthorized: /api/admin/analytics/
+WARNING 2026-01-10 00:13:41,409 log Unauthorized: /api/admin/analytics/
+WARNING 2026-01-10 00:13:42,535 log Unauthorized: /api/admin/analytics/
+WARNING 2026-01-10 00:13:44,167 log Unauthorized: /api/admin/
+WARNING 2026-01-10 00:33:06,866 log Unauthorized: /api/admin/
+WARNING 2026-01-10 00:33:09,131 log Unauthorized: /api/admin/
+WARNING 2026-01-10 00:33:10,118 log Unauthorized: /api/admin/
+WARNING 2026-01-10 00:33:10,975 log Unauthorized: /api/admin/
+WARNING 2026-01-10 00:33:11,164 log Unauthorized: /api/admin/
+WARNING 2026-01-10 00:33:11,885 log Unauthorized: /api/admin/
+WARNING 2026-01-10 00:33:12,045 log Unauthorized: /api/admin/
+WARNING 2026-01-10 00:33:34,777 log Not Found: /api/admin/dashboard/
+WARNING 2026-01-10 00:33:34,825 log Not Found: /favicon.ico
+WARNING 2026-01-10 00:33:42,494 log Unauthorized: /api/admin/
+WARNING 2026-01-10 00:36:02,131 log Unauthorized: /api/admin/
+WARNING 2026-01-10 00:36:15,236 log Not Found: /api/admin/dashboard/
+WARNING 2026-01-10 00:36:41,573 log Not Found: /api/admin/dashboard/
+WARNING 2026-01-10 00:38:58,940 log Unauthorized: /api/admin/
+WARNING 2026-01-10 00:39:18,445 log Unauthorized: /api/admin/
+WARNING 2026-01-10 00:39:21,447 log Unauthorized: /api/admin/
+WARNING 2026-01-10 00:39:21,512 log Not Found: /favicon.ico
+WARNING 2026-01-10 01:40:44,802 log Unauthorized: /api/admin/
+WARNING 2026-01-10 01:40:58,310 log Unauthorized: /api/admin/settings/
+WARNING 2026-01-10 01:41:11,077 log Unauthorized: /api/admin/roles/
+WARNING 2026-01-10 01:41:24,656 log Unauthorized: /api/admin/users/
+WARNING 2026-01-10 01:42:01,499 log Not Found: /api/admin/mentrix/
+WARNING 2026-01-10 01:42:12,757 log Not Found: /api/accounts/
+WARNING 2026-01-10 01:42:12,826 log Not Found: /favicon.ico
+WARNING 2026-01-10 01:42:37,268 log Unauthorized: /api/accounts/me/
+WARNING 2026-01-10 01:42:37,371 log Not Found: /favicon.ico
+WARNING 2026-01-10 01:45:56,673 log Method Not Allowed: /api/token/
+WARNING 2026-01-10 01:46:18,744 log Unauthorized: /api/admin/
+WARNING 2026-01-10 01:46:55,086 log Unauthorized: /api/admin/users/
+WARNING 2026-01-10 01:47:11,835 log Unauthorized: /api/admin/roles/
+WARNING 2026-01-10 01:47:25,062 log Unauthorized: /api/admin/settings/
+WARNING 2026-01-10 01:47:49,785 log Unauthorized: /api/admin/audit-logs/
+WARNING 2026-01-10 01:56:06,360 log Not Found: /api/admin/PermissionMatrix/
+WARNING 2026-01-10 01:56:14,024 log Not Found: /api/admin/permissionMatrix/
+WARNING 2026-01-10 01:56:25,756 log Not Found: /api/admin/permissionmatrix/
+WARNING 2026-01-10 01:56:40,591 log Not Found: /api/admin/permission_matrix/
+WARNING 2026-01-10 01:57:29,750 log Not Found: /api/admin/permission_matrixs/
+WARNING 2026-01-10 01:57:36,350 log Unauthorized: /api/admin/permissions-matrix/
+WARNING 2026-01-10 02:02:59,250 log Unauthorized: /api/admin/
+WARNING 2026-01-10 02:03:06,131 log Unauthorized: /api/admin/
+WARNING 2026-01-10 02:03:06,186 log Not Found: /favicon.ico
+WARNING 2026-01-10 02:03:13,476 log Unauthorized: /api/admin/
+WARNING 2026-01-10 03:19:37,416 log Method Not Allowed: /api/token/
+WARNING 2026-01-10 03:20:38,116 log Unauthorized: /api/admin/
+WARNING 2026-01-10 03:46:12,720 log Unauthorized: /api/accounts/me/
+ERROR 2026-01-10 04:05:47,305 log Internal Server Error: /api/accounts/me/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/accounts/views.py", line 35, in me
+    "id": user.role.id,
+          ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'id'
+WARNING 2026-01-10 04:07:55,618 log Unauthorized: /api/accounts/me/
+ERROR 2026-01-10 04:08:25,673 log Internal Server Error: /api/accounts/me/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/accounts/views.py", line 35, in me
+    "id": user.role.id,
+          ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'id'
+WARNING 2026-01-10 04:19:34,355 log Unauthorized: /api/accounts/me/
+ERROR 2026-01-10 04:41:18,110 log Internal Server Error: /api/accounts/me/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/accounts/views.py", line 35, in me
+    "id": user.role.id,
+          ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'id'
+WARNING 2026-01-10 04:42:05,989 log Unauthorized: /api/accounts/me/
+ERROR 2026-01-10 04:45:44,478 log Internal Server Error: /api/accounts/me/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/accounts/views.py", line 35, in me
+    "id": user.role.id,
+          ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'id'
+ERROR 2026-01-10 04:46:03,684 log Internal Server Error: /api/accounts/me/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/accounts/views.py", line 35, in me
+    "id": user.role.id,
+          ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'id'
+ERROR 2026-01-10 04:53:37,499 log Internal Server Error: /api/accounts/me/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/accounts/views.py", line 35, in me
+    "id": user.role.id,
+          ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'id'
+WARNING 2026-01-10 05:07:34,540 log Unauthorized: /api/accounts/me/
+WARNING 2026-01-10 05:09:27,577 log Unauthorized: /api/token/
+ERROR 2026-01-10 05:14:03,388 log Internal Server Error: /api/admin/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 421, in initial
+    self.check_permissions(request)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 338, in check_permissions
+    if not permission.has_permission(request, self):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/admin/permissions.py", line 32, in has_permission
+    and user.role.name == "System Admin"
+        ^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'name'
+ERROR 2026-01-10 05:14:22,591 log Internal Server Error: /api/admin/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 421, in initial
+    self.check_permissions(request)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 338, in check_permissions
+    if not permission.has_permission(request, self):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/admin/permissions.py", line 32, in has_permission
+    and user.role.name == "System Admin"
+        ^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'name'
+ERROR 2026-01-10 05:14:39,599 log Internal Server Error: /api/admin/users/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 421, in initial
+    self.check_permissions(request)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 338, in check_permissions
+    if not permission.has_permission(request, self):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/admin/permissions.py", line 32, in has_permission
+    and user.role.name == "System Admin"
+        ^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'name'
+ERROR 2026-01-10 05:15:06,404 log Internal Server Error: /api/admin/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 421, in initial
+    self.check_permissions(request)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 338, in check_permissions
+    if not permission.has_permission(request, self):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/admin/permissions.py", line 32, in has_permission
+    and user.role.name == "System Admin"
+        ^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'name'
+ERROR 2026-01-10 05:15:32,382 log Internal Server Error: /api/admin/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 421, in initial
+    self.check_permissions(request)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 338, in check_permissions
+    if not permission.has_permission(request, self):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/admin/permissions.py", line 32, in has_permission
+    and user.role.name == "System Admin"
+        ^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'name'
+WARNING 2026-01-10 05:31:39,838 log Unauthorized: /api/admin/
+WARNING 2026-01-10 05:40:18,093 log Not Found: /api/admin/dashboard/
+WARNING 2026-01-10 05:40:20,105 log Not Found: /api/admin/dashboard/
+WARNING 2026-01-10 05:41:23,049 log Not Found: /api/admin/dashboard/
+WARNING 2026-01-10 05:47:23,340 log Not Found: /api/admin/dashboard/
+WARNING 2026-01-10 05:48:22,781 log Not Found: /api/admin/dashboard/
+WARNING 2026-01-10 05:48:30,696 log Not Found: /api/admin/dashboard/
+WARNING 2026-01-10 05:49:22,586 log Unauthorized: /api/admin/users/
+WARNING 2026-01-10 05:49:25,346 log Unauthorized: /api/admin/roles/
+WARNING 2026-01-10 05:49:27,273 log Unauthorized: /api/admin/settings/
+WARNING 2026-01-10 05:49:34,283 log Unauthorized: /api/admin/settings/
+WARNING 2026-01-10 05:49:37,938 log Unauthorized: /api/admin/permissions-matrix/
+WARNING 2026-01-10 05:49:42,697 log Unauthorized: /api/admin/roles/
+WARNING 2026-01-10 05:49:44,483 log Not Found: /api/admin/dashboard/
+WARNING 2026-01-10 05:57:51,169 log Not Found: /api/admin/audit/
+WARNING 2026-01-10 06:03:00,086 log Unauthorized: /api/admin/dashboard/
+WARNING 2026-01-10 06:04:15,386 log Unauthorized: /api/admin/dashboard/
+WARNING 2026-01-10 06:04:16,518 log Unauthorized: /api/admin/dashboard/
+WARNING 2026-01-10 06:04:16,661 log Unauthorized: /api/admin/dashboard/
+WARNING 2026-01-10 06:04:16,878 log Unauthorized: /api/admin/dashboard/
+ERROR 2026-01-10 06:06:14,469 log Internal Server Error: /api/admin/dashboard/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 421, in initial
+    self.check_permissions(request)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 338, in check_permissions
+    if not permission.has_permission(request, self):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/admin/permissions.py", line 32, in has_permission
+    and user.role.name == "System Admin"
+        ^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'name'
+ERROR 2026-01-10 06:13:24,767 log Internal Server Error: /api/admin/dashboard/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "ICMFS_admin_adminauditlog" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "ICMFS_admin_adminauditlog...
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/admin/views/dashboard.py", line 40, in get
+    analytics = get_dashboard_metrics_cached()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/admin/services/dashboard_service.py", line 55, in get_dashboard_metrics_cached
+    return cached(
+           ^^^^^^^
+  File "/app/apps/admin/services/cache_service.py", line 11, in cached
+    data = fn()
+           ^^^^
+  File "/app/apps/admin/services/dashboard_service.py", line 33, in get_dashboard_metrics
+    "total_logs": AdminAuditLog.objects.count(),
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 606, in count
+    return self.query.get_count(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 644, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 626, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "ICMFS_admin_adminauditlog" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "ICMFS_admin_adminauditlog...
+                                          ^
+
+ERROR 2026-01-10 06:14:55,850 log Internal Server Error: /api/admin/users/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "ICMFS_admin_adminauditlog" does not exist
+LINE 1: INSERT INTO "ICMFS_admin_adminauditlog" ("user_id", "action"...
+                    ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/admin/views/users.py", line 24, in get
+    log_action(
+  File "/app/apps/admin/services/audit.py", line 10, in log_action
+    AdminAuditLog.objects.create(
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 665, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 902, in save
+    self.save_base(
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1008, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1169, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1210, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1873, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "ICMFS_admin_adminauditlog" does not exist
+LINE 1: INSERT INTO "ICMFS_admin_adminauditlog" ("user_id", "action"...
+                    ^
+
+ERROR 2026-01-10 06:14:58,622 log Internal Server Error: /api/admin/roles/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "ICMFS_admin_role" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "ICMFS_admin_role"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/admin/views/roles.py", line 26, in get
+    "count": roles.count(),
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 606, in count
+    return self.query.get_count(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 644, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 626, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "ICMFS_admin_role" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "ICMFS_admin_role"
+                                          ^
+
+ERROR 2026-01-10 06:15:01,013 log Internal Server Error: /api/admin/settings/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "ICMFS_admin_systemsetting" does not exist
+LINE 1: ...d", "ICMFS_admin_systemsetting"."updated_at" FROM "ICMFS_adm...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/admin/views/settings.py", line 83, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 797, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 715, in to_representation
+    return [
+           ^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 386, in __iter__
+    self._fetch_all()
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "ICMFS_admin_systemsetting" does not exist
+LINE 1: ...d", "ICMFS_admin_systemsetting"."updated_at" FROM "ICMFS_adm...
+                                                             ^
+
+ERROR 2026-01-10 06:15:07,030 log Internal Server Error: /api/admin/settings/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "ICMFS_admin_systemsetting" does not exist
+LINE 1: ...d", "ICMFS_admin_systemsetting"."updated_at" FROM "ICMFS_adm...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/admin/views/settings.py", line 83, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 797, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 715, in to_representation
+    return [
+           ^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 386, in __iter__
+    self._fetch_all()
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "ICMFS_admin_systemsetting" does not exist
+LINE 1: ...d", "ICMFS_admin_systemsetting"."updated_at" FROM "ICMFS_adm...
+                                                             ^
+
+ERROR 2026-01-10 06:15:10,519 log Internal Server Error: /api/admin/permissions-matrix/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "ICMFS_admin_permissionmatrix" does not exist
+LINE 1: ...min_permissionmatrix"."allowed" AS "allowed" FROM "ICMFS_adm...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/admin/views/permissions_matrix.py", line 14, in get
+    data = list(
+           ^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 386, in __iter__
+    self._fetch_all()
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 218, in __iter__
+    for row in compiler.results_iter(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1572, in results_iter
+    results = self.execute_sql(
+              ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "ICMFS_admin_permissionmatrix" does not exist
+LINE 1: ...min_permissionmatrix"."allowed" AS "allowed" FROM "ICMFS_adm...
+                                                             ^
+
+WARNING 2026-01-10 06:25:34,230 log Unauthorized: /api/token/
+WARNING 2026-01-10 06:25:35,300 log Unauthorized: /api/token/
+WARNING 2026-01-10 06:25:35,512 log Unauthorized: /api/token/
+WARNING 2026-01-10 06:25:35,694 log Unauthorized: /api/token/
+ERROR 2026-01-10 06:27:11,898 log Internal Server Error: /api/admin/dashboard/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "ICMFS_admin_adminauditlog" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "ICMFS_admin_adminauditlog...
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/admin/views/dashboard.py", line 40, in get
+    analytics = get_dashboard_metrics_cached()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/admin/services/dashboard_service.py", line 55, in get_dashboard_metrics_cached
+    return cached(
+           ^^^^^^^
+  File "/app/apps/admin/services/cache_service.py", line 11, in cached
+    data = fn()
+           ^^^^
+  File "/app/apps/admin/services/dashboard_service.py", line 33, in get_dashboard_metrics
+    "total_logs": AdminAuditLog.objects.count(),
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 606, in count
+    return self.query.get_count(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 644, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 626, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "ICMFS_admin_adminauditlog" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "ICMFS_admin_adminauditlog...
+                                          ^
+
+ERROR 2026-01-10 06:27:22,662 log Internal Server Error: /api/admin/permissions-matrix/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "ICMFS_admin_permissionmatrix" does not exist
+LINE 1: ...min_permissionmatrix"."allowed" AS "allowed" FROM "ICMFS_adm...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/admin/views/permissions_matrix.py", line 14, in get
+    data = list(
+           ^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 386, in __iter__
+    self._fetch_all()
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 218, in __iter__
+    for row in compiler.results_iter(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1572, in results_iter
+    results = self.execute_sql(
+              ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "ICMFS_admin_permissionmatrix" does not exist
+LINE 1: ...min_permissionmatrix"."allowed" AS "allowed" FROM "ICMFS_adm...
+                                                             ^
+
+ERROR 2026-01-10 06:27:24,859 log Internal Server Error: /api/admin/audit/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "ICMFS_admin_adminauditlog" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "ICMFS_admin_adminauditlog...
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/admin/views/audit_logs.py", line 33, in get
+    page = paginator.paginate_queryset(queryset, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/pagination.py", line 394, in paginate_queryset
+    self.count = self.get_count(queryset)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/pagination.py", line 529, in get_count
+    return queryset.count()
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 606, in count
+    return self.query.get_count(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 644, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 626, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "ICMFS_admin_adminauditlog" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "ICMFS_admin_adminauditlog...
+                                          ^
+
+ERROR 2026-01-10 06:27:29,950 log Internal Server Error: /api/admin/settings/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "ICMFS_admin_systemsetting" does not exist
+LINE 1: ...d", "ICMFS_admin_systemsetting"."updated_at" FROM "ICMFS_adm...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/admin/views/settings.py", line 83, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 797, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 715, in to_representation
+    return [
+           ^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 386, in __iter__
+    self._fetch_all()
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "ICMFS_admin_systemsetting" does not exist
+LINE 1: ...d", "ICMFS_admin_systemsetting"."updated_at" FROM "ICMFS_adm...
+                                                             ^
+
+ERROR 2026-01-10 06:27:31,917 log Internal Server Error: /api/admin/roles/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "ICMFS_admin_role" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "ICMFS_admin_role"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/admin/views/roles.py", line 26, in get
+    "count": roles.count(),
+             ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 606, in count
+    return self.query.get_count(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 644, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 626, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "ICMFS_admin_role" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "ICMFS_admin_role"
+                                          ^
+
+ERROR 2026-01-10 06:27:34,293 log Internal Server Error: /api/admin/users/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "ICMFS_admin_adminauditlog" does not exist
+LINE 1: INSERT INTO "ICMFS_admin_adminauditlog" ("user_id", "action"...
+                    ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/admin/views/users.py", line 24, in get
+    log_action(
+  File "/app/apps/admin/services/audit.py", line 10, in log_action
+    AdminAuditLog.objects.create(
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 665, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 902, in save
+    self.save_base(
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1008, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1169, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1210, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1873, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "ICMFS_admin_adminauditlog" does not exist
+LINE 1: INSERT INTO "ICMFS_admin_adminauditlog" ("user_id", "action"...
+                    ^
+
+ERROR 2026-01-10 06:27:35,680 log Internal Server Error: /api/admin/dashboard/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "ICMFS_admin_adminauditlog" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "ICMFS_admin_adminauditlog...
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/admin/views/dashboard.py", line 40, in get
+    analytics = get_dashboard_metrics_cached()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/admin/services/dashboard_service.py", line 55, in get_dashboard_metrics_cached
+    return cached(
+           ^^^^^^^
+  File "/app/apps/admin/services/cache_service.py", line 11, in cached
+    data = fn()
+           ^^^^
+  File "/app/apps/admin/services/dashboard_service.py", line 33, in get_dashboard_metrics
+    "total_logs": AdminAuditLog.objects.count(),
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 606, in count
+    return self.query.get_count(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 644, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 626, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "ICMFS_admin_adminauditlog" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "ICMFS_admin_adminauditlog...
+                                          ^
+
+ERROR 2026-01-10 06:27:38,768 log Internal Server Error: /api/admin/audit/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "ICMFS_admin_adminauditlog" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "ICMFS_admin_adminauditlog...
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/admin/views/audit_logs.py", line 33, in get
+    page = paginator.paginate_queryset(queryset, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/pagination.py", line 394, in paginate_queryset
+    self.count = self.get_count(queryset)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/pagination.py", line 529, in get_count
+    return queryset.count()
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 606, in count
+    return self.query.get_count(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 644, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 626, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "ICMFS_admin_adminauditlog" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "ICMFS_admin_adminauditlog...
+                                          ^
+
+WARNING 2026-01-10 06:30:42,226 log Unauthorized: /api/admin/audit/
+ERROR 2026-01-10 06:32:02,327 log Internal Server Error: /api/admin/audit/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "ICMFS_admin_adminauditlog" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "ICMFS_admin_adminauditlog...
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/admin/views/audit_logs.py", line 33, in get
+    page = paginator.paginate_queryset(queryset, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/pagination.py", line 394, in paginate_queryset
+    self.count = self.get_count(queryset)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/pagination.py", line 529, in get_count
+    return queryset.count()
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 606, in count
+    return self.query.get_count(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 644, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 626, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "ICMFS_admin_adminauditlog" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "ICMFS_admin_adminauditlog...
+                                          ^
+
+ERROR 2026-01-10 06:43:29,143 log Internal Server Error: /api/admin/audit/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "ICMFS_admin_adminauditlog" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "ICMFS_admin_adminauditlog...
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/admin/views/audit_logs.py", line 33, in get
+    page = paginator.paginate_queryset(queryset, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/pagination.py", line 394, in paginate_queryset
+    self.count = self.get_count(queryset)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/pagination.py", line 529, in get_count
+    return queryset.count()
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 606, in count
+    return self.query.get_count(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 644, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 626, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "ICMFS_admin_adminauditlog" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "ICMFS_admin_adminauditlog...
+                                          ^
+
+WARNING 2026-01-10 06:59:15,711 log Unauthorized: /api/admin/audit/
+WARNING 2026-01-10 06:59:16,664 log Unauthorized: /api/admin/audit/
+WARNING 2026-01-10 06:59:16,894 log Unauthorized: /api/admin/audit/
+WARNING 2026-01-10 06:59:17,029 log Unauthorized: /api/admin/audit/
+WARNING 2026-01-10 06:59:17,256 log Unauthorized: /api/admin/audit/
+WARNING 2026-01-10 06:59:17,430 log Unauthorized: /api/admin/audit/
+WARNING 2026-01-10 06:59:17,643 log Unauthorized: /api/admin/audit/
+WARNING 2026-01-10 06:59:17,779 log Unauthorized: /api/admin/audit/
+WARNING 2026-01-10 06:59:18,001 log Unauthorized: /api/admin/audit/
+WARNING 2026-01-10 06:59:21,765 log Unauthorized: /api/admin/settings/
+WARNING 2026-01-10 06:59:24,787 log Unauthorized: /api/admin/audit/
+WARNING 2026-01-10 06:59:27,903 log Unauthorized: /api/admin/settings/
+WARNING 2026-01-10 06:59:33,071 log Unauthorized: /api/admin/permissions-matrix/
+WARNING 2026-01-10 06:59:36,156 log Unauthorized: /api/admin/permissions-matrix/
+WARNING 2026-01-10 06:59:37,018 log Unauthorized: /api/admin/permissions-matrix/
+WARNING 2026-01-10 06:59:37,213 log Unauthorized: /api/admin/permissions-matrix/
+WARNING 2026-01-10 06:59:37,423 log Unauthorized: /api/admin/permissions-matrix/
+WARNING 2026-01-10 06:59:37,576 log Unauthorized: /api/admin/permissions-matrix/
+WARNING 2026-01-10 06:59:37,768 log Unauthorized: /api/admin/permissions-matrix/
+WARNING 2026-01-10 06:59:38,023 log Unauthorized: /api/admin/permissions-matrix/
+WARNING 2026-01-10 06:59:38,140 log Unauthorized: /api/admin/permissions-matrix/
+WARNING 2026-01-10 06:59:38,356 log Unauthorized: /api/admin/permissions-matrix/
+WARNING 2026-01-10 06:59:38,511 log Unauthorized: /api/admin/permissions-matrix/
+WARNING 2026-01-10 06:59:57,135 log Unauthorized: /api/admin/permissions-matrix/
+WARNING 2026-01-10 06:59:57,962 log Unauthorized: /api/admin/permissions-matrix/
+WARNING 2026-01-10 06:59:58,106 log Unauthorized: /api/admin/permissions-matrix/
+WARNING 2026-01-10 06:59:58,313 log Unauthorized: /api/admin/permissions-matrix/
+WARNING 2026-01-10 06:59:58,479 log Unauthorized: /api/admin/permissions-matrix/
+WARNING 2026-01-10 06:59:58,630 log Unauthorized: /api/admin/permissions-matrix/
+WARNING 2026-01-10 06:59:58,803 log Unauthorized: /api/admin/permissions-matrix/
+WARNING 2026-01-10 06:59:58,940 log Unauthorized: /api/admin/permissions-matrix/
+WARNING 2026-01-10 06:59:59,158 log Unauthorized: /api/admin/permissions-matrix/
+WARNING 2026-01-10 06:59:59,289 log Unauthorized: /api/admin/permissions-matrix/
+WARNING 2026-01-10 06:59:59,473 log Unauthorized: /api/admin/permissions-matrix/
+WARNING 2026-01-10 07:00:01,247 log Unauthorized: /api/admin/dashboard/
+WARNING 2026-01-10 07:00:03,313 log Unauthorized: /api/admin/dashboard/
+WARNING 2026-01-10 07:00:04,152 log Unauthorized: /api/admin/dashboard/
+WARNING 2026-01-10 07:00:04,323 log Unauthorized: /api/admin/dashboard/
+WARNING 2026-01-10 07:00:05,948 log Unauthorized: /api/admin/users/
+WARNING 2026-01-10 07:00:07,789 log Unauthorized: /api/admin/roles/
+WARNING 2026-01-10 07:00:09,419 log Unauthorized: /api/admin/settings/
+WARNING 2026-01-10 07:00:11,178 log Unauthorized: /api/admin/audit/
+WARNING 2026-01-10 07:00:14,573 log Unauthorized: /api/admin/permissions-matrix/
+WARNING 2026-01-10 07:00:43,114 log Unauthorized: /api/admin/audit/
+WARNING 2026-01-10 07:01:29,569 log Unauthorized: /api/admin/users/
+WARNING 2026-01-10 07:01:33,659 log Unauthorized: /api/admin/audit/
+WARNING 2026-01-10 07:01:41,099 log Unauthorized: /api/admin/users/
+ERROR 2026-01-10 07:02:21,083 log Internal Server Error: /api/admin/dashboard/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/admin/views/dashboard.py", line 47, in get
+    "analytics": filter_metrics_for_role(analytics, role_name),
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: filter_metrics_for_role() missing 1 required positional argument: 'role_name'
+ERROR 2026-01-10 07:04:18,101 log Internal Server Error: /api/admin/dashboard/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/admin/views/dashboard.py", line 47, in get
+    "analytics": filter_metrics_for_role(analytics, role_name),
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: filter_metrics_for_role() missing 1 required positional argument: 'role_name'
+ERROR 2026-01-10 07:05:08,891 log Internal Server Error: /api/admin/dashboard/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/admin/views/dashboard.py", line 47, in get
+    "analytics": filter_metrics_for_role(analytics, role_name),
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: filter_metrics_for_role() missing 1 required positional argument: 'role_name'
+ERROR 2026-01-10 07:05:39,001 log Internal Server Error: /api/admin/dashboard/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/admin/views/dashboard.py", line 47, in get
+    "analytics": filter_metrics_for_role(analytics, role_name),
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: filter_metrics_for_role() missing 1 required positional argument: 'role_name'
+ERROR 2026-01-10 07:05:50,335 log Internal Server Error: /api/admin/dashboard/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/admin/views/dashboard.py", line 47, in get
+    "analytics": filter_metrics_for_role(analytics, role_name),
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: filter_metrics_for_role() missing 1 required positional argument: 'role_name'
+WARNING 2026-01-10 07:06:02,269 log Unauthorized: /api/accounts/me/
+WARNING 2026-01-10 07:06:02,337 log Not Found: /favicon.ico
+WARNING 2026-01-14 10:31:18,674 log Not Found: /favicon.ico
+WARNING 2026-01-14 10:32:00,658 log Unauthorized: /api/accounts/me/
+WARNING 2026-01-14 10:32:42,510 log Method Not Allowed: /api/accounts/register/
+WARNING 2026-01-14 10:33:10,211 log Method Not Allowed: /api/accounts/login/
+WARNING 2026-01-14 10:33:34,835 log Unauthorized: /api/progress/
+WARNING 2026-01-14 10:34:07,767 log Unauthorized: /api/projects/
+WARNING 2026-01-14 10:34:24,776 log Not Found: /api/projects/list/
+WARNING 2026-01-14 10:34:36,713 log Unauthorized: /api/projects/wbs/
+WARNING 2026-01-14 10:35:03,075 log Unauthorized: /api/finance/
+WARNING 2026-01-14 10:36:09,466 log Unauthorized: /api/qa/
+WARNING 2026-01-14 10:36:37,962 log Unauthorized: /api/admin/
+WARNING 2026-01-14 10:37:00,585 log Unauthorized: /api/admin/users/
+WARNING 2026-01-14 10:37:13,736 log Unauthorized: /api/admin/roles/
+WARNING 2026-01-14 10:37:28,521 log Not Found: /api/admin/permission/
+WARNING 2026-01-14 10:37:40,411 log Not Found: /api/admin/permissionsmatrix/
+WARNING 2026-01-14 10:37:52,573 log Unauthorized: /api/admin/
+ERROR 2026-01-14 10:38:40,684 log Internal Server Error: /api/admin/dashboard/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/admin/views/dashboard.py", line 47, in get
+    "analytics": filter_metrics_for_role(analytics, role_name),
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: filter_metrics_for_role() missing 1 required positional argument: 'role_name'
+WARNING 2026-01-14 15:37:44,734 log Not Found: /favicon.ico
+WARNING 2026-01-14 15:37:59,156 log Method Not Allowed: /api/accounts/register/
+WARNING 2026-01-14 15:37:59,237 log Not Found: /favicon.ico
+WARNING 2026-01-14 15:38:15,040 log Unauthorized: /api/accounts/me/
+WARNING 2026-01-14 15:38:15,128 log Not Found: /favicon.ico
+WARNING 2026-01-14 15:38:35,522 log Unauthorized: /api/progress/
+WARNING 2026-01-14 15:38:35,623 log Not Found: /favicon.ico
+WARNING 2026-01-14 15:39:24,327 log Unauthorized: /api/projects/
+WARNING 2026-01-14 15:39:24,420 log Not Found: /favicon.ico
+WARNING 2026-01-14 15:39:31,328 log Unauthorized: /api/projects/wbs/
+WARNING 2026-01-14 15:39:31,422 log Not Found: /favicon.ico
+WARNING 2026-01-14 15:40:09,126 log Unauthorized: /api/admin/
+WARNING 2026-01-14 15:40:09,218 log Not Found: /favicon.ico
+WARNING 2026-01-14 15:40:20,171 log Unauthorized: /api/admin/users/
+WARNING 2026-01-14 15:40:20,259 log Not Found: /favicon.ico
+WARNING 2026-01-14 15:40:33,297 log Unauthorized: /api/admin/roles/
+WARNING 2026-01-14 15:40:33,383 log Not Found: /favicon.ico
+ERROR 2026-01-14 15:41:09,794 log Internal Server Error: /api/admin/dashboard/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/admin/views/dashboard.py", line 47, in get
+    "analytics": filter_metrics_for_role(analytics, role_name),
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: filter_metrics_for_role() missing 1 required positional argument: 'role_name'
+WARNING 2026-01-17 08:17:03,547 log Not Found: /
+WARNING 2026-01-17 08:17:06,875 log Not Found: /
+WARNING 2026-01-17 08:17:08,423 log Not Found: /
+WARNING 2026-01-17 08:17:09,216 log Not Found: /
+WARNING 2026-01-17 08:17:09,454 log Not Found: /
+WARNING 2026-01-17 08:17:09,686 log Not Found: /

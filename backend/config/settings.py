@@ -1,111 +1,62 @@
 """
-Django settings for config project.
+Django settings for ICMFS project.
 """
 
 from pathlib import Path
 import os
-from datetime import timedelta  # Import for future REST framework settings (JWT)
+from datetime import timedelta
 
 from dotenv import load_dotenv
+
 # --------------------------------------------------
 # BASE DIRECTORY
 # --------------------------------------------------
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 load_dotenv(BASE_DIR / ".env")
+
 # --------------------------------------------------
 # SECURITY
 # --------------------------------------------------
-# SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", "unsafe-dev-secret-key")
 
-# SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv("DEBUG", "1") == "1"
 
-ALLOWED_HOSTS = ["*"]  # Allows access from Docker containers and host
+ALLOWED_HOSTS = ["*"]
+USE_X_FORWARDED_HOST = True
 
 # --------------------------------------------------
 # APPLICATION DEFINITION
 # --------------------------------------------------
 INSTALLED_APPS = [
+    # Django core
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    # Project apps (EXPLICIT PATHS
+
+    # Third-party
+    "rest_framework",
+    "drf_spectacular",
+    "corsheaders",
+
+    # Project apps
+    "apps.admin.apps.AdminConfig",   # ✅ custom admin (unique label)
     "apps.accounts",
     "apps.projects",
     "apps.progress",
     "apps.finance",
     "apps.qa",
     "apps.notifications",
-    "apps.admin_panel.apps.AdminPanelConfig",
-]
-
-INSTALLED_APPS += [
-    "rest_framework",
-    "drf_spectacular",
-]
-
-from datetime import timedelta
-
-REST_FRAMEWORK = {
-    "DEFAULT_VERSIONING_CLASS": "rest_framework.versioning.NamespaceVersioning",
-    "DEFAULT_VERSION": "v1",
-    "ALLOWED_VERSIONS": ["v1"],
-    "DEFAULT_AUTHENTICATION_CLASSES": (
-        "rest_framework_simplejwt.authentication.JWTAuthentication",
-    ),
-}
-
-
-REST_FRAMEWORK["DEFAULT_SCHEMA_CLASS"] = "drf_spectacular.openapi.AutoSchema"
-
-SPECTACULAR_SETTINGS = {
-    "TITLE": "ICMFS Backend API",
-    "DESCRIPTION": "Admin, Finance, QA, Projects, Notifications",
-    "VERSION": "1.0.0",
-}
-
-
-SIMPLE_JWT = {
-    "ACCESS_TOKEN_LIFETIME": timedelta(minutes=15),
-    "REFRESH_TOKEN_LIFETIME": timedelta(days=1),
-}
-
-
-LOGGING = {
-    "version": 1,
-    "disable_existing_loggers": False,
-    "handlers": {
-        "console": {"class": "logging.StreamHandler"},
-    },
-    "loggers": {
-        "admin_audit": {
-            "handlers": ["console"],
-            "level": "INFO",
-        },
-    },
-}
-
-
-# --------------------------------------------------
-# USER AUTHENTICATION
-# --------------------------------------------------
-# Must be set before running initial migrate.
-AUTH_USER_MODEL = "accounts.User"
-
-AUTHENTICATION_BACKENDS = [
-    "django.contrib.auth.backends.ModelBackend",
 ]
 
 # --------------------------------------------------
 # MIDDLEWARE
 # --------------------------------------------------
 MIDDLEWARE = [
-    "corsheaders.middleware.CorsMiddleware",  # Must be first for CORS
+    "corsheaders.middleware.CorsMiddleware",
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
@@ -117,15 +68,9 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = "config.urls"
 
-
-REST_FRAMEWORK = {
-    "DEFAULT_AUTHENTICATION_CLASSES": (
-        "rest_framework.authentication.SessionAuthentication",
-    ),
-    "DEFAULT_PERMISSION_CLASSES": ("rest_framework.permissions.IsAuthenticated",),
-}
-
-
+# --------------------------------------------------
+# TEMPLATES
+# --------------------------------------------------
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
@@ -145,7 +90,7 @@ TEMPLATES = [
 WSGI_APPLICATION = "config.wsgi.application"
 
 # --------------------------------------------------
-# DATABASE (POSTGRESQL via Docker)
+# DATABASE (POSTGRES – Docker)
 # --------------------------------------------------
 DATABASES = {
     "default": {
@@ -159,7 +104,49 @@ DATABASES = {
 }
 
 # --------------------------------------------------
-# REDIS CONFIGURATION (Cache/Celery)
+# AUTH / USERS
+# --------------------------------------------------
+AUTH_USER_MODEL = "accounts.User"
+
+AUTHENTICATION_BACKENDS = [
+    "django.contrib.auth.backends.ModelBackend",
+]
+
+# --------------------------------------------------
+# DJANGO REST FRAMEWORK (SINGLE SOURCE)
+# --------------------------------------------------
+REST_FRAMEWORK = {
+    "DEFAULT_AUTHENTICATION_CLASSES": (
+        "rest_framework_simplejwt.authentication.JWTAuthentication",
+        "rest_framework.authentication.SessionAuthentication",
+    ),
+    "DEFAULT_PERMISSION_CLASSES": (
+        "rest_framework.permissions.IsAuthenticated",
+    ),
+    "DEFAULT_VERSIONING_CLASS": "rest_framework.versioning.NamespaceVersioning",
+    "DEFAULT_VERSION": "v1",
+    "ALLOWED_VERSIONS": ["v1"],
+}
+
+# --------------------------------------------------
+# JWT
+# --------------------------------------------------
+SIMPLE_JWT = {
+    "ACCESS_TOKEN_LIFETIME": timedelta(minutes=15),
+    "REFRESH_TOKEN_LIFETIME": timedelta(days=1),
+}
+
+# --------------------------------------------------
+# API DOCUMENTATION
+# --------------------------------------------------
+SPECTACULAR_SETTINGS = {
+    "TITLE": "ICMFS Backend API",
+    "DESCRIPTION": "Admin, Finance, QA, Projects, Notifications",
+    "VERSION": "1.0.0",
+}
+
+# --------------------------------------------------
+# REDIS / CACHE
 # --------------------------------------------------
 REDIS_HOST = os.getenv("REDIS_HOST", "redis")
 REDIS_PORT = os.getenv("REDIS_PORT", "6379")
@@ -167,7 +154,6 @@ REDIS_PASSWORD = os.getenv("REDIS_PASSWORD", "")
 
 REDIS_URL = f"redis://:{REDIS_PASSWORD}@{REDIS_HOST}:{REDIS_PORT}/0"
 
-# OPTIONAL: DJANGO CACHE USING REDIS
 CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",
@@ -182,18 +168,10 @@ CACHES = {
 # PASSWORD VALIDATION
 # --------------------------------------------------
 AUTH_PASSWORD_VALIDATORS = [
-    {
-        "NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator",
-    },
-    {
-        "NAME": "django.contrib.auth.password_validation.MinimumLengthValidator",
-    },
-    {
-        "NAME": "django.contrib.auth.password_validation.CommonPasswordValidator",
-    },
-    {
-        "NAME": "django.contrib.auth.password_validation.NumericPasswordValidator",
-    },
+    {"NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator"},
+    {"NAME": "django.contrib.auth.password_validation.MinimumLengthValidator"},
+    {"NAME": "django.contrib.auth.password_validation.CommonPasswordValidator"},
+    {"NAME": "django.contrib.auth.password_validation.NumericPasswordValidator"},
 ]
 
 # --------------------------------------------------
@@ -210,40 +188,19 @@ USE_TZ = True
 STATIC_URL = "/static/"
 STATIC_ROOT = BASE_DIR / "staticfiles"
 
-# --------------------------------------------------
-# DEFAULT PRIMARY KEY FIELD
-# --------------------------------------------------
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-
-
-ALLOWED_HOSTS = ["*"]
-USE_X_FORWARDED_HOST = True
-
-
 # --------------------------------------------------
-# CORS CONFIGURATION (Frontend Access)
+# CORS
 # --------------------------------------------------
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
 
 # --------------------------------------------------
-# SAFETY CHECKS (FAIL FAST)
+# LOGGING (SINGLE SOURCE)
 # --------------------------------------------------
-required_envs = ["DB_NAME", "DB_USER", "DB_PASSWORD", "DB_HOST", "DB_PORT"]
-
-missing = [env for env in required_envs if not os.getenv(env)]
-if missing:
-    raise RuntimeError(f"Missing required environment variables: {missing}")
-
-
-import os
-
-BASE_DIR = Path(__file__).resolve().parent.parent
-
 LOG_DIR = BASE_DIR / "logs"
 LOG_DIR.mkdir(exist_ok=True)
-
 
 LOGGING = {
     "version": 1,
@@ -270,3 +227,12 @@ LOGGING = {
         "level": "INFO",
     },
 }
+
+# --------------------------------------------------
+# FAIL FAST – REQUIRED ENV VARS
+# --------------------------------------------------
+required_envs = ["DB_NAME", "DB_USER", "DB_PASSWORD", "DB_HOST", "DB_PORT"]
+missing = [env for env in required_envs if not os.getenv(env)]
+
+if missing:
+    raise RuntimeError(f"Missing required environment variables: {missing}")

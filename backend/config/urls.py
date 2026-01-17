@@ -14,21 +14,11 @@ def health(request):
 
 
 urlpatterns = [
-    path(
-        "api/v1/",
-        include(
-            [
-                path("admin/", admin.site.urls),
-                path("projects/", include("apps.projects.urls")),
-                path("finance/", include("apps.finance.urls")),
-                path("api/progress/", include("apps.progress.urls")),
-                path("api/accounts/", include("apps.accounts.urls")),
-                path("qa/", include("apps.qa.urls")),
-                path("notifications/", include("apps.notifications.urls")),
-            ]
-        ),
-    ),
-    path("admin/", admin.site.urls),
+  
+    
+    # path("admin/", admin.site.urls),
+    path("api/admin/", include("apps.admin.urls")),
+
     path("api/schema/", SpectacularAPIView.as_view(), name="schema"),
     path("api/docs/", SpectacularSwaggerView.as_view(url_name="schema")),
     path("api/token/", TokenObtainPairView.as_view(), name="token_obtain_pair"),

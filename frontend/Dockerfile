@@ -1,19 +1,18 @@
 FROM node:20-alpine
 
-# Set working directory
 WORKDIR /app
 
-# Copy dependency files first
+# Copy package files
 COPY package*.json ./
 
-# Install dependencies
-RUN npm install
+# Install dependencies with legacy peer deps
+RUN npm install --legacy-peer-deps
 
-# Copy Vue source code
+# Copy the rest of the application
 COPY . .
 
-# Vite default port
+# Expose port
 EXPOSE 5173
 
-# Start Vue dev server
+# Start the development server
 CMD ["npm", "run", "dev", "--", "--host"]

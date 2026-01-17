@@ -18,16 +18,22 @@ def health(request):
     )
 
 
+
+
 @api_view(["GET"])
 @permission_classes([IsAuthenticated])
 def me(request):
+    user = request.user
+
     return Response({
-        "id": request.user.id,
-        "username": request.user.username,
-        "email": request.user.email,
-        "is_staff": request.user.is_staff,
-        "is_superuser": request.user.is_superuser,
+        "id": user.id,
+        "username": user.username,
+        "email": user.email,
+        "role": user.role,               # ✅ STRING
+        "is_staff": user.is_staff,
+        "is_superuser": user.is_superuser,
     })
+
 
 
 
