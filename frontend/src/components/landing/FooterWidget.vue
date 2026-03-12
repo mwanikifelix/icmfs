@@ -20,7 +20,7 @@
                             />
                         </g>
                     </svg>
-                    <h4 class="font-medium text-3xl text-surface-900 dark:text-surface-0">SAKAI</h4>
+                    <h4 class="font-medium text-3xl text-surface-900 dark:text-surface-0">BREEZELAB DYNAMICS</h4>
                 </a>
             </div>
 
@@ -56,8 +56,36 @@
                         <a class="leading-normal text-xl block cursor-pointer mb-2 text-surface-700 dark:text-surface-100">Privacy Policy</a>
                         <a class="leading-normal text-xl block cursor-pointer text-surface-700 dark:text-surface-100">Terms of Service</a>
                     </div>
+
+                    <div class="col-12 md:col-2 mb-4">
+                         <h4 class="font-semibold mb-3">Quick Links</h4>
+                         <ul class="list-none p-0">
+                         <li class="mb-2"><router-link to="/" class="text-300 hover:text-white no-underline">Home</router-link></li>
+                         <li class="mb-2"><router-link to="/about" class="text-300 hover:text-white no-underline">About</router-link></li>
+                         <li class="mb-2"><router-link to="/contact" class="text-300 hover:text-white no-underline">Contact</router-link></li>
+                         </ul>
+                    </div>
+
+                    <div class="col-12 md:col-2 mb-4">
+                        <h4 class="font-semibold mb-3">Features</h4>
+                        <ul class="list-none p-0">
+                        <li class="mb-2"><span class="text-300">Projects</span></li>
+                        <li class="mb-2"><span class="text-300">Finance</span></li>
+                        <li class="mb-2"><span class="text-300">M-Pesa Payments</span></li>
+                        <li class="mb-2"><span class="text-300">AI Insights</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 md:col-4 mb-4">
+                        <h4 class="font-semibold mb-3">Contact</h4>
+                        <p class="text-300 mb-2"><i class="pi pi-envelope mr-2"></i> info@icmfs.go.ke</p>
+                        <p class="text-300 mb-2"><i class="pi pi-phone mr-2"></i> +254 740741594</p>
+                        <p class="text-300"><i class="pi pi-map-marker mr-2"></i> Mombasa, Kenya</p>
+                    </div>
+                    </div>
+                    <div class="border-top-1 border-700 pt-4 text-center">
+                        <p class="text-300">&copy; 2026 ICMFS. All rights reserved. | breezelab dynamics</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 </template>

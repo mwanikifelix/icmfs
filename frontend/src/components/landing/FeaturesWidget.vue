@@ -3,7 +3,7 @@
         <div class="grid grid-cols-12 gap-4 justify-center">
             <div class="col-span-12 text-center mt-20 mb-6">
                 <div class="text-surface-900 dark:text-surface-0 font-normal mb-2 text-4xl">Marvelous Features</div>
-                <span class="text-muted-color text-2xl">Placerat in egestas erat...</span>
+                <span class="text-muted-color text-2xl">BREEZELAB</span>
             </div>
 
             <div class="col-span-12 md:col-span-12 lg:col-span-4 p-0 lg:pr-8 lg:pb-8 mt-6 lg:mt-0">
@@ -12,8 +12,8 @@
                         <div class="flex items-center justify-center bg-yellow-200 mb-4" style="width: 3.5rem; height: 3.5rem; border-radius: 10px">
                             <i class="pi pi-fw pi-users text-2xl! text-yellow-700"></i>
                         </div>
-                        <h5 class="mb-2 text-surface-900 dark:text-surface-0">Easy to Use</h5>
-                        <span class="text-surface-600 dark:text-surface-200">Posuere morbi leo urna molestie.</span>
+                        <h5 class="mb-2 text-surface-900 dark:text-surface-0">Powerful Features</h5>
+                        <span class="text-surface-600 dark:text-surface-200">Everything you need for construction project management in Kenya.</span>
                     </div>
                 </div>
             </div>
@@ -118,15 +118,71 @@
                 class="col-span-12 mt-20 mb-20 p-2 md:p-20"
                 style="border-radius: 20px; background: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), radial-gradient(77.36% 256.97% at 77.36% 57.52%, #efe1af 0%, #c3dcfa 100%)"
             >
-                <div class="flex flex-col justify-center items-center text-center px-4 py-4 md:py-0">
-                    <div class="text-gray-900 mb-2 text-3xl font-semibold">Joséphine Miller</div>
-                    <span class="text-gray-600 text-2xl">Peak Interactive</span>
-                    <p class="text-gray-900 sm:line-height-2 md:line-height-4 text-2xl mt-6" style="max-width: 800px">
-                        “Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”
-                    </p>
-                    <img src="/demo/images/landing/peak-logo.svg" class="mt-6" alt="Company logo" />
-                </div>
+            <div class="flex flex-col justify-center items-center text-center px-4 py-4 md:py-0">
+                <div class="text-gray-900 mb-2 text-3xl font-semibold">Joséphine Miller</div>
+                <span class="text-gray-600 text-2xl">Peak Interactive</span>
+                <p class="text-gray-900 sm:line-height-2 md:line-height-4 text-2xl mt-6" style="max-width: 800px">
+                     “Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”
+                </p>
+                <img src="/demo/images/landing/peak-logo.svg" class="mt-6" alt="Company logo" />
+            </div>
+
+               
+            <div 
+                v-for="feature in features" 
+                :key="feature.title" 
+                 class="col-12 md:col-4" >
+       
+            <div class="surface-card p-4 border-round shadow-2 h-full">
+            <div 
+                class="flex align-items-center justify-content-center bg-blue-100 border-round mb-3" 
+                style="width: 3rem; height: 3rem">
+            
+                <i :class="feature.icon" class="text-blue-500 text-2xl"></i>
+            </div>
+                <h3 class="text-xl font-semibold text-900 mb-2">{{ feature.title }}</h3>
+                <p class="text-600 line-height-3">{{ feature.description }}</p>
+            </div>
+            </div>
             </div>
         </div>
     </div>
 </template>
+
+
+<script setup>
+import { ref } from 'vue'
+
+const features = ref([
+  {
+    icon: 'pi pi-building',
+    title: 'Multi-Region Projects',
+    description: 'Manage construction projects across Nairobi, Mombasa, Kisumu and all regions of Kenya'
+  },
+  {
+    icon: 'pi pi-mobile',
+    title: 'M-Pesa Integration',
+    description: 'Seamless mobile money payments for suppliers, contractors and all stakeholders'
+  },
+  {
+    icon: 'pi pi-chart-line',
+    title: 'Real-time Progress',
+    description: 'Track project progress with EVM analysis, daily reports and performance trends'
+  },
+  {
+    icon: 'pi pi-dollar',
+    title: 'Financial Management',
+    description: 'Complete budget tracking, expense management and payment approvals'
+  },
+  {
+    icon: 'pi pi-verified',
+    title: 'Quality Assurance',
+    description: 'QA inspections, certifications and compliance management for all projects'
+  },
+  {
+    icon: 'pi pi-sparkles',
+    title: 'AI-Powered Insights',
+    description: 'Predictive analytics, risk detection and intelligent recommendations'
+  }
+])
+</script>

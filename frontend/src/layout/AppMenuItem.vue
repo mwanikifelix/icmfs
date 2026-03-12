@@ -51,7 +51,6 @@ const itemClick = (event, item) => {
 
 const onMouseEnter = () => {
     if (isDesktop() && props.root && props.item.items && layoutState.menuHoverActive) {
-        layoutState.activePath = fullPath.value;
     }
 };
 </script>

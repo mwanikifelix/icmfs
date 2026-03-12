@@ -1,5 +1,4 @@
 services:
-
   backend:
     user: "${UID:-1000}:${GID:-1000}"
     container_name: icmfs_backend
@@ -7,106 +6,48 @@ services:
       context: ./backend
     command: >
       sh -c "
-      python manage.py migrate &&
-      python manage.py runserver 0.0.0.0:3000
+        python manage.py migrate &&
+        python manage.py runserver 0.0.0.0:3000
       "
     volumes:
       - ./backend:/app
     ports:
-      - "90:3000"
-    depends_on:
-      - postgresql
-      - redis
+      - "97:3000"
     environment:
       DEBUG: "1"
       DJANGO_SECRET_KEY: dev-secret-key
       DB_NAME: icmfs_db
       DB_USER: root
-      DB_PASSWORD: root
-      DB_HOST: postgresql
+      DB_PASSWORD: feloo
+      DB_HOST: postgres  # Use 'postgres' not 'postgresql' - matches your existing container
       DB_PORT: 5432
-      REDIS_HOST: redis
+      REDIS_HOST: redis-stack  # Use 'redis-stack' - matches your existing container
       REDIS_PORT: 6379
-      REDIS_PASSWORD: root
+      REDIS_PASSWORD: feloo
     networks:
       shared:
-          ipv4_address: 172.21.0.2
+        ipv4_address: 172.21.0.11  # Changed to avoid conflicts
 
   frontend:
     container_name: icmfs_frontend
     build:
       context: ./frontend
     ports:
-      - "91:5173"
-
+      - "98:5173"
     command: npm run dev -- --host
     env_file:
       - ./frontend/.env
     volumes:
       - ./frontend:/app
       - /app/node_modules
-
-      # Helps Vite see file changes on Linux/Kali
     environment:
-    - CHOKIDAR_USEPOLLING=true
+      - CHOKIDAR_USEPOLLING=true
     depends_on:
       - backend
     networks:
-       shared:
-           ipv4_address: 172.21.0.3
-
-  postgresql:
-    container_name: postgres
-    image: postgres:15
-    restart: always
-    environment:
-      POSTGRES_DB: icmfs_db
-      POSTGRES_USER: root
-      POSTGRES_PASSWORD: root
-    ports:
-      - "5432:5432"
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
-    networks:
-       shared:
-           ipv4_address: 172.21.0.4
-
-  redis:
-    container_name: redis
-    image: redis:7
-    restart: always
-    command: redis-server --requirepass root
-    ports:
-      - "6379:6379"
-    networks:
-       shared:
-           ipv4_address: 172.21.0.5
-
-  pgadmin:
-    container_name: pgadmin
-    image: dpage/pgadmin4
-    restart: always
-    environment:
-      PGADMIN_DEFAULT_EMAIL: breezelabdynamics@example.com
-      PGADMIN_DEFAULT_PASSWORD: root
-    ports:
-      - "93:80"
-    volumes:
-      - pgadmin_data:/var/lib/pgadmin
-    depends_on:
-      - postgresql
-    networks:
-       shared:
-           ipv4_address : 172.21.0.6
-
-volumes:
-  postgres_data:
-  pgadmin_data:
+      shared:
+        ipv4_address: 172.21.0.12  # Changed to avoid conflicts
 
 networks:
-    shared:
-        name: mynetwork
-        driver: bridge
-        ipam:
-            config:
-                - subnet: 172.21.0.0/24
+  shared:
+    external: true  # Use existing shared network

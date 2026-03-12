@@ -1,168 +1,24 @@
-/* import AppLayout from '@/layout/AppLayout.vue';
-import { createRouter, createWebHistory } from 'vue-router';
-import TestAPI from '@/views/TestAPI.vue';
-
-const router = createRouter({
-    history: createWebHistory(),
-    routes: [
-        {
-            path: '/',
-            component: AppLayout,
-            children: [
-                {
-                    path: '/',
-                    name: 'dashboard',
-                    component: () => import('@/views/Dashboard.vue')
-                },
-                {
-                    path: '/uikit/formlayout',
-                    name: 'formlayout',
-                    component: () => import('@/views/uikit/FormLayout.vue')
-                },
-                {
-                    path: '/uikit/input',
-                    name: 'input',
-                    component: () => import('@/views/uikit/InputDoc.vue')
-                },
-                {
-                    path: '/uikit/button',
-                    name: 'button',
-                    component: () => import('@/views/uikit/ButtonDoc.vue')
-                },
-                {
-                    path: '/uikit/table',
-                    name: 'table',
-                    component: () => import('@/views/uikit/TableDoc.vue')
-                },
-                {
-                    path: '/uikit/list',
-                    name: 'list',
-                    component: () => import('@/views/uikit/ListDoc.vue')
-                },
-                {
-                    path: '/uikit/tree',
-                    name: 'tree',
-                    component: () => import('@/views/uikit/TreeDoc.vue')
-                },
-                {
-                    path: '/uikit/panel',
-                    name: 'panel',
-                    component: () => import('@/views/uikit/PanelsDoc.vue')
-                },
-
-                {
-                    path: '/uikit/overlay',
-                    name: 'overlay',
-                    component: () => import('@/views/uikit/OverlayDoc.vue')
-                },
-                {
-                    path: '/uikit/media',
-                    name: 'media',
-                    component: () => import('@/views/uikit/MediaDoc.vue')
-                },
-                {
-                    path: '/uikit/message',
-                    name: 'message',
-                    component: () => import('@/views/uikit/MessagesDoc.vue')
-                },
-                {
-                    path: '/uikit/file',
-                    name: 'file',
-                    component: () => import('@/views/uikit/FileDoc.vue')
-                },
-                {
-                    path: '/uikit/menu',
-                    name: 'menu',
-                    component: () => import('@/views/uikit/MenuDoc.vue')
-                },
-                {
-                    path: '/uikit/charts',
-                    name: 'charts',
-                    component: () => import('@/views/uikit/ChartDoc.vue')
-                },
-                {
-                    path: '/uikit/misc',
-                    name: 'misc',
-                    component: () => import('@/views/uikit/MiscDoc.vue')
-                },
-                {
-                    path: '/uikit/timeline',
-                    name: 'timeline',
-                    component: () => import('@/views/uikit/TimelineDoc.vue')
-                },
-                {
-                    path: '/blocks/free',
-                    name: 'blocks',
-                    meta: {
-                        breadcrumb: ['Prime Blocks', 'Free Blocks']
-                    },
-                    component: () => import('@/views/utilities/Blocks.vue')
-                },
-                {
-                    path: '/pages/empty',
-                    name: 'empty',
-                    component: () => import('@/views/pages/Empty.vue')
-                },
-                {
-                    path: '/pages/crud',
-                    name: 'crud',
-                    component: () => import('@/views/pages/Crud.vue')
-                },
-                {
-                    path: '/start/documentation',
-                    name: 'documentation',
-                    component: () => import('@/views/pages/Documentation.vue')
-                }
-            ]
-        },
-        {
-            path: '/landing',
-            name: 'landing',
-            component: () => import('@/views/pages/Landing.vue')
-        },
-        {
-            path: '/pages/notfound',
-            name: 'notfound',
-            component: () => import('@/views/pages/NotFound.vue')
-        },
-
-        {
-            path: '/auth/login',
-            name: 'login',
-            component: () => import('@/views/pages/auth/Login.vue')
-        },
-        {
-            path: '/auth/access',
-            name: 'accessDenied',
-            component: () => import('@/views/pages/auth/Access.vue')
-        },
-        {
-            path: '/auth/error',
-            name: 'error',
-            component: () => import('@/views/pages/auth/Error.vue')
-        },
-
-        {
-          path: '/test-api',
-          name: 'test-api',
-          component: TestAPI
-        },
-    ]
-});
-
-export default router;
- */
-
-
-
 import { createRouter, createWebHistory } from 'vue-router';
 
 const routes = [
-  // ========== PUBLIC ROUTES ==========
+
+  // ================= ROOT =================
   {
     path: '/',
-    name: 'home',
-    component: () => import('@/views/public/Home.vue'),
+    redirect: '/login'
+  },
+
+  // ================= PUBLIC ROUTES =================
+  {
+    path: '/about',
+    name: 'about',
+    component: () => import('@/views/public/About.vue'),
+    meta: { public: true }
+  },
+  {
+    path: '/contact',
+    name: 'contact',
+    component: () => import('@/views/public/Contact.vue'),
     meta: { public: true }
   },
   {
@@ -177,15 +33,22 @@ const routes = [
     component: () => import('@/views/public/Register.vue'),
     meta: { public: true }
   },
+  {
+    path: '/password-recovery',
+    name: 'password-recovery',
+    component: () => import('@/views/public/PasswordRecovery.vue'),
+    meta: { public: true }
+  },
 
-  // ========== AUTHENTICATED LAYOUT ==========
+  // ================= AUTHENTICATED LAYOUT =================
   {
     path: '/app',
     component: () => import('@/layout/AppLayout.vue'),
     meta: { requiresAuth: true },
     redirect: '/app/dashboard',
     children: [
-      // DASHBOARD
+
+      // ================= DASHBOARD =================
       {
         path: 'dashboard',
         name: 'dashboard',
@@ -193,10 +56,31 @@ const routes = [
         meta: { requiresAuth: true }
       },
 
-      // PROJECTS
+      // ================= REGIONS =================
+      {
+        path: 'regions',
+        children: [
+          {
+            path: '',
+            name: 'regions',
+            component: () => import('@/views/regions/RegionList.vue')
+          },
+          {
+            path: ':id',
+            name: 'region-overview',
+            component: () => import('@/views/regions/RegionOverview.vue')
+          },
+          {
+            path: 'counties',
+            name: 'counties',
+            component: () => import('@/views/regions/CountyList.vue')
+          }
+        ]
+      },
+
+      // ================= PROJECTS =================
       {
         path: 'projects',
-        meta: { requiresAuth: true },
         children: [
           {
             path: '',
@@ -207,47 +91,81 @@ const routes = [
             path: 'create',
             name: 'project-create',
             component: () => import('@/views/projects/ProjectCreate.vue')
-          },
+          }
+        ]
+      },
+      {
+        path: 'projects/:id',
+        component: () => import('@/views/projects/ProjectDetail.vue'),
+        children: [
           {
-            path: ':id',
-            name: 'project-overview',
+            path: '',
+            name: 'project-detail',
             component: () => import('@/views/projects/ProjectOverview.vue')
           },
           {
-            path: ':id/edit',
+            path: 'edit',
             name: 'project-edit',
             component: () => import('@/views/projects/ProjectEdit.vue')
-          }
-        ]
-      },
-
-      // PROGRESS
-      {
-        path: 'progress',
-        meta: { requiresAuth: true },
-        children: [
+          },
           {
-            path: 'overview',
-            name: 'progress-overview',
-            component: () => import('@/views/progress/ProgressOverview.vue')
+            path: 'timeline',
+            name: 'project-timeline',
+            component: () => import('@/views/projects/ProjectTimeline.vue')
+          },
+          {
+            path: 'media',
+            name: 'project-media',
+            component: () => import('@/views/projects/ProjectMedia.vue')
+          },
+          {
+            path: 'risks',
+            name: 'project-risks',
+            component: () => import('@/views/projects/ProjectRisks.vue')
           },
           {
             path: 'reports',
-            name: 'daily-reports',
-            component: () => import('@/views/progress/DailyReports.vue')
-          },
-          {
-            path: 'evm',
-            name: 'evm-analysis',
-            component: () => import('@/views/progress/EVMAnalysis.vue')
+            name: 'project-reports',
+            component: () => import('@/views/projects/ProjectReports.vue')
           }
         ]
       },
 
-      // FINANCE
+      // ================= SITES =================
+      {
+        path: 'sites',
+        children: [
+          {
+            path: '',
+            name: 'sites',
+            component: () => import('@/views/sites/SiteList.vue')
+          },
+          {
+            path: 'create',
+            name: 'site-create',
+            component: () => import('@/views/sites/SiteCreate.vue')
+          },
+          {
+            path: ':id',
+            name: 'site-detail',
+            component: () => import('@/views/sites/SiteDetail.vue')
+          },
+          {
+            path: 'daily-reports',
+            name: 'site-daily-reports',
+            component: () => import('@/views/sites/DailyReports.vue')
+          },
+          {
+            path: 'workforce',
+            name: 'site-workforce',
+            component: () => import('@/views/sites/WorkforceManagement.vue')
+          }
+        ]
+      },
+
+      // ================= FINANCE =================
       {
         path: 'finance',
-        meta: { requiresAuth: true },
         children: [
           {
             path: 'dashboard',
@@ -260,35 +178,213 @@ const routes = [
             component: () => import('@/views/finance/Expenses.vue')
           },
           {
-            path: 'payments',
-            name: 'payments',
-            component: () => import('@/views/finance/Payments.vue')
+            path: 'budget',
+            name: 'budget-tracking',
+            component: () => import('@/views/finance/BudgetTracking.vue')
+          },
+          {
+            path: 'reports',
+            name: 'financial-reports',
+            component: () => import('@/views/finance/FinancialReports.vue')
           }
         ]
       },
 
-      // QA
+      // ================= PAYMENTS =================
+      {
+        path: 'payments',
+        children: [
+          {
+            path: 'dashboard',
+            name: 'payment-dashboard',
+            component: () => import('@/views/payments/PaymentsDashboard.vue')
+          },
+          {
+            path: 'mpesa',
+            name: 'mpesa-payments',
+            component: () => import('@/views/payments/ MpesaPayments.vue')
+          },
+          {
+            path: 'mpesa-transactions',
+            name: 'mpesa-transactions',
+            component: () => import('@/views/payments/MpesaTransactions.vue')
+          },
+          {
+            path: 'bank',
+            name: 'bank-payments',
+            component: () => import('@/views/payments/BankPayments.vue')
+          },
+          {
+            path: 'approvals',
+            name: 'payment-approvals',
+            component: () => import('@/views/payments/PaymentApprovals.vue')
+          },
+          {
+            path: 'audit',
+            name: 'payment-audit',
+            component: () => import('@/views/payments/PaymentAudit.vue')
+          },
+          {
+            path: 'reconciliation',
+            name: 'payment-reconciliation',
+            component: () => import('@/views/payments/PaymentReconciliation.vue')
+          }
+        ]
+      },
+
+      // ================= PROGRESS =================
+      {
+        path: 'progress',
+        children: [
+          {
+            path: 'overview',
+            name: 'progress-overview',
+            component: () => import('@/views/progress/ProgressOverview.vue')
+          },
+          {
+            path: 'daily-logs',
+            name: 'daily-logs',
+            component: () => import('@/views/progress/DailyLogs.vue')
+          },
+          {
+            path: 'daily-reports',
+            name: 'daily-reports',
+            component: () => import('@/views/progress/DailyReports.vue')
+          },
+          {
+            path: 'evm',
+            name: 'evm-analysis',
+            component: () => import('@/views/progress/EVMAnalysis.vue')
+          },
+          {
+            path: 'trends',
+            name: 'performance-trends',
+            component: () => import('@/views/progress/PerformanceTrends.vue')
+          }
+        ]
+      },
+
+      // ================= PROCUREMENT =================
+      {
+        path: 'procurement',
+        children: [
+          {
+            path: 'dashboard',
+            name: 'procurement-dashboard',
+            component: () => import('@/views/procurement/ProcurementDashboard.vue')
+          },
+          {
+            path: 'requests',
+            name: 'purchase-requests',
+            component: () => import('@/views/procurement/PurchaseRequests.vue')
+          },
+          {
+            path: 'supplier-management',
+            name: 'supplier-management',
+            component: () => import('@/views/procurement/SupplierManagement.vue')
+          },
+          {
+            path: 'inventory',
+            name: 'inventory',
+            component: () => import('@/views/procurement/Inventory.vue')
+          }
+        ]
+      },
+
+      // ================= SUPPLIERS =================
+      {
+        path: 'suppliers',
+        children: [
+          {
+            path: '',
+            name: 'supplier-list',
+            component: () => import('@/views/suppliers/SupplierList.vue')
+          },
+          {
+            path: 'orders',
+            name: 'purchase-orders',
+            component: () => import('@/views/suppliers/PurchaseOrders.vue')
+          },
+          {
+            path: 'deliveries',
+            name: 'deliveries',
+            component: () => import('@/views/suppliers/Deliveries.vue')
+          },
+          {
+            path: 'invoices',
+            name: 'supplier-invoices',
+            component: () => import('@/views/suppliers/SupplierInvoices.vue')
+          },
+          {
+            path: 'payments',
+            name: 'supplier-payments',
+            component: () => import('@/views/suppliers/SupplierPayments.vue')
+          }
+        ]
+      },
+
+      // ================= QA =================
       {
         path: 'qa',
-        meta: { requiresAuth: true },
         children: [
+          {
+            path: '',
+            name: 'qa-list',
+            component: () => import('@/views/qa/QAList.vue')
+          },
           {
             path: 'issues',
             name: 'qa-issues',
             component: () => import('@/views/qa/QAIssues.vue')
           },
           {
-            path: 'inspection',
-            name: 'qa-inspection',
-            component: () => import('@/views/qa/QAInspection.vue')
+            path: 'inspections',
+            name: 'qa-inspections',
+            component: () => import('@/views/qa/QAInspections.vue')
+          },
+          {
+            path: 'certification',
+            name: 'qa-certification',
+            component: () => import('@/views/qa/QACertification.vue')
+          },
+          {
+            path: 'reports',
+            name: 'qa-reports',
+            component: () => import('@/views/qa/QAReports.vue')
           }
         ]
       },
 
-      // AI
+      // ================= SAFETY =================
+      {
+        path: 'safety',
+        children: [
+          {
+            path: 'dashboard',
+            name: 'safety-dashboard',
+            component: () => import('@/views/safety/Safetydashboard.vue')
+          },
+          {
+            path: 'incidents',
+            name: 'incident-reports',
+            component: () => import('@/views/safety/IncidentReports.vue')
+          },
+          {
+            path: 'assessments',
+            name: 'risk-assessments',
+            component: () => import('@/views/safety/RiskAssessments.vue')
+          },
+          {
+            path: 'audits',
+            name: 'safety-audits',
+            component: () => import('@/views/safety/SafetyAudits.vue')
+          }
+        ]
+      },
+
+      // ================= AI & ANALYTICS =================
       {
         path: 'ai',
-        meta: { requiresAuth: true },
         children: [
           {
             path: 'assistant',
@@ -299,22 +395,69 @@ const routes = [
             path: 'insights',
             name: 'ai-insights',
             component: () => import('@/views/ai/AIInsights.vue')
+          },
+          {
+            path: 'finance',
+            name: 'ai-finance-insights',
+            component: () => import('@/views/ai/AIFinanceInsights.vue')
+          },
+          {
+            path: 'risks',
+            name: 'ai-risk-predictions',
+            component: () => import('@/views/ai/AIRiskPredictions.vue')
           }
         ]
       },
 
-      // ACCOUNT
+      // ================= NOTIFICATIONS =================
       {
-        path: 'profile',
-        name: 'profile',
-        component: () => import('@/views/account/Profile.vue'),
-        meta: { requiresAuth: true }
+        path: 'notifications',
+        children: [
+          {
+            path: 'list',
+            name: 'notifications',
+            component: () => import('@/views/notifications/NotificationList.vue')
+          },
+          {
+            path: 'settings',
+            name: 'notification-settings',
+            component: () => import('@/views/notifications/NotificationSettings.vue')
+          }
+        ]
       },
 
-      // ADMIN (Protected)
+      // ================= TASKS =================
+      /* {
+        path: 'tasks',
+        name: 'tasks',
+        component: () => import('@/views/tasks/Tasks.vue')
+      }, */
+
+      // ================= ACCOUNT =================
+      {
+        path: 'account',
+        children: [
+          {
+            path: 'profile',
+            name: 'account-profile',
+            component: () => import('@/views/account/Profile.vue')
+          },
+          {
+            path: 'security',
+            name: 'account-security',
+            component: () => import('@/views/account/Security.vue')
+          },
+          {
+            path: 'preferences',
+            name: 'account-preferences',
+            component: () => import('@/views/account/Preferences.vue')
+          }
+        ]
+      },
+
+      // ================= ADMIN =================
       {
         path: 'admin',
-        meta: { requiresAuth: true, requiresAdmin: true },
         children: [
           {
             path: 'dashboard',
@@ -327,16 +470,52 @@ const routes = [
             component: () => import('@/views/admin/Users.vue')
           },
           {
+            path: 'user-management',
+            name: 'user-management',
+            component: () => import('@/views/admin/UserManagement.vue')
+          },
+          {
             path: 'roles',
             name: 'admin-roles',
             component: () => import('@/views/admin/Roles.vue')
+          },
+          {
+            path: 'role-management',
+            name: 'role-management',
+            component: () => import('@/views/admin/RoleManagement.vue')
+          },
+          {
+            path: 'audit',
+            name: 'audit-logs',
+            component: () => import('@/views/admin/AuditLogs.vue')
+          },
+          {
+            path: 'financial-audit',
+            name: 'financial-audit',
+            component: () => import('@/views/admin/FinancialAudit.vue')
+          },
+          {
+            path: 'settings',
+            name: 'system-settings',
+            component: () => import('@/views/admin/SystemSettings.vue')
           }
         ]
       }
+
     ]
   },
 
-  // 404 Not Found
+  // ================= SYSTEM =================
+  {
+    path: '/access-denied',
+    name: 'access-denied',
+    component: () => import('@/views/system/AccessDenied.vue')
+  },
+  {
+    path: '/maintenance',
+    name: 'maintenance',
+    component: () => import('@/views/system/Maintenance.vue')
+  },
   {
     path: '/:pathMatch(.*)*',
     name: 'notfound',
@@ -344,7 +523,6 @@ const routes = [
   }
 ];
 
-// Create the router
 const router = createRouter({
   history: createWebHistory(),
   routes,
@@ -353,17 +531,13 @@ const router = createRouter({
   }
 });
 
-// ========== NAVIGATION GUARDS ==========
+// ================= NAVIGATION GUARD =================
 router.beforeEach((to, from, next) => {
-  // Get authentication state
   const isAuthenticated = !!localStorage.getItem('token');
   const userRole = localStorage.getItem('role');
-  const isAdmin = userRole === 'admin';
 
-  // Allow public routes
   if (to.meta.public) {
-    // If already logged in, redirect to dashboard
-    if (isAuthenticated && (to.name === 'login' || to.name === 'register')) {
+    if (isAuthenticated && to.name === 'login') {
       next('/app/dashboard');
     } else {
       next();
@@ -371,32 +545,17 @@ router.beforeEach((to, from, next) => {
     return;
   }
 
-  // Check authentication
   if (to.meta.requiresAuth && !isAuthenticated) {
-    next({
-      path: '/login',
-      query: { redirect: to.fullPath } // Save intended destination
-    });
+    next('/login');
     return;
   }
 
-  // Check admin access
-  if (to.meta.requiresAdmin && !isAdmin) {
-    next('/app/dashboard');
+  if (to.meta.roles && !to.meta.roles.includes(userRole)) {
+    next('/access-denied');
     return;
   }
 
-  // Allow navigation
   next();
-});
-
-// Optional: After navigation hook for analytics, page titles, etc.
-router.afterEach((to) => {
-  // Set page title
-  document.title = to.meta.title || 'ICMFS - Integrated Construction Management System';
-  
-  // You can add analytics tracking here
-  // analytics.track('page_view', { path: to.path });
 });
 
 export default router;

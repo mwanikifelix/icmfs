@@ -1,0 +1,235 @@
+<template>
+  <div class="qa-page">
+    <div class="page-header">
+      <div>
+        <span class="page-tag teal">QA · REPORTS</span>
+        <h1>QA Reports</h1>
+        <p class="page-sub">Generated quality assurance reports, sign-off records and audit trails</p>
+      </div>
+      <div style="display:flex;gap:10px">
+        <button class="btn-export">📥 Export All</button>
+        <button class="btn-primary teal" @click="showForm=true">+ Generate Report</button>
+      </div>
+    </div>
+
+    <!-- Stats -->
+    <div class="stat-row">
+      <div class="stat-card teal">
+        <div class="stat-val">{{ reports.length }}</div>
+        <div class="stat-label">Total Reports</div>
+      </div>
+      <div class="stat-card warn">
+        <div class="stat-val">{{ reports.filter(r=>r.status==='pending').length }}</div>
+        <div class="stat-label">Awaiting Sign-Off</div>
+      </div>
+      <div class="stat-card green">
+        <div class="stat-val">{{ reports.filter(r=>r.status==='approved').length }}</div>
+        <div class="stat-label">Approved</div>
+      </div>
+      <div class="stat-card blue">
+        <div class="stat-val">{{ reports.filter(r=>r.status==='draft').length }}</div>
+        <div class="stat-label">Drafts</div>
+      </div>
+    </div>
+
+    <!-- Tabs -->
+    <div class="tabs">
+      <button v-for="t in tabs" :key="t.key" :class="['tab',activeTab===t.key?'active':'']" @click="activeTab=t.key">
+        {{ t.label }} <span class="tab-count">{{ t.count }}</span>
+      </button>
+    </div>
+
+    <!-- Filters -->
+    <div class="filters-bar">
+      <div class="search-wrap">
+        <span>🔍</span>
+        <input v-model="search" class="search-input" placeholder="Search report title or project..." />
+      </div>
+      <select v-model="filterType" class="filter-select">
+        <option value="">All Types</option>
+        <option v-for="t in reportTypes" :key="t">{{ t }}</option>
+      </select>
+      <select v-model="filterProject" class="filter-select">
+        <option value="">All Projects</option>
+        <option v-for="p in projects" :key="p">{{ p }}</option>
+      </select>
+    </div>
+
+    <!-- Reports list -->
+    <div style="display:flex;flex-direction:column;gap:10px">
+      <div class="report-card" v-for="r in filteredReports" :key="r.id" @click="active=r">
+        <div class="rc-left">
+          <div class="rc-icon">{{ reportIcon(r.type) }}</div>
+          <div>
+            <div style="font-size:14px;font-weight:700;color:#fff">{{ r.title }}</div>
+            <div class="cell-sub">{{ r.ref }} · {{ r.project }} · {{ r.period }}</div>
+          </div>
+        </div>
+        <div class="rc-right">
+          <div style="text-align:right;margin-right:12px">
+            <div class="cell-main">{{ r.generatedBy }}</div>
+            <div class="cell-sub">{{ r.date }}</div>
+          </div>
+          <div style="text-align:center;margin-right:12px;min-width:60px">
+            <div style="font-size:18px;font-weight:800" :style="r.qaScore>=85?'color:#22c55e':r.qaScore>=70?'color:#f59e0b':r.qaScore?'color:#ef4444':'color:#6b7280'">{{ r.qaScore || '—' }}%</div>
+            <div class="cell-sub">QA Score</div>
+          </div>
+          <span class="status-badge" :class="r.status">{{ r.status }}</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Detail Drawer -->
+    <div class="drawer-overlay" v-if="active" @click.self="active=null">
+      <div class="drawer">
+        <div class="drawer-header">
+          <div>
+            <span class="mono" style="font-size:10px;color:#14b8a6;display:block;margin-bottom:4px">{{ active.ref }}</span>
+            <h2 style="font-size:16px;font-weight:700">{{ active.title }}</h2>
+            <div class="cell-sub">{{ active.project }} · {{ active.period }}</div>
+          </div>
+          <button class="close-btn" @click="active=null">✕</button>
+        </div>
+        <div class="drawer-body">
+          <!-- Score hero -->
+          <div v-if="active.qaScore" style="display:flex;gap:16px;background:#0d0f14;border-radius:10px;padding:16px;margin-bottom:18px;align-items:center">
+            <div class="score-circle" :class="active.qaScore>=85?'pass':active.qaScore>=70?'warn':'fail'" style="width:72px;height:72px;font-size:20px">{{ active.qaScore }}%</div>
+            <div>
+              <div style="font-size:16px;font-weight:700;color:#fff">{{ active.type }}</div>
+              <div class="cell-sub">{{ active.inspectionCount }} inspections · {{ active.ncrsRaised }} NCRs raised · {{ active.ncrsResolved }} resolved</div>
+            </div>
+          </div>
+          <div class="detail-grid">
+            <div class="detail-item"><span class="dlbl">Report Type</span><span class="dval">{{ active.type }}</span></div>
+            <div class="detail-item"><span class="dlbl">Period</span><span class="dval">{{ active.period }}</span></div>
+            <div class="detail-item"><span class="dlbl">Generated By</span><span class="dval">{{ active.generatedBy }}</span></div>
+            <div class="detail-item"><span class="dlbl">Date</span><span class="dval">{{ active.date }}</span></div>
+          </div>
+          <!-- Summary metrics -->
+          <div style="margin-bottom:16px" v-if="active.metrics">
+            <div class="dlbl" style="margin-bottom:10px">Summary Metrics</div>
+            <div style="display:flex;flex-direction:column;gap:8px">
+              <div v-for="m in active.metrics" :key="m.label">
+                <div style="display:flex;justify-content:space-between;margin-bottom:4px">
+                  <span style="font-size:12px;color:#9ca3af">{{ m.label }}</span>
+                  <span class="mono" style="font-size:11px;color:#e8e4dc">{{ m.val }}</span>
+                </div>
+                <div v-if="m.pct" class="prog-bar"><div class="prog-fill" :class="m.color" :style="{width:m.pct+'%'}"></div></div>
+              </div>
+            </div>
+          </div>
+          <!-- Sign-offs -->
+          <div style="margin-bottom:14px">
+            <div class="dlbl" style="margin-bottom:8px">Sign-Off Status</div>
+            <div style="display:flex;flex-direction:column;gap:6px">
+              <div v-for="s in active.signoffs" :key="s.role"
+                style="display:flex;justify-content:space-between;align-items:center;padding:8px 10px;background:#0d0f14;border-radius:8px">
+                <div>
+                  <div class="cell-main">{{ s.role }}</div>
+                  <div class="cell-sub">{{ s.name || 'Pending' }}</div>
+                </div>
+                <span class="status-badge" :class="s.status">{{ s.status }}</span>
+              </div>
+            </div>
+          </div>
+          <div style="display:flex;gap:8px">
+            <button class="btn-primary teal" style="flex:1;text-align:center" @click="active=null">📥 Download PDF</button>
+            <button v-if="active.status==='pending'" class="btn-primary green" style="flex:1;text-align:center" @click="active.status='approved';active=null">✓ Sign Off</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Generate Report Modal -->
+    <div class="modal-overlay" v-if="showForm" @click.self="showForm=false">
+      <div class="modal">
+        <div class="modal-header">
+          <h2>📊 Generate QA Report</h2>
+          <button class="close-btn" @click="showForm=false">✕</button>
+        </div>
+        <div class="modal-body">
+          <div class="form-row">
+            <div class="form-group"><label>Report Type *</label>
+              <select v-model="form.type"><option v-for="t in reportTypes" :key="t">{{ t }}</option></select>
+            </div>
+            <div class="form-group"><label>Project *</label>
+              <select v-model="form.project"><option value="">Select...</option><option v-for="p in projects" :key="p">{{ p }}</option></select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label>Period From *</label><input type="date" v-model="form.from" /></div>
+            <div class="form-group"><label>Period To *</label><input type="date" v-model="form.to" /></div>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label>Include Inspections</label><select><option>Yes — All</option><option>Yes — Passed Only</option><option>Yes — Failed Only</option><option>No</option></select></div>
+            <div class="form-group"><label>Include NCRs</label><select><option>Yes — All</option><option>Yes — Open Only</option><option>No</option></select></div>
+          </div>
+          <div class="form-group full"><label>Format</label>
+            <select v-model="form.format"><option>PDF</option><option>Word (.docx)</option><option>Excel</option></select>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn-ghost" @click="showForm=false">Cancel</button>
+          <button class="btn-secondary" @click="generateReport('draft')">Save Draft</button>
+          <button class="btn-primary teal" @click="generateReport('pending')">Generate & Send for Sign-Off</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup>
+import { ref, computed } from 'vue'
+const activeTab = ref('all')
+const search = ref('')
+const filterType = ref('')
+const filterProject = ref('')
+const showForm = ref(false)
+const active = ref(null)
+const reportTypes = ['Weekly QA Summary','Monthly QA Report','NCR Status Report','Inspection Summary','Project Completion QA','Material Test Compilation']
+const projects    = ['Nairobi Housing — Phase 1','Mombasa Port Road','Kisumu Commercial Complex','Nakuru Ring Road']
+const form = ref({ type:'Weekly QA Summary', project:'', from:'', to:'', format:'PDF' })
+
+const reports = ref([
+  { id:1, ref:'QAR-2025-018', title:'Weekly QA Summary — W7 Feb 2025',     type:'Weekly QA Summary',    project:'Nairobi Housing — Phase 1', period:'10–16 Feb 2025', generatedBy:'Eng. Kariuki', date:'2025-02-17', qaScore:88, inspectionCount:5, ncrsRaised:1, ncrsResolved:0, status:'approved', metrics:[{label:'Inspections Passed',val:'4/5',pct:80,color:'green'},{label:'NCRs Closed',val:'0/1',pct:0,color:'red'},{label:'Checklist Compliance',val:'92%',pct:92,color:'green'}], signoffs:[{role:'Site Engineer',name:'Eng. Kariuki',status:'approved'},{role:'Project Manager',name:'Peter Kamau',status:'approved'}] },
+  { id:2, ref:'QAR-2025-017', title:'Monthly QA Report — January 2025',    type:'Monthly QA Report',    project:'Mombasa Port Road',         period:'Jan 2025',       generatedBy:'Eng. Oduya',   date:'2025-02-05', qaScore:71, inspectionCount:11, ncrsRaised:3, ncrsResolved:1, status:'pending', metrics:[{label:'Inspections Passed',val:'8/11',pct:73,color:'amber'},{label:'NCRs Closed',val:'1/3',pct:33,color:'red'},{label:'Checklist Compliance',val:'74%',pct:74,color:'amber'}], signoffs:[{role:'RE',name:'Eng. Oduya',status:'approved'},{role:'Project Manager',name:'Peter Kamau',status:'pending'}] },
+  { id:3, ref:'QAR-2025-016', title:'Inspection Summary — Floor 3 Works',  type:'Inspection Summary',   project:'Kisumu Commercial Complex', period:'Jan–Feb 2025',   generatedBy:'Eng. Achieng', date:'2025-02-14', qaScore:96, inspectionCount:6, ncrsRaised:0, ncrsResolved:0, status:'approved', metrics:[{label:'Inspections Passed',val:'6/6',pct:100,color:'green'},{label:'NCRs Raised',val:'None',pct:100,color:'green'},{label:'Avg Checklist Score',val:'96%',pct:96,color:'green'}], signoffs:[{role:'Site Engineer',name:'Eng. Achieng',status:'approved'},{role:'Project Manager',name:'Peter Kamau',status:'approved'},{role:'Client Rep',name:'Arch. Kamande',status:'approved'}] },
+  { id:4, ref:'QAR-2025-015', title:'NCR Status Report — Feb 2025',        type:'NCR Status Report',    project:'All Projects',              period:'Feb 2025',       generatedBy:'QA Manager',   date:'2025-02-18', qaScore:null, inspectionCount:null, ncrsRaised:5, ncrsResolved:1, status:'pending', metrics:null, signoffs:[{role:'QA Manager',name:'Pending',status:'pending'},{role:'Director',name:'Dr. Kariuki',status:'pending'}] },
+  { id:5, ref:'QAR-2025-014', title:'Weekly QA Summary — W6 Feb 2025',     type:'Weekly QA Summary',    project:'Nakuru Ring Road',          period:'3–9 Feb 2025',   generatedBy:'Eng. Mwangi',  date:'2025-02-10', qaScore:97, inspectionCount:4, ncrsRaised:0, ncrsResolved:0, status:'approved', metrics:[{label:'Inspections Passed',val:'4/4',pct:100,color:'green'},{label:'NCRs Raised',val:'None',pct:100,color:'green'},{label:'Avg Score',val:'97%',pct:97,color:'green'}], signoffs:[{role:'Site Engineer',name:'Eng. Mwangi',status:'approved'},{role:'Project Manager',name:'Peter Kamau',status:'approved'}] },
+  { id:6, ref:'QAR-2025-013', title:'Material Test Compilation — Jan 2025',type:'Material Test Compilation',project:'All Projects',           period:'Jan 2025',       generatedBy:'Lab Manager',  date:'2025-01-31', qaScore:null, inspectionCount:null, ncrsRaised:null, ncrsResolved:null, status:'draft', metrics:null, signoffs:[{role:'Lab Manager',name:'Pending',status:'pending'}] },
+])
+
+const tabs = computed(()=>[
+  {key:'all',      label:'All',      count:reports.value.length},
+  {key:'draft',    label:'Draft',    count:reports.value.filter(r=>r.status==='draft').length},
+  {key:'pending',  label:'Pending',  count:reports.value.filter(r=>r.status==='pending').length},
+  {key:'approved', label:'Approved', count:reports.value.filter(r=>r.status==='approved').length},
+])
+
+const filteredReports = computed(()=>reports.value.filter(r=>
+  (activeTab.value==='all'||r.status===activeTab.value)
+  &&(!search.value||r.title.toLowerCase().includes(search.value.toLowerCase())||r.project.toLowerCase().includes(search.value.toLowerCase()))
+  &&(!filterType.value||r.type===filterType.value)
+  &&(!filterProject.value||r.project===filterProject.value)
+))
+
+function reportIcon(type) {
+  const m = {'Weekly QA Summary':'📋','Monthly QA Report':'📊','NCR Status Report':'🚨','Inspection Summary':'🔍','Project Completion QA':'🏁','Material Test Compilation':'🧪'}
+  return m[type]||'📄'
+}
+
+function generateReport(status) {
+  reports.value.unshift({ id:Date.now(), ref:`QAR-2025-0${reports.value.length+19}`, title:`${form.value.type} — ${form.value.project}`, ...form.value, period:`${form.value.from} to ${form.value.to}`, generatedBy:'Current User', date:new Date().toISOString().split('T')[0], qaScore:null, inspectionCount:null, ncrsRaised:null, ncrsResolved:null, status, metrics:null, signoffs:[{role:'Project Manager',name:null,status:'pending'}] })
+  showForm.value=false
+  form.value = { type:'Weekly QA Summary', project:'', from:'', to:'', format:'PDF' }
+}
+</script>
+
+<style scoped>
+@import '/src/assets/qa.css';
+.report-card { background:#13161f; border:1px solid #1e2230; border-radius:12px; padding:16px 20px; display:flex; justify-content:space-between; align-items:center; cursor:pointer; transition:border-color 0.2s; }
+.report-card:hover { border-color:#14b8a6; }
+.rc-left { display:flex; align-items:center; gap:12px; }
+.rc-icon { font-size:22px; width:42px; text-align:center; flex-shrink:0; }
+.rc-right { display:flex; align-items:center; gap:8px; }
+</style>

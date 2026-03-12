@@ -2876,3 +2876,71 @@ WARNING 2026-01-17 08:17:08,423 log Not Found: /
 WARNING 2026-01-17 08:17:09,216 log Not Found: /
 WARNING 2026-01-17 08:17:09,454 log Not Found: /
 WARNING 2026-01-17 08:17:09,686 log Not Found: /
+WARNING 2026-01-19 04:06:55,183 log Unauthorized: /api/qa/
+WARNING 2026-01-19 04:07:08,525 log Unauthorized: /api/projects/
+WARNING 2026-01-19 04:07:15,315 log Unauthorized: /api/projects/wbs/
+WARNING 2026-01-19 04:07:15,459 log Not Found: /favicon.ico
+WARNING 2026-01-19 04:07:27,993 log Unauthorized: /api/progress/
+WARNING 2026-01-19 04:07:28,138 log Not Found: /favicon.ico
+WARNING 2026-01-19 04:07:35,221 log Unauthorized: /api/progress/wbs/
+WARNING 2026-01-19 04:07:46,005 log Unauthorized: /api/progress/qa/
+WARNING 2026-01-19 04:07:46,128 log Not Found: /favicon.ico
+WARNING 2026-01-19 04:08:02,256 log Unauthorized: /api/finance/
+WARNING 2026-01-19 04:08:02,372 log Not Found: /favicon.ico
+WARNING 2026-01-19 04:11:31,221 log Not Found: /api/finance/evm/
+WARNING 2026-01-19 04:11:31,302 log Not Found: /favicon.ico
+WARNING 2026-01-19 04:11:46,634 log Not Found: /api/ai/
+WARNING 2026-01-19 04:11:46,720 log Not Found: /favicon.ico
+WARNING 2026-01-19 04:11:56,631 log Unauthorized: /api/admin/
+WARNING 2026-01-19 04:12:08,078 log Unauthorized: /api/admin/users/
+WARNING 2026-01-19 04:12:08,191 log Not Found: /favicon.ico
+WARNING 2026-01-19 04:12:22,087 log Unauthorized: /api/admin/roles/
+WARNING 2026-01-19 04:12:44,566 log Not Found: /api/admin/permissionsmatrix/
+WARNING 2026-01-19 04:12:52,515 log Not Found: /api/admin/permissions/
+WARNING 2026-01-19 04:12:52,595 log Not Found: /favicon.ico
+WARNING 2026-01-19 04:12:58,010 log Not Found: /api/admin/permission/
+WARNING 2026-01-19 04:12:58,083 log Not Found: /favicon.ico
+WARNING 2026-01-19 04:13:09,475 log Not Found: /api/account/
+WARNING 2026-01-19 04:13:09,561 log Not Found: /favicon.ico
+WARNING 2026-01-19 04:13:27,826 log Method Not Allowed: /api/accounts/register/
+WARNING 2026-01-19 04:15:28,731 log Method Not Allowed: /api/accounts/login/
+WARNING 2026-01-19 10:14:44,638 log Method Not Allowed: /api/accounts/login/
+WARNING 2026-01-19 10:14:44,780 log Not Found: /favicon.ico
+WARNING 2026-01-19 12:58:17,159 log Method Not Allowed: /api/accounts/login/
+WARNING 2026-01-19 12:58:18,202 log Not Found: /favicon.ico
+WARNING 2026-01-31 19:57:32,530 log Not Found: /dashboard/
+WARNING 2026-01-31 19:57:32,611 log Not Found: /favicon.ico
+WARNING 2026-01-31 19:57:39,720 log Not Found: /
+WARNING 2026-01-31 19:57:39,796 log Not Found: /favicon.ico
+WARNING 2026-01-31 19:57:46,977 log Not Found: /
+WARNING 2026-01-31 19:57:47,039 log Not Found: /favicon.ico
+WARNING 2026-01-31 19:58:17,154 log Not Found: /api/account/
+WARNING 2026-01-31 19:58:17,225 log Not Found: /favicon.ico
+WARNING 2026-01-31 19:59:08,264 log Unauthorized: /api/progress/
+WARNING 2026-01-31 19:59:33,815 log Unauthorized: /api/admin/
+WARNING 2026-01-31 19:59:33,959 log Not Found: /favicon.ico
+WARNING 2026-02-17 11:33:28,706 log Not Found: /account/
+WARNING 2026-02-17 11:33:37,458 log Not Found: /account/me/
+WARNING 2026-02-17 11:33:52,170 log Not Found: /api/account/me/
+WARNING 2026-02-17 11:33:52,220 log Not Found: /favicon.ico
+WARNING 2026-02-17 11:34:01,204 log Not Found: /api/accounts/
+WARNING 2026-02-17 11:34:01,269 log Not Found: /favicon.ico
+WARNING 2026-02-17 11:34:34,275 log Not Found: /api/project/projects/
+WARNING 2026-02-17 11:35:22,871 log Unauthorized: /api/projects/
+WARNING 2026-02-17 11:35:23,047 log Not Found: /favicon.ico
+WARNING 2026-02-17 11:35:34,832 log Unauthorized: /api/projects/
+WARNING 2026-03-01 23:39:13,715 log Not Found: /api/account/login/
+WARNING 2026-03-01 23:39:13,838 log Not Found: /favicon.ico
+WARNING 2026-03-01 23:39:26,326 log Method Not Allowed: /api/accounts/login/
+WARNING 2026-03-12 11:01:30,071 log Not Found: /api/accounts/
+WARNING 2026-03-12 11:01:30,186 log Not Found: /favicon.ico
+WARNING 2026-03-12 11:01:39,792 log Not Found: /api/account/
+WARNING 2026-03-12 11:02:05,838 log Not Found: /api/account/health/
+WARNING 2026-03-12 11:03:43,970 log Method Not Allowed: /api/accounts/login/
+WARNING 2026-03-12 11:08:48,928 log Method Not Allowed: /api/accounts/register/
+WARNING 2026-03-12 11:10:35,328 log Method Not Allowed: /api/accounts/login/
+WARNING 2026-03-12 14:02:21,525 log Method Not Allowed: /api/accounts/login/
+WARNING 2026-03-12 14:02:21,887 log Not Found: /favicon.ico
+WARNING 2026-03-12 21:23:15,572 log Unauthorized: /api/accounts/login/
+WARNING 2026-03-12 21:23:32,623 log Unauthorized: /api/accounts/login/
+WARNING 2026-03-12 21:23:37,770 log Unauthorized: /api/accounts/login/
