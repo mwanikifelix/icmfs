@@ -95,6 +95,12 @@ const routes = [
         ]
       },
       {
+        path: 'projects/:id/edit',
+        name: 'project-edit',
+        component: () => import('@/views/projects/ProjectEdit.vue'),
+      },
+      
+      {
         path: 'projects/:id',
         component: () => import('@/views/projects/ProjectDetail.vue'),
         children: [
@@ -103,11 +109,7 @@ const routes = [
             name: 'project-detail',
             component: () => import('@/views/projects/ProjectOverview.vue')
           },
-          {
-            path: 'edit',
-            name: 'project-edit',
-            component: () => import('@/views/projects/ProjectEdit.vue')
-          },
+         
           {
             path: 'timeline',
             name: 'project-timeline',

@@ -36,9 +36,11 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    
 
     # Third-party
     "rest_framework",
+    'django_filters',
     "drf_spectacular",
     "corsheaders",
 
@@ -50,6 +52,7 @@ INSTALLED_APPS = [
     "apps.finance",
     "apps.qa",
     "apps.notifications",
+    
 ]
 
 # --------------------------------------------------
@@ -187,6 +190,11 @@ USE_TZ = True
 # --------------------------------------------------
 STATIC_URL = "/static/"
 STATIC_ROOT = BASE_DIR / "staticfiles"
+
+
+
+MEDIA_URL = "/media/"
+MEDIA_ROOT = BASE_DIR / "media"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 

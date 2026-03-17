@@ -79,7 +79,8 @@ const menuItems = ref([
     icon: 'pi pi-fw pi-building',
     items: [
       { label: 'All Projects',    icon: 'pi pi-fw pi-list', to: '/app/projects'        },
-      { label: 'Create Project',  icon: 'pi pi-fw pi-plus', to: '/app/projects/create' }
+      { label: 'Create Project',  icon: 'pi pi-fw pi-plus', to: '/app/projects/create' },
+      { label: 'Project Details',  icon: 'pi pi-fw pi-details', to: '/app/projects/details' }
     ]
   },
 

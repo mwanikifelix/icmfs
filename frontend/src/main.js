@@ -5,6 +5,7 @@ import PrimeVue from 'primevue/config';
 import Aura from '@primeuix/themes/aura';
 import ConfirmationService from 'primevue/confirmationservice';
 import ToastService from 'primevue/toastservice';
+import Select from 'primevue/select';
 
 // Import styles in this exact order
 import 'primeicons/primeicons.css';
@@ -23,4 +24,5 @@ app.use(PrimeVue, {
 });
 app.use(ToastService);
 app.use(ConfirmationService);
+app.component('Select', Select); 
 app.mount('#app');

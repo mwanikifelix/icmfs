@@ -79,8 +79,7 @@ const { toggleMenu, toggleDarkMode, isDarkTheme } = useLayout();
 <script setup>
 import { ref, computed } from 'vue';
 import { useRouter } from 'vue-router';
-import { useLayout } from '@/layout/composables/layout';
-import { authService } from '@/service/authService';
+import { useLayout } from '@/layout/composables/layout'; import { authService } from '@/service/authService'; 
 import AppConfigurator from './AppConfigurator.vue';
 
 const { toggleMenu, toggleDarkMode, isDarkTheme } = useLayout();

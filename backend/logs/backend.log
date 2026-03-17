@@ -2944,3 +2944,1494 @@ WARNING 2026-03-12 14:02:21,887 log Not Found: /favicon.ico
 WARNING 2026-03-12 21:23:15,572 log Unauthorized: /api/accounts/login/
 WARNING 2026-03-12 21:23:32,623 log Unauthorized: /api/accounts/login/
 WARNING 2026-03-12 21:23:37,770 log Unauthorized: /api/accounts/login/
+WARNING 2026-03-13 05:05:00,489 log Method Not Allowed: /api/accounts/register/
+WARNING 2026-03-13 05:05:00,783 log Not Found: /favicon.ico
+WARNING 2026-03-13 06:23:37,036 log Not Found: /api/admin/users/stats/
+WARNING 2026-03-13 06:23:37,228 log Unauthorized: /api/admin/users/
+WARNING 2026-03-13 06:24:07,143 log Not Found: /api/admin/users/stats/
+WARNING 2026-03-13 06:24:07,156 log Forbidden: /api/admin/users/
+WARNING 2026-03-13 06:57:25,133 log Unauthorized: /api/admin/users/
+WARNING 2026-03-13 06:57:25,142 log Not Found: /api/admin/users/stats/
+WARNING 2026-03-13 06:58:59,653 log Not Found: /api/admin/users/stats/
+WARNING 2026-03-13 06:58:59,667 log Forbidden: /api/admin/users/
+WARNING 2026-03-13 06:59:16,082 log Forbidden: /api/admin/users/
+WARNING 2026-03-13 06:59:24,840 log Forbidden: /api/admin/users/
+WARNING 2026-03-13 06:59:27,129 log Forbidden: /api/admin/users/
+WARNING 2026-03-13 07:00:29,307 log Method Not Allowed: /api/accounts/login/
+WARNING 2026-03-13 07:00:29,490 log Not Found: /favicon.ico
+WARNING 2026-03-13 07:00:32,424 log Unauthorized: /api/projects/
+WARNING 2026-03-13 07:00:46,646 log Method Not Allowed: /api/accounts/register/
+WARNING 2026-03-13 07:06:56,232 log Not Found: /api/admin/users/stats/
+WARNING 2026-03-13 07:06:56,255 log Forbidden: /api/admin/users/
+WARNING 2026-03-13 07:11:47,831 log Forbidden: /api/admin/users/
+WARNING 2026-03-13 07:11:50,813 log Forbidden: /api/admin/users/
+WARNING 2026-03-13 07:11:51,882 log Forbidden: /api/admin/users/
+WARNING 2026-03-13 07:11:52,096 log Forbidden: /api/admin/users/
+WARNING 2026-03-13 07:11:52,695 log Forbidden: /api/admin/users/
+WARNING 2026-03-13 07:11:53,550 log Forbidden: /api/admin/users/
+WARNING 2026-03-13 07:11:53,666 log Forbidden: /api/admin/users/
+WARNING 2026-03-13 07:11:54,329 log Forbidden: /api/admin/users/
+WARNING 2026-03-13 07:11:54,562 log Forbidden: /api/admin/users/
+WARNING 2026-03-13 07:11:55,280 log Forbidden: /api/admin/users/
+WARNING 2026-03-13 07:11:56,127 log Forbidden: /api/admin/users/
+WARNING 2026-03-13 07:11:59,412 log Forbidden: /api/admin/users/
+WARNING 2026-03-13 07:12:07,862 log Forbidden: /api/admin/users/
+WARNING 2026-03-13 07:13:47,025 log Not Found: /api/admin/users/stats/
+WARNING 2026-03-13 07:13:47,027 log Unauthorized: /api/admin/users/
+WARNING 2026-03-13 07:14:12,543 log Unauthorized: /api/accounts/login/
+WARNING 2026-03-13 07:14:19,963 log Unauthorized: /api/accounts/login/
+WARNING 2026-03-13 07:14:23,248 log Unauthorized: /api/accounts/login/
+WARNING 2026-03-13 07:14:25,099 log Unauthorized: /api/accounts/login/
+WARNING 2026-03-13 07:14:26,264 log Unauthorized: /api/accounts/login/
+WARNING 2026-03-13 07:18:22,716 log Not Found: /api/admin/users/stats/
+WARNING 2026-03-13 07:18:22,735 log Forbidden: /api/admin/users/
+WARNING 2026-03-13 07:19:29,463 log Forbidden: /api/admin/users/
+WARNING 2026-03-13 07:19:30,928 log Forbidden: /api/admin/users/
+WARNING 2026-03-13 08:01:55,735 log Unauthorized: /api/admin/users/
+WARNING 2026-03-13 08:01:55,767 log Not Found: /api/admin/users/stats/
+WARNING 2026-03-13 08:02:15,921 log Not Found: /api/admin/users/stats/
+WARNING 2026-03-13 08:02:15,935 log Forbidden: /api/admin/users/
+WARNING 2026-03-13 08:06:21,031 log Forbidden: /api/admin/users/
+WARNING 2026-03-13 08:06:37,881 log Forbidden: /api/admin/users/
+WARNING 2026-03-13 15:47:20,522 log Method Not Allowed: /api/accounts/login/
+WARNING 2026-03-13 15:47:41,484 log Forbidden: /api/admin/users/
+WARNING 2026-03-13 15:47:41,490 log Forbidden: /api/admin/users/stats/
+WARNING 2026-03-13 15:48:02,728 log Unauthorized: /api/accounts/login/
+WARNING 2026-03-13 15:48:07,583 log Unauthorized: /api/accounts/login/
+WARNING 2026-03-13 15:48:10,723 log Unauthorized: /api/accounts/login/
+WARNING 2026-03-13 15:48:13,444 log Unauthorized: /api/accounts/login/
+WARNING 2026-03-13 15:48:17,155 log Unauthorized: /api/accounts/login/
+WARNING 2026-03-13 15:48:29,139 log Unauthorized: /api/accounts/login/
+WARNING 2026-03-13 15:48:31,526 log Unauthorized: /api/accounts/login/
+WARNING 2026-03-13 15:48:51,436 log Unauthorized: /api/accounts/login/
+WARNING 2026-03-13 15:51:00,164 log Forbidden: /api/admin/users/stats/
+WARNING 2026-03-13 15:51:00,181 log Forbidden: /api/admin/users/
+WARNING 2026-03-13 15:52:37,558 log Forbidden: /api/admin/users/
+WARNING 2026-03-13 15:57:04,696 log Method Not Allowed: /api/accounts/register/
+WARNING 2026-03-13 16:11:56,434 log Unauthorized: /api/accounts/login/
+WARNING 2026-03-13 16:14:05,852 log Unauthorized: /api/accounts/login/
+WARNING 2026-03-13 16:33:58,673 log Unauthorized: /api/accounts/login/
+WARNING 2026-03-13 16:34:16,968 log Unauthorized: /api/accounts/login/
+WARNING 2026-03-13 16:59:08,362 log Unauthorized: /api/admin/users/
+WARNING 2026-03-13 16:59:08,362 log Unauthorized: /api/admin/users/stats/
+WARNING 2026-03-13 23:20:13,178 log Method Not Allowed: /api/accounts/register/
+WARNING 2026-03-13 23:20:13,397 log Not Found: /favicon.ico
+WARNING 2026-03-13 23:21:24,504 log Unauthorized: /api/projects/
+WARNING 2026-03-13 23:21:53,788 log Not Found: /api/projects/regions/
+WARNING 2026-03-13 23:25:01,527 log Not Found: /api/projects/counties/
+WARNING 2026-03-14 13:08:33,830 log Unauthorized: /api/projects/
+WARNING 2026-03-14 13:08:33,994 log Not Found: /favicon.ico
+WARNING 2026-03-14 13:08:48,994 log Unauthorized: /api/projects/regions/
+WARNING 2026-03-14 13:08:55,115 log Unauthorized: /api/projects/regions/
+WARNING 2026-03-14 13:09:12,685 log Not Found: /api/projects/subcounties/
+WARNING 2026-03-14 13:28:12,563 log Not Found: /api/projects/subcounties/
+WARNING 2026-03-14 13:28:54,783 log Not Found: /api/projects/subcounties/
+WARNING 2026-03-14 13:30:17,031 log Not Found: /api/projects/subcounties/
+WARNING 2026-03-14 13:31:58,794 log Not Found: /api/projects/subcounties/
+WARNING 2026-03-14 13:34:10,053 log Not Found: /api/projects/subcounties/
+WARNING 2026-03-14 13:56:19,351 log Unauthorized: /api/projects/regions/
+WARNING 2026-03-14 14:06:56,899 log Not Found: /api/projects/projects/undefined/
+WARNING 2026-03-14 14:10:21,923 log Not Found: /api/projects/projects/undefined/
+WARNING 2026-03-14 14:13:25,608 log Unauthorized: /api/projects/counties/
+WARNING 2026-03-14 17:35:17,594 log Unauthorized: /api/projects/regions/
+WARNING 2026-03-14 17:44:45,203 log Not Found: /api/projects/projects/undefined/
+WARNING 2026-03-14 17:50:41,948 log Unauthorized: /api/projects/projects/
+WARNING 2026-03-14 17:55:51,957 log Not Found: /api/projects/projects/undefined/
+WARNING 2026-03-14 17:58:22,632 log Not Found: /api/projects/projects/undefined/
+WARNING 2026-03-14 18:04:07,431 log Not Found: /api/projects/projects/undefined/
+WARNING 2026-03-14 18:07:37,224 log Unauthorized: /api/projects/counties/
+WARNING 2026-03-14 18:15:13,677 log Not Found: /api/projects/projects/undefined/
+WARNING 2026-03-14 18:20:58,412 log Not Found: /api/projects/projects/undefined/
+WARNING 2026-03-14 18:27:52,788 log Unauthorized: /api/projects/counties/
+WARNING 2026-03-14 18:29:43,379 log Not Found: /api/projects/projects/undefined/
+WARNING 2026-03-14 18:32:31,800 log Not Found: /api/projects/projects/undefined/
+WARNING 2026-03-14 18:56:30,994 log Unauthorized: /api/projects/projects/
+WARNING 2026-03-14 18:56:30,996 log Unauthorized: /api/projects/regions/
+WARNING 2026-03-14 19:20:45,089 log Unauthorized: /api/projects/projects/10/
+WARNING 2026-03-14 20:07:07,380 log Unauthorized: /api/projects/subcounties/
+WARNING 2026-03-14 21:02:01,357 log Unauthorized: /api/projects/projects/
+WARNING 2026-03-14 21:17:11,906 log Unauthorized: /api/admin/users/
+WARNING 2026-03-14 21:17:11,908 log Unauthorized: /api/admin/users/stats/
+WARNING 2026-03-14 21:22:43,432 log Not Found: /api/projects/projects/undefined/
+WARNING 2026-03-15 18:58:01,972 log Unauthorized: /api/projects/projects/
+WARNING 2026-03-15 18:58:01,974 log Unauthorized: /api/projects/regions/
+WARNING 2026-03-15 19:19:34,547 log Unauthorized: /api/projects/projects/
+WARNING 2026-03-15 19:19:34,544 log Unauthorized: /api/projects/regions/
+WARNING 2026-03-15 19:40:59,705 log Unauthorized: /api/projects/projects/
+WARNING 2026-03-15 19:40:59,709 log Unauthorized: /api/projects/regions/
+WARNING 2026-03-15 19:57:48,692 log Unauthorized: /api/projects/projects/
+WARNING 2026-03-15 19:57:48,694 log Unauthorized: /api/projects/regions/
+WARNING 2026-03-15 20:13:10,020 log Unauthorized: /api/projects/projects/
+WARNING 2026-03-15 20:13:10,021 log Unauthorized: /api/projects/regions/
+WARNING 2026-03-15 20:28:32,865 log Unauthorized: /api/projects/projects/
+WARNING 2026-03-15 20:28:32,866 log Unauthorized: /api/projects/regions/
+WARNING 2026-03-15 20:45:35,527 log Unauthorized: /api/projects/regions/
+WARNING 2026-03-15 20:45:35,523 log Unauthorized: /api/projects/projects/
+WARNING 2026-03-15 21:05:19,326 log Unauthorized: /api/projects/projects/
+WARNING 2026-03-15 21:05:19,328 log Unauthorized: /api/projects/regions/
+WARNING 2026-03-15 21:27:24,243 log Unauthorized: /api/projects/counties/
+WARNING 2026-03-15 21:27:24,481 log Not Found: /favicon.ico
+WARNING 2026-03-15 21:27:52,002 log Unauthorized: /api/projects/subcounties/
+WARNING 2026-03-15 21:28:13,004 log Unauthorized: /api/projects/wards/
+WARNING 2026-03-15 21:28:36,126 log Unauthorized: /api/projects/wards/
+WARNING 2026-03-15 21:28:37,586 log Unauthorized: /api/projects/wards/
+WARNING 2026-03-15 21:28:38,219 log Unauthorized: /api/projects/wards/
+WARNING 2026-03-15 21:28:40,837 log Unauthorized: /api/projects/wards/
+WARNING 2026-03-15 21:28:45,273 log Unauthorized: /api/projects/wards/
+WARNING 2026-03-15 21:28:49,844 log Unauthorized: /api/projects/wards/
+WARNING 2026-03-15 21:37:22,677 log Unauthorized: /api/projects/regions/
+WARNING 2026-03-15 21:37:22,680 log Unauthorized: /api/projects/projects/
+WARNING 2026-03-15 21:55:18,283 log Unauthorized: /api/projects/regions/
+WARNING 2026-03-15 21:55:18,285 log Unauthorized: /api/projects/projects/
+WARNING 2026-03-15 22:10:47,138 log Unauthorized: /api/projects/projects/
+WARNING 2026-03-15 22:10:47,140 log Unauthorized: /api/projects/counties/
+WARNING 2026-03-15 22:29:20,131 log Unauthorized: /api/projects/projects/
+WARNING 2026-03-15 22:45:35,857 log Unauthorized: /api/projects/projects/11/
+WARNING 2026-03-15 23:01:27,954 log Unauthorized: /api/projects/regions/
+WARNING 2026-03-15 23:20:33,310 log Unauthorized: /api/projects/regions/
+WARNING 2026-03-15 23:39:36,315 log Unauthorized: /api/projects/projects/
+WARNING 2026-03-15 23:55:32,097 log Unauthorized: /api/projects/projects/
+WARNING 2026-03-16 00:05:20,099 log Unauthorized: /api/projects/wards/
+WARNING 2026-03-16 00:05:38,097 log Unauthorized: /api/projects/projects/
+WARNING 2026-03-16 00:27:34,239 log Unauthorized: /api/projects/projects/
+WARNING 2026-03-16 00:27:34,241 log Unauthorized: /api/projects/regions/
+WARNING 2026-03-16 00:44:33,107 log Unauthorized: /api/projects/counties/
+WARNING 2026-03-16 00:55:20,231 log Not Found: /api/projects/projects/27/
+WARNING 2026-03-16 00:59:42,372 log Unauthorized: /api/projects/counties/
+WARNING 2026-03-16 00:59:42,376 log Unauthorized: /api/projects/projects/
+WARNING 2026-03-16 01:15:31,731 log Unauthorized: /api/projects/regions/
+WARNING 2026-03-16 03:05:10,393 log Unauthorized: /api/projects/projects/11/
+WARNING 2026-03-16 03:06:46,579 log Not Found: /media/project_media/photo.jpg
+WARNING 2026-03-16 03:13:17,340 log Not Found: /api/projects/projects/12/
+WARNING 2026-03-16 03:13:18,853 log Not Found: /api/projects/projects/12/
+WARNING 2026-03-16 04:54:33,112 log Unauthorized: /api/projects/projects/11/
+WARNING 2026-03-16 04:59:44,140 log Not Found: /api/projects/projects/details/
+WARNING 2026-03-16 04:59:51,525 log Not Found: /api/projects/projects/details/
+WARNING 2026-03-16 05:01:38,381 log Not Found: /api/projects/projects/details/
+WARNING 2026-03-16 05:07:33,624 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 05:18:00,372 log Unauthorized: /api/projects/projects/details/
+WARNING 2026-03-16 05:18:21,988 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 05:18:40,715 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 05:18:50,126 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 05:20:33,369 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 05:20:42,778 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 05:21:04,877 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 05:21:18,478 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 05:21:22,352 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 05:21:26,898 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 05:21:28,995 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 05:21:29,729 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 05:21:30,078 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 05:21:30,305 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 05:21:31,247 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 05:21:31,449 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 05:21:31,613 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 05:21:35,089 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 05:21:55,291 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 05:21:58,444 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 05:21:59,392 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 05:22:03,629 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 05:36:19,586 log Unauthorized: /api/admin/users/
+WARNING 2026-03-16 05:36:19,588 log Unauthorized: /api/admin/users/stats/
+WARNING 2026-03-16 05:39:21,877 log Unauthorized: /api/accounts/login/
+WARNING 2026-03-16 05:39:30,740 log Unauthorized: /api/accounts/login/
+WARNING 2026-03-16 05:39:39,455 log Unauthorized: /api/accounts/login/
+WARNING 2026-03-16 05:39:41,976 log Unauthorized: /api/accounts/login/
+WARNING 2026-03-16 05:39:43,702 log Unauthorized: /api/accounts/login/
+WARNING 2026-03-16 05:42:09,876 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 05:42:29,137 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 05:42:38,403 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 05:42:51,580 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 05:45:48,650 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:02:55,059 log Unauthorized: /api/projects/projects/11/
+WARNING 2026-03-16 06:03:33,331 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:03:37,816 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:03:47,654 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:18:06,921 log Unauthorized: /api/projects/sites/4/
+WARNING 2026-03-16 06:18:21,357 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:18:39,744 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:18:42,248 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:18:43,364 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:18:43,526 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:18:43,973 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:18:44,296 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:18:44,711 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:18:45,468 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:18:46,289 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:18:49,822 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:18:51,580 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:18:53,497 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:18:54,244 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:18:54,429 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:18:54,647 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:18:55,760 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:18:55,968 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:18:56,193 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:18:59,111 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:19:00,331 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:19:01,301 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:19:01,519 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:19:01,780 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:19:02,017 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:19:02,716 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:19:02,944 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:19:03,970 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:19:06,100 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:19:07,341 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:19:09,019 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:19:10,347 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:19:10,876 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:19:11,078 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:19:11,259 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:19:21,851 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:19:38,467 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:20:43,906 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:21:17,490 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:21:29,954 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:26:50,152 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:27:12,270 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:29:34,401 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:29:54,505 log Not Found: /api/projects/project-media/
+WARNING 2026-03-16 06:30:15,931 log Not Found: /api/projects/project-media/
+ERROR 2026-03-16 06:30:27,748 log Internal Server Error: /api/projects/media/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "project_site_media" does not exist
+LINE 1: ...jects"."created_at", "projects"."updated_at" FROM "project_s...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 797, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 715, in to_representation
+    return [
+           ^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 386, in __iter__
+    self._fetch_all()
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "project_site_media" does not exist
+LINE 1: ...jects"."created_at", "projects"."updated_at" FROM "project_s...
+                                                             ^
+
+WARNING 2026-03-16 06:30:54,814 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 06:30:59,449 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 06:31:06,392 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 06:31:08,241 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 06:31:08,884 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 06:31:08,959 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 06:31:09,273 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 06:31:10,890 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 06:31:11,229 log Bad Request: /api/projects/media/
+ERROR 2026-03-16 06:31:43,242 log Internal Server Error: /api/projects/media/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "project_site_media" does not exist
+LINE 1: ...jects"."created_at", "projects"."updated_at" FROM "project_s...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 797, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 715, in to_representation
+    return [
+           ^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 386, in __iter__
+    self._fetch_all()
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "project_site_media" does not exist
+LINE 1: ...jects"."created_at", "projects"."updated_at" FROM "project_s...
+                                                             ^
+
+WARNING 2026-03-16 06:31:48,727 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 06:31:50,607 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 06:31:50,946 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 06:31:51,096 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 06:31:51,271 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 06:32:00,070 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 06:32:53,447 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 06:37:50,424 log Unauthorized: /api/projects/projects/11/
+WARNING 2026-03-16 06:38:03,377 log Not Found: /api/projects/projects/details/
+ERROR 2026-03-16 06:38:12,001 log Internal Server Error: /api/projects/media/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "project_site_media" does not exist
+LINE 1: ...jects"."created_at", "projects"."updated_at" FROM "project_s...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 797, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 715, in to_representation
+    return [
+           ^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 386, in __iter__
+    self._fetch_all()
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "project_site_media" does not exist
+LINE 1: ...jects"."created_at", "projects"."updated_at" FROM "project_s...
+                                                             ^
+
+WARNING 2026-03-16 06:38:17,704 log Bad Request: /api/projects/media/
+ERROR 2026-03-16 06:38:25,298 log Internal Server Error: /api/projects/media/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "project_site_media" does not exist
+LINE 1: ...jects"."created_at", "projects"."updated_at" FROM "project_s...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 797, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 715, in to_representation
+    return [
+           ^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 386, in __iter__
+    self._fetch_all()
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "project_site_media" does not exist
+LINE 1: ...jects"."created_at", "projects"."updated_at" FROM "project_s...
+                                                             ^
+
+WARNING 2026-03-16 06:38:36,115 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 06:38:54,971 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 06:57:13,289 log Unauthorized: /api/projects/projects/11/
+ERROR 2026-03-16 06:57:38,050 log Internal Server Error: /api/projects/media/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "project_site_media" does not exist
+LINE 1: ...jects"."created_at", "projects"."updated_at" FROM "project_s...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 797, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 715, in to_representation
+    return [
+           ^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 386, in __iter__
+    self._fetch_all()
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "project_site_media" does not exist
+LINE 1: ...jects"."created_at", "projects"."updated_at" FROM "project_s...
+                                                             ^
+
+WARNING 2026-03-16 06:57:43,759 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 06:57:51,516 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 06:57:54,627 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 06:57:54,848 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 06:57:55,345 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 06:57:55,589 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 06:57:57,022 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 06:57:57,647 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 06:57:57,874 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 06:57:58,049 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 06:57:58,255 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 06:57:58,444 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 07:14:25,784 log Unauthorized: /api/projects/projects/11/
+ERROR 2026-03-16 07:35:19,244 log Internal Server Error: /api/projects/media/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "project_site_media" does not exist
+LINE 1: ...jects"."created_at", "projects"."updated_at" FROM "project_s...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 797, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 715, in to_representation
+    return [
+           ^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 386, in __iter__
+    self._fetch_all()
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "project_site_media" does not exist
+LINE 1: ...jects"."created_at", "projects"."updated_at" FROM "project_s...
+                                                             ^
+
+WARNING 2026-03-16 07:35:24,146 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 07:35:29,089 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 07:35:34,774 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 07:35:40,641 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 07:36:12,016 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 07:36:14,571 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 07:36:14,934 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 07:36:16,830 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 07:39:03,481 log Forbidden: /api/admin/users/stats/
+WARNING 2026-03-16 07:39:03,486 log Forbidden: /api/admin/users/
+WARNING 2026-03-16 07:52:42,276 log Not Found: /api/projects/projects/undefined/
+WARNING 2026-03-16 07:57:58,697 log Unauthorized: /api/projects/sites/7/
+WARNING 2026-03-16 08:25:39,563 log Unauthorized: /api/projects/projects/
+WARNING 2026-03-16 08:25:39,566 log Unauthorized: /api/projects/regions/
+ERROR 2026-03-16 08:27:07,894 log Internal Server Error: /api/projects/media/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "project_site_media" does not exist
+LINE 1: ...jects"."created_at", "projects"."updated_at" FROM "project_s...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 797, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 715, in to_representation
+    return [
+           ^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 386, in __iter__
+    self._fetch_all()
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "project_site_media" does not exist
+LINE 1: ...jects"."created_at", "projects"."updated_at" FROM "project_s...
+                                                             ^
+
+WARNING 2026-03-16 08:27:15,661 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 08:27:32,015 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 08:27:33,000 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 08:27:33,275 log Bad Request: /api/projects/media/
+ERROR 2026-03-16 08:28:19,176 log Internal Server Error: /api/projects/media/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "project_site_media" does not exist
+LINE 1: ...jects"."created_at", "projects"."updated_at" FROM "project_s...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 797, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 715, in to_representation
+    return [
+           ^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 386, in __iter__
+    self._fetch_all()
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "project_site_media" does not exist
+LINE 1: ...jects"."created_at", "projects"."updated_at" FROM "project_s...
+                                                             ^
+
+WARNING 2026-03-16 08:44:18,371 log Unauthorized: /api/projects/media/
+ERROR 2026-03-16 08:44:37,974 log Internal Server Error: /api/projects/media/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "project_site_media" does not exist
+LINE 1: ...jects"."created_at", "projects"."updated_at" FROM "project_s...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 797, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 715, in to_representation
+    return [
+           ^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 386, in __iter__
+    self._fetch_all()
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "project_site_media" does not exist
+LINE 1: ...jects"."created_at", "projects"."updated_at" FROM "project_s...
+                                                             ^
+
+WARNING 2026-03-16 08:44:43,611 log Bad Request: /api/projects/media/
+ERROR 2026-03-16 08:44:48,028 log Internal Server Error: /api/projects/media/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "project_site_media" does not exist
+LINE 1: ...jects"."created_at", "projects"."updated_at" FROM "project_s...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 797, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 715, in to_representation
+    return [
+           ^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 386, in __iter__
+    self._fetch_all()
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "project_site_media" does not exist
+LINE 1: ...jects"."created_at", "projects"."updated_at" FROM "project_s...
+                                                             ^
+
+WARNING 2026-03-16 08:45:02,443 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 08:45:06,786 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 08:45:07,758 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 08:45:08,024 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 08:45:08,215 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 08:45:36,870 log Bad Request: /api/projects/media/
+WARNING 2026-03-16 08:45:48,691 log Bad Request: /api/projects/media/
+ERROR 2026-03-16 08:49:26,582 log Internal Server Error: /api/projects/media/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "project_site_media" does not exist
+LINE 1: ...jects"."created_at", "projects"."updated_at" FROM "project_s...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 797, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 715, in to_representation
+    return [
+           ^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 386, in __iter__
+    self._fetch_all()
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "project_site_media" does not exist
+LINE 1: ...jects"."created_at", "projects"."updated_at" FROM "project_s...
+                                                             ^
+
+ERROR 2026-03-16 08:50:02,904 log Internal Server Error: /api/projects/media/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "project_site_media" does not exist
+LINE 1: ...jects"."created_at", "projects"."updated_at" FROM "project_s...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 797, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 715, in to_representation
+    return [
+           ^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 386, in __iter__
+    self._fetch_all()
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "project_site_media" does not exist
+LINE 1: ...jects"."created_at", "projects"."updated_at" FROM "project_s...
+                                                             ^
+
+WARNING 2026-03-16 14:39:04,647 log Unauthorized: /api/projects/projects/5/
+ERROR 2026-03-17 10:01:09,722 log Internal Server Error: /api/projects/media/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "project_site_media" does not exist
+LINE 1: ...jects"."created_at", "projects"."updated_at" FROM "project_s...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 797, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 715, in to_representation
+    return [
+           ^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 386, in __iter__
+    self._fetch_all()
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "project_site_media" does not exist
+LINE 1: ...jects"."created_at", "projects"."updated_at" FROM "project_s...
+                                                             ^
+
+ERROR 2026-03-17 10:01:17,237 log Internal Server Error: /api/projects/media/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "project_site_media" does not exist
+LINE 1: INSERT INTO "project_site_media" ("uuid", "project_id", "sit...
+                    ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 665, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 902, in save
+    self.save_base(
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1008, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1169, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1210, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1873, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "project_site_media" does not exist
+LINE 1: INSERT INTO "project_site_media" ("uuid", "project_id", "sit...
+                    ^
+
+ERROR 2026-03-17 10:01:25,225 log Internal Server Error: /api/projects/media/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "project_site_media" does not exist
+LINE 1: INSERT INTO "project_site_media" ("uuid", "project_id", "sit...
+                    ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/rest_framework/serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 665, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 902, in save
+    self.save_base(
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1008, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1169, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/base.py", line 1210, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1873, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "project_site_media" does not exist
+LINE 1: INSERT INTO "project_site_media" ("uuid", "project_id", "sit...
+                    ^
+
