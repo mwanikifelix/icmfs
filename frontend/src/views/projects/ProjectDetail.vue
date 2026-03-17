@@ -10,8 +10,7 @@
 <template v-else-if="project">
 
 <!-- ================= HEADER ================= -->
-<div class="border-round-xl mb-4 p-4"
-style="background:linear-gradient(135deg,#0d2347 0%,#1976d2 100%);">
+<div class="border-round-xl mb-4 p-4 header-gradient">
 
 <div class="flex align-items-start justify-content-between flex-wrap gap-3">
 
@@ -21,16 +20,16 @@ style="background:linear-gradient(135deg,#0d2347 0%,#1976d2 100%);">
 icon="pi pi-arrow-left"
 text
 rounded
-style="color:#fff;"
+class="header-back-btn"
 @click="$router.push('/app/projects')"
 />
 
 <div>
-<h4 class="mt-0 mb-1" style="color:#fff;">
+<h4 class="mt-0 mb-1 text-white">
 {{ project.name }}
 </h4>
 
-<div class="flex flex-wrap gap-3 text-sm" style="color:#b3c8e8;">
+<div class="flex flex-wrap gap-3 text-sm text-light">
 
 <span>
 <i class="pi pi-user mr-1" />
@@ -56,14 +55,14 @@ style="color:#fff;"
 <Tag
 :value="project.status_display || project.status"
 :severity="statusSeverity(project.status)"
-style="font-size:0.9rem;"
+class="status-tag"
 />
 
 <Button
 label="Edit"
 icon="pi pi-pencil"
 size="small"
-style="background:#e6a817;border-color:#e6a817;color:#0d2347;"
+class="edit-btn"
 @click="$router.push(`/app/projects/${project.id}/edit`)"
 />
 
@@ -83,9 +82,7 @@ v-for="tab in tabs"
 :icon="tab.icon"
 size="small"
 :outlined="activeTab !== tab.name"
-:style="activeTab === tab.name
-? 'background:#1976d2;border-color:#1976d2;'
-: 'border-color:#1976d2;color:#1976d2;'"
+:class="activeTab === tab.name ? 'tab-active' : 'tab-inactive'"
 @click="activeTab = tab.name"
 />
 
@@ -96,68 +93,58 @@ size="small"
 <div v-if="activeTab === 'overview'" class="grid">
 
 <div class="col-6 lg:col-3">
-<div class="card mb-0 text-center">
+<div class="card stat-card">
 <div class="text-500 text-sm mb-1">Budget (KES)</div>
-<div class="font-bold text-xl text-900">
+<div class="font-bold text-xl">
 {{ project.budget ? fmtBudget(project.budget) : '—' }}
 </div>
 </div>
 </div>
 
 <div class="col-6 lg:col-3">
-<div class="card mb-0 text-center">
+<div class="card stat-card">
 <div class="text-500 text-sm mb-1">Progress</div>
-<div class="font-bold text-xl" style="color:#1976d2;">
+<div class="font-bold text-xl text-primary">
 {{ project.progress || 0 }}%
 </div>
 </div>
 </div>
 
 <div class="col-6 lg:col-3">
-<div class="card mb-0 text-center">
+<div class="card stat-card">
 <div class="text-500 text-sm mb-1">Start Date</div>
-<div class="font-bold text-xl text-900">
+<div class="font-bold text-xl">
 {{ fmtDate(project.start_date) }}
 </div>
 </div>
 </div>
 
 <div class="col-6 lg:col-3">
-<div class="card mb-0 text-center">
+<div class="card stat-card">
 <div class="text-500 text-sm mb-1">End Date</div>
-<div class="font-bold text-xl text-900">
+<div class="font-bold text-xl">
 {{ fmtDate(project.end_date) || '—' }}
 </div>
 </div>
 </div>
 
-<!-- Project Details -->
+<!-- DETAILS -->
 <div class="col-12 lg:col-8">
-
 <div class="card">
 
-<h5 class="mt-0 mb-4" style="color:#0d2347;">
-Project Details
-</h5>
+<h5 class="section-title">Project Details</h5>
 
 <div class="mb-4">
-
 <div class="flex justify-content-between mb-2">
-
-<span class="text-600 text-sm font-medium">
-Overall Progress
-</span>
-
-<span class="font-bold" style="color:#1976d2;">
+<span class="text-600 text-sm">Overall Progress</span>
+<span class="font-bold text-primary">
 {{ project.progress || 0 }}%
 </span>
-
 </div>
 
 <ProgressBar
 :value="project.progress || 0"
-style="height:10px;"
-:pt="{ value: { style: { background: progressColor(project.progress) } } }"
+class="progress-bar"
 />
 
 </div>
@@ -166,28 +153,28 @@ style="height:10px;"
 
 <div class="col-6 md:col-3 mb-3">
 <div class="text-500 mb-1">Category</div>
-<div class="font-medium text-900">
+<div class="font-medium">
 {{ project.category_display || '—' }}
 </div>
 </div>
 
 <div class="col-6 md:col-3 mb-3">
 <div class="text-500 mb-1">Sector</div>
-<div class="font-medium text-900">
+<div class="font-medium">
 {{ project.sector || '—' }}
 </div>
 </div>
 
 <div class="col-6 md:col-3 mb-3">
 <div class="text-500 mb-1">Owner Type</div>
-<div class="font-medium text-900">
+<div class="font-medium">
 {{ project.owner_type_display || '—' }}
 </div>
 </div>
 
 <div class="col-6 md:col-3 mb-3">
 <div class="text-500 mb-1">Created By</div>
-<div class="font-medium text-900">
+<div class="font-medium">
 {{ project.created_by_name || '—' }}
 </div>
 </div>
@@ -195,32 +182,22 @@ style="height:10px;"
 </div>
 
 <div v-if="project.description" class="mt-2">
-
-<div class="text-500 font-medium mb-2 text-sm">
-Description
-</div>
-
+<div class="text-500 mb-2 text-sm">Description</div>
 <p class="text-700 line-height-3 m-0">
 {{ project.description }}
 </p>
-
 </div>
 
 </div>
 </div>
 
-<!-- Sites -->
+<!-- SITES -->
 <div class="col-12 lg:col-4">
-
 <div class="card">
 
 <div class="flex justify-content-between align-items-center mb-3">
-<h5 class="mt-0 mb-0" style="color:#0d2347;">
-Project Sites
-</h5>
-
+<h5 class="section-title">Project Sites</h5>
 <Tag :value="`${project.sites?.length || 0}`" severity="info" />
-
 </div>
 
 <div v-if="project.sites?.length" class="flex flex-column gap-2">
@@ -228,11 +205,10 @@ Project Sites
 <div
 v-for="site in project.sites"
 :key="site.id"
-class="p-3 border-round-lg"
-style="background:var(--surface-50);"
+class="site-card"
 >
 
-<div class="font-semibold text-sm text-900">
+<div class="font-semibold">
 {{ site.site_name }}
 </div>
 
@@ -242,6 +218,7 @@ style="background:var(--surface-50);"
 </div>
 
 </div>
+
 </div>
 
 <div v-else class="text-500 text-sm text-center py-3">
@@ -253,45 +230,22 @@ No sites added yet.
 
 </div>
 
-<!-- ================= TIMELINE ================= -->
-<div v-if="activeTab === 'timeline'" class="card">
-
-<h5 style="color:#0d2347;">Timeline / WBS</h5>
-
-<DataTable :value="project.wbs_items || []" size="small" stripedRows>
-
-<Column field="wbs_code" header="WBS Code" style="width:120px;" />
-
-<Column field="wbs_name" header="Name" />
-
-<Column header="Planned Cost">
-<template #body="{ data }">
-KES {{ Number(data.planned_cost).toLocaleString('en-KE') }}
-</template>
-</Column>
-
-<Column field="planned_start" header="Start" />
-<Column field="planned_end" header="End" />
-
-</DataTable>
-
-</div>
-
 <!-- ================= MEDIA ================= -->
-<div v-if="activeTab === 'media'">
-<ProjectMedia />
+<div v-if="activeTab === 'media' && project">
+<ProjectMedia :projectId="project.id" />
 </div>
 
-<!-- ================= RISKS ================= -->
+<!-- OTHER TABS -->
+<div v-if="activeTab === 'timeline'" class="card">
+<h5>Timeline / WBS</h5>
+</div>
+
 <div v-if="activeTab === 'risks'" class="card">
-<h5 style="color:#0d2347;">Risks</h5>
-<p class="text-500">Risk register — coming soon.</p>
+<h5>Risks</h5>
 </div>
 
-<!-- ================= REPORTS ================= -->
 <div v-if="activeTab === 'reports'" class="card">
-<h5 style="color:#0d2347;">Reports</h5>
-<p class="text-500">Project reports — coming soon.</p>
+<h5>Reports</h5>
 </div>
 
 </template>
@@ -304,15 +258,11 @@ KES {{ Number(data.planned_cost).toLocaleString('en-KE') }}
 import { ref, onMounted } from "vue";
 import { useRoute } from "vue-router";
 import api from "@/api/api";
-
-/* MEDIA COMPONENT */
 import ProjectMedia from "@/views/projects/ProjectMedia.vue";
 
 const route = useRoute();
-
 const project = ref(null);
 const loading = ref(false);
-
 const activeTab = ref("overview");
 
 const tabs = [
@@ -323,46 +273,20 @@ const tabs = [
 { name: "reports", label: "Reports", icon: "pi pi-file-pdf" }
 ];
 
-const fmtDate = (d) => {
-if (!d) return null;
-return new Date(d).toLocaleDateString("en-KE", {
-day: "2-digit",
-month: "short",
-year: "numeric"
-});
-};
+const fmtDate = (d) =>
+d ? new Date(d).toLocaleDateString("en-KE") : null;
 
-const fmtBudget = (v) => {
-const n = Number(v);
-if (n >= 1e9) return `KES ${(n / 1e9).toFixed(2)}B`;
-if (n >= 1e6) return `KES ${(n / 1e6).toFixed(1)}M`;
-return `KES ${n.toLocaleString("en-KE")}`;
-};
+const fmtBudget = (v) =>
+`KES ${Number(v).toLocaleString("en-KE")}`;
 
 const statusSeverity = (s) =>
-({
-planned: "info",
-active: "success",
-in_progress: "success",
-on_hold: "warn",
-at_risk: "danger",
-completed: "secondary",
-cancelled: "danger"
-}[s] || "info");
-
-const progressColor = (p) =>
-(p || 0) >= 80 ? "#2ecc71" :
-(p || 0) >= 40 ? "#e6a817" :
-"#1976d2";
+({ planned:"info", active:"success", completed:"secondary" }[s] || "info");
 
 async function loadProject() {
 loading.value = true;
-
 try {
 const res = await api.get(`/api/projects/projects/${route.params.id}/`);
 project.value = res.data;
-} catch {
-project.value = null;
 } finally {
 loading.value = false;
 }
@@ -370,3 +294,52 @@ loading.value = false;
 
 onMounted(loadProject);
 </script>
+
+<style scoped>
+
+/* HEADER */
+.header-gradient{
+background:linear-gradient(135deg,#0d2347,#1976d2);
+}
+.header-back-btn{ color:#fff; }
+.text-light{ color:#cfe3ff; }
+
+/* BUTTONS */
+.tab-active{
+background:#1976d2 !important;
+color:#fff !important;
+}
+.tab-inactive{
+border-color:#1976d2;
+color:#1976d2;
+}
+
+/* STATS */
+.stat-card{
+border-left:4px solid #1976d2;
+}
+
+/* TEXT */
+.section-title{
+color:#0d2347;
+}
+
+/* PROGRESS */
+.progress-bar .p-progressbar-value{
+background:#1976d2;
+}
+
+/* SITE */
+.site-card{
+background:#f4f7fb;
+padding:10px;
+border-radius:8px;
+}
+
+.edit-btn{
+background:#ffc107;
+border:none;
+color:#0d2347;
+}
+
+</style>

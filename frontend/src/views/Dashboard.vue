@@ -3,9 +3,10 @@
 <script setup>
 import BestSellingWidget from '@/components/dashboard/BestSellingWidget.vue';
 import NotificationsWidget from '@/components/dashboard/NotificationsWidget.vue';
-import RecentSalesWidget from '@/components/dashboard/RecentSalesWidget.vue';
+import RecentSalesWidget from '@/views/projects/ProjectList.vue';
 import RevenueStreamWidget from '@/components/dashboard/RevenueStreamWidget.vue';
 import StatsWidget from '@/components/dashboard/StatsWidget.vue';
+import ProjectList from '@/views/projects/ProjectList.vue';
 </script>
 
 <template>
@@ -13,7 +14,7 @@ import StatsWidget from '@/components/dashboard/StatsWidget.vue';
         <StatsWidget />
 
         <div class="col-span-12 xl:col-span-6">
-            <RecentSalesWidget />
+            <ProjectList />
             <BestSellingWidget />z
         </div>
         <div class="col-span-12 xl:col-span-6">

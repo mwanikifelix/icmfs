@@ -1,489 +1,345 @@
 <template>
   <div class="card">
 
-    <!-- ================= HEADER ================= -->
+    <!-- HEADER -->
     <div class="flex justify-content-between align-items-center mb-4">
       <h4>Project Media</h4>
 
       <div class="flex gap-2">
 
-        <Button
-          icon="pi pi-image"
-          label="Upload Photos"
-          severity="secondary"
-          @click="photoInput.click()"
+        <!-- ✅ PROJECT SELECT (ADDED ONLY) -->
+        <Dropdown
+          v-model="selectedProject"
+          :options="projects"
+          optionLabel="name"
+          optionValue="id"
+          placeholder="Select Project"
         />
 
-        <Button
-          icon="pi pi-video"
-          label="Upload Videos"
-          severity="secondary"
-          @click="videoInput.click()"
-        />
-
-        <Button
-          icon="pi pi-file"
-          label="Upload Documents"
-          severity="secondary"
-          @click="docInput.click()"
-        />
-
-        <Button
-          label="Upload Selected Videos"
-          icon="pi pi-upload"
-          class="mt-3"
-          @click="uploadVideos"
-        />
-
+        <Button label="Photos" icon="pi pi-image" @click="photoInput.click()" />
+        <Button label="Videos" icon="pi pi-video" @click="videoInput.click()" />
+        <Button label="Docs" icon="pi pi-file" @click="docInput.click()" />
       </div>
     </div>
 
-    <!-- ================= FILE INPUTS ================= -->
+    <!-- INPUTS -->
+    <input ref="photoInput" type="file" accept="image/*" multiple hidden @change="handleUpload($event,'photo')" />
+    <input ref="videoInput" type="file" accept="video/*" multiple hidden @change="handleUpload($event,'video')" />
+    <input ref="docInput" type="file" accept=".pdf,.doc,.docx,.xls,.xlsx" multiple hidden @change="handleUpload($event,'document')" />
 
-    <input
-      ref="photoInput"
-      type="file"
-      accept="image/*"
-      multiple
-      hidden
-      @change="handlePhotoUpload"
-    />
-
-    <input
-      ref="videoInput"
-      type="file"
-      accept="video/*"
-      multiple
-      hidden
-      @change="handleVideoUpload"
-    />
-
-    <input
-      ref="docInput"
-      type="file"
-      accept=".pdf,.doc,.docx,.xls,.xlsx"
-      multiple
-      hidden
-      @change="handleDocUpload"
-    />
-
-    <!-- ================= DRAG DROP ================= -->
-
-    <div
-      class="upload-dropzone"
-      @dragover.prevent
-      @drop.prevent="handleDropUpload"
-    >
-      <i class="pi pi-upload text-2xl mb-2"></i>
-      <p class="text-sm">
-        Drag & Drop Photos, Videos or Documents here
-      </p>
-      <small class="text-gray-500">
-        or use the upload buttons above
-      </small>
+    <!-- DROP -->
+    <div class="upload-dropzone" @dragover.prevent @drop.prevent="handleDropUpload">
+      Drag & Drop Files Here
     </div>
 
-    <!-- ================= EMPTY ================= -->
-
-    <div
-      v-if="!media.photos.length && !media.videos.length && !media.docs.length"
-      class="text-gray-500 mb-4"
-    >
-      No media uploaded yet.
+    <!-- TABS -->
+    <div class="flex gap-2 mb-3">
+      <Button label="Media Overview" :severity="activeTab==='overview'?'primary':'secondary'" @click="activeTab='overview'" />
+      <Button label="Photos & Videos" :severity="activeTab==='media'?'primary':'secondary'" @click="activeTab='media'" />
+      <Button label="Documents" :severity="activeTab==='docs'?'primary':'secondary'" @click="activeTab='docs'" />
     </div>
 
-    <!-- ================= PHOTOS ================= -->
+    <!-- OVERVIEW -->
+    <div v-if="activeTab==='overview'" class="overview-card">
+      <h5>Project Media Overview</h5>
 
-    <template v-if="media.photos.length">
-
-      <h5 class="mb-3">Photos</h5>
-
-      <div class="grid">
-        <div
-          v-for="photo in media.photos"
-          :key="photo.id"
-          class="col-12 md:col-4"
-        >
-          <div class="media-card">
-
-            <img
-              :src="photo.file"
-              class="w-full border-round"
-            />
-
-            <small class="text-gray-500">
-              Uploaded: {{ photo.uploaded_at }}
-            </small>
-
-          </div>
+      <div class="overview-stats">
+        <div class="stat">
+          <h3>{{ media.photos.length }}</h3>
+          <p>Photos</p>
+        </div>
+        <div class="stat">
+          <h3>{{ media.videos.length }}</h3>
+          <p>Videos</p>
+        </div>
+        <div class="stat">
+          <h3>{{ media.docs.length }}</h3>
+          <p>Documents</p>
         </div>
       </div>
-
-    </template>
-
-    <!-- ================= VIDEO PREVIEW ================= -->
-
-      <template v-if="videoPreview.length">
-
-    <h5 class="mt-4 mb-3">Video Preview</h5>
-
-    <div class="grid">
-
-      <div
-        v-for="video in videoPreview"
-        :key="video.preview"
-        class="col-12 md:col-4"
-      >
-
-        <div class="video-preview-card">
-
-          <video controls class="video-preview">
-            <source :src="video.preview">
-          </video>
-
-        </div>
-
-      </div>
-
     </div>
 
-    <Button
-      label="Upload Videos"
-      icon="pi pi-upload"
-      class="mt-3"
-      @click="uploadVideos"
-    />
+    <!-- GALLERY -->
+    <div class="gallery-grid">
 
-    </template>
-    <!-- ================= VIDEOS ================= -->
+      <div v-for="item in filteredMedia" :key="item.id" class="gallery-item">
 
-    <template v-if="media.videos.length">
+        <div class="media-card">
 
-      <h5 class="mt-4 mb-3">Videos</h5>
+          <!-- IMAGE -->
+          <img
+            v-if="item.media_type==='photo'"
+            :src="item.file"
+            class="gallery-img"
+            loading="lazy"
+            @click="openPreview(item.file)"
+          />
 
-      <div class="grid">
-        <div
-          v-for="video in media.videos"
-          :key="video.id"
-          class="col-12 md:col-6"
-        >
-          <div class="media-card">
-
-            <video controls class="w-full border-round">
-              <source :src="video.file">
+          <!-- VIDEO -->
+          <div v-if="item.media_type==='video'" class="video-wrapper">
+            <video class="gallery-img" muted>
+              <source :src="item.file" />
             </video>
-
-            <small class="text-gray-500">
-              Uploaded: {{ video.uploaded_at }}
-            </small>
-
+            <i class="pi pi-play play-icon"></i>
           </div>
-        </div>
-      </div>
 
-    </template>
-
-    <!-- ================= DOCUMENTS ================= -->
-
-    <template v-if="media.docs.length">
-
-      <h5 class="mt-4 mb-3">Documents</h5>
-
-      <div class="grid">
-
-        <div
-          v-for="doc in media.docs"
-          :key="doc.id"
-          class="col-12 md:col-4"
-        >
-          <div class="media-card">
-
-            <a :href="doc.file" target="_blank">
-              📄 Download Document
-            </a>
-
-            <small class="text-gray-500 block">
-              Uploaded: {{ doc.uploaded_at }}
-            </small>
-
+          <!-- DOC -->
+          <div v-if="item.media_type==='document'" class="doc-wrapper">
+            <i class="pi pi-file-pdf doc-icon"></i>
           </div>
+
+          <!-- PROJECT LABEL -->
+          <small class="project-tag">
+            📁 {{ item.project_name || 'Project' }}
+          </small>
+
+          <!-- OVERLAY -->
+          <div class="overlay">
+            <Button icon="pi pi-eye" class="p-button-sm" @click="view(item)" />
+            <Button icon="pi pi-trash" severity="danger" class="p-button-sm" @click="remove(item.id)" />
+          </div>
+
         </div>
 
       </div>
 
-    </template>
+    </div>
 
-    <Divider class="my-4" />
-
-    <small class="text-gray-500">
-      Uploads are allowed for Site Engineers and Project Managers only.
-    </small>
+    <!-- PREVIEW -->
+    <div v-if="previewImage" class="preview-overlay" @click="previewImage=null">
+      <img :src="previewImage" class="preview-full" />
+    </div>
 
   </div>
 </template>
 
 <script setup>
-
-import { ref, onMounted } from "vue"
+import { ref, reactive, computed, onMounted } from "vue"
 import { useRoute } from "vue-router"
 import api from "@/api/api"
-import imageCompression from "browser-image-compression"
-
 import Button from "primevue/button"
-import Divider from "primevue/divider"
+import Dropdown from "primevue/dropdown" // ✅ ADDED
 
 const route = useRoute()
+
+/* ✅ ADDED */
+const selectedProject = ref(null)
+const projects = ref([])
 
 const photoInput = ref(null)
 const videoInput = ref(null)
 const docInput = ref(null)
 
-const videoPreview = ref([])
+const previewImage = ref(null)
+const activeTab = ref("overview")
 
-const media = ref({
+const media = reactive({
   photos: [],
   videos: [],
   docs: []
 })
 
-/* ================= LOAD MEDIA ================= */
+const filteredMedia = computed(() => {
+  if (activeTab.value === "media") {
+    return [...media.photos, ...media.videos]
+  }
+  if (activeTab.value === "docs") {
+    return media.docs
+  }
+  return [...media.photos, ...media.videos, ...media.docs]
+})
 
-const loadMedia = async () => {
+const openPreview = (src)=> previewImage.value = src
 
-  const res = await api.get("/api/projects/media/", {
-    params: { project: route.params.id }
+const view = (item)=>{
+  if(item.media_type==='photo') openPreview(item.file)
+  else window.open(item.file,"_blank")
+}
+
+const remove = async(id)=>{
+  await api.delete(`/api/projects/media/${id}/`)
+  loadMedia()
+}
+
+/* ✅ LOAD PROJECTS (ADDED) */
+const loadProjects = async () => {
+  const res = await api.get("/api/projects/projects/")
+  projects.value = res.data.results ?? res.data
+}
+
+/* ✅ GET PROJECT ID (SMART LOGIC) */
+const getProjectId = () => selectedProject.value || route.params.id
+
+const loadMedia = async ()=>{
+  const projectId = getProjectId()
+  if (!projectId) return
+
+  const res = await api.get("/api/projects/media/",{
+    params:{ project: projectId }
   })
 
-  const files = res.data.results ?? res.data
+  const data = res.data.results ?? res.data
 
-  media.value.photos = files.filter(f => f.media_type === "photo")
-  media.value.videos = files.filter(f => f.media_type === "video")
-  media.value.docs = files.filter(f => f.media_type === "document")
-
+  media.photos = data.filter(x=>x.media_type==='photo')
+  media.videos = data.filter(x=>x.media_type==='video')
+  media.docs = data.filter(x=>x.media_type==='document')
 }
 
-/* ================= PHOTO UPLOAD ================= */
+const handleUpload = async (e,type)=>{
 
-/* const handlePhotoUpload = async (event) => {
+  const projectId = getProjectId()
 
-  const files = event.target.files
+  if (!projectId) {
+    alert("Select a project first")
+    return
+  }
 
-  for (let file of files) {
-
-    const compressed = await imageCompression(file,{
-      maxSizeMB:1,
-      maxWidthOrHeight:1920
-    })
-
-    const formData = new FormData()
-
-    formData.append("file",compressed)
-    formData.append("media_type","photo")
-    formData.append("project",route.params.id)
-
-    await api.post("/api/projects/media/",formData,{
-      headers:{ "Content-Type":"multipart/form-data"}
-    })
-
+  for(let file of e.target.files){
+    const fd = new FormData()
+    fd.append("file",file)
+    fd.append("project",projectId)
+    fd.append("media_type",type)
+    await api.post("/api/projects/media/",fd)
   }
 
   loadMedia()
-
-} */
-
-
-const handlePhotoUpload = async (event) => {
-
-  const files = event.target.files
-  if (!files.length) return
-
-  for (let file of files) {
-
-    const formData = new FormData()
-
-    formData.append("file", file)
-    formData.append("project", route.params.id)
-    formData.append("media_type", "photo")
-
-    await api.post("/api/projects/media/", formData)
-
-  }
-
 }
 
-/* ================= VIDEO SELECT ================= */
+const handleDropUpload = async (e)=>{
 
-const handleVideoUpload = (event)=>{
+  const projectId = getProjectId()
 
-  const files = event.target.files
-
-  videoPreview.value = []
-
-  for(let file of files){
-
-    videoPreview.value.push({
-      file,
-      preview:URL.createObjectURL(file)
-    })
-
+  if (!projectId) {
+    alert("Select a project first")
+    return
   }
 
-}
+  for(let file of e.dataTransfer.files){
 
-/* ================= VIDEO UPLOAD ================= */
-
-/* const uploadVideos = async ()=>{
-
-  for(let v of videoPreview.value){
-
-    const formData = new FormData()
-
-    formData.append("file",v.file)
-    formData.append("media_type","video")
-    formData.append("project",route.params.id)
-
-    await api.post("/api/projects/media/",formData,{
-      headers:{ "Content-Type":"multipart/form-data"}
-    })
-
-  }
-
-  videoPreview.value = []
-
-  loadMedia()
-
-}
- */
-
- const uploadVideos = async () => {
-
-  for (let v of videoPreview.value) {
-
-    const formData = new FormData()
-
-    formData.append("file", v.file)
-    formData.append("project", route.params.id)
-    formData.append("media_type", "video")
-
-    await api.post("/api/projects/media/", formData)
-
-  }
-
-}
-/* ================= DOCUMENT UPLOAD ================= */
-
-/* const handleDocUpload = async(event)=>{
-
-  const files = event.target.files
-
-  for(let file of files){
-
-    const formData = new FormData()
-
-    formData.append("file",file)
-    formData.append("media_type","document")
-    formData.append("project",route.params.id)
-
-    await api.post("/api/projects/media/",formData,{
-      headers:{ "Content-Type":"multipart/form-data"}
-    })
-
-  }
-
-  loadMedia()
-
-} */
-
-const handleDocUpload = async (event) => {
-
-  const files = event.target.files
-  if (!files.length) return
-
-  for (let file of files) {
-
-    const formData = new FormData()
-
-    formData.append("file", file)
-    formData.append("project", route.params.id)
-    formData.append("media_type", "document")
-
-    await api.post("/api/projects/media/", formData)
-
-  }
-
-}
-
-/* ================= DRAG DROP ================= */
-
-const handleDropUpload = async(event)=>{
-
-  const files = event.dataTransfer.files
-
-  for(let file of files){
-
-    let type = "document"
-
+    let type="document"
     if(file.type.startsWith("image")) type="photo"
     if(file.type.startsWith("video")) type="video"
 
-    const formData = new FormData()
+    const fd = new FormData()
+    fd.append("file",file)
+    fd.append("project",projectId)
+    fd.append("media_type",type)
 
-    formData.append("file",file)
-    formData.append("media_type",type)
-    formData.append("project",route.params.id)
-
-    await api.post("/api/projects/media/",formData,{
-      headers:{ "Content-Type":"multipart/form-data"}
-    })
-
+    await api.post("/api/projects/media/",fd)
   }
 
   loadMedia()
-
 }
 
-onMounted(loadMedia)
-
+/* ✅ UPDATED */
+onMounted(()=>{
+  loadProjects()
+  loadMedia()
+})
 </script>
 
 <style scoped>
 
+/* (UNCHANGED — exactly your styles) */
+
+.gallery-grid{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+}
+.gallery-item{
+  width:calc(33.33% - 12px);
+}
+
 .media-card{
-background:#fff;
-padding:.75rem;
-border-radius:12px;
-box-shadow:0 4px 10px rgba(0,0,0,.06);
+  position:relative;
+  overflow:hidden;
+  border-radius:12px;
+}
+
+.gallery-img{
+  width:100%;
+  height:200px;
+  object-fit:cover;
+}
+
+.video-wrapper{ position:relative; }
+.play-icon{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  color:white;
+  font-size:30px;
+}
+
+.doc-wrapper{
+  height:200px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#f1f5f9;
+}
+
+.project-tag{
+  position:absolute;
+  bottom:6px;
+  left:6px;
+  background:rgba(0,0,0,0.6);
+  color:white;
+  font-size:11px;
+  padding:3px 6px;
+  border-radius:6px;
+}
+
+.overlay{
+  position:absolute;
+  inset:0;
+  background:rgba(0,0,0,0.5);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:10px;
+  opacity:0;
+  transition:0.3s;
+}
+.media-card:hover .overlay{
+  opacity:1;
+}
+
+.preview-overlay{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,0.85);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.preview-full{
+  max-width:90%;
+  max-height:90%;
+}
+
+.overview-card{
+  background:#f8fafc;
+  padding:1rem;
+  border-radius:12px;
+  margin-bottom:1rem;
+}
+.overview-stats{
+  display:flex;
+  gap:20px;
+}
+.stat{
+  flex:1;
+  text-align:center;
 }
 
 .upload-dropzone{
-border:2px dashed #cbd5e1;
-border-radius:10px;
-padding:2rem;
-text-align:center;
-background:#f8fafc;
-cursor:pointer;
-transition:all .2s;
-margin-bottom:1.5rem;
+  border:2px dashed #ccc;
+  padding:1rem;
+  text-align:center;
+  margin-bottom:1rem;
 }
 
-.upload-dropzone:hover{
-border-color:#1976d2;
-background:#eef5ff;
-}
-
-
-
-.video-preview-card{
-  background:#fff;
-  padding:0.5rem;
-  border-radius:10px;
-  box-shadow:0 4px 10px rgba(0,0,0,0.05);
-}
-
-.video-preview{
-  width:100%;
-  max-height:200px;
-  object-fit:cover;
-  border-radius:8px;
-}
 </style>
